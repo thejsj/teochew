@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from "fs";
+import { readdirSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 
 const PATH = "./learn-teochew.github.io/pages/teochew_wiktionary_index/";
@@ -45,6 +45,7 @@ const main = async () => {
   const files = readdirSync(PATH);
 
   const dictionary: Record<string, Entry> = {};
+  const allChineseChars: Set<string> = new Set();
 
   files.forEach((fileName: string) => {
     if (fileName === "teochew_wiktionary_index.md") {
@@ -77,12 +78,28 @@ const main = async () => {
       if (line[0] === "|" && currentEntry) {
         const definition = parseDefinition(line);
         if (definition) {
+          definition.split("").forEach((char) => {
+            if (/\p{Script=Han}/u.test(char)) {
+              allChineseChars.add(char);
+            } else {
+              console.warn(`Chard not supported: ${char}`);
+            }
+          });
           currentEntry.definitions.push(definition);
         }
       }
     });
   });
-  console.log(dictionary);
+  writeFileSync(
+    "./dist/pemg_im_dictionary.json",
+    JSON.stringify(dictionary, null, "  ")
+  );
+
+  const sortedChars = Array.from(allChineseChars).sort();
+  writeFileSync(
+    "./dist/all_chars.json",
+    JSON.stringify(sortedChars, null, "  ")
+  );
 };
 
 main();
