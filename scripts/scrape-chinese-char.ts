@@ -79,6 +79,9 @@ files.forEach((fileName: string) => {
       });
   });
   dictionary[simplifiedChar] = entry;
+  if (traditionalChar) {
+    dictionary[traditionalChar] = entry;
+  }
 });
 
 writeFileSync(
