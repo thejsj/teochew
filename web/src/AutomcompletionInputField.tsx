@@ -31,6 +31,8 @@ function getBooksFilter(inputValue: string | undefined) {
 interface AutomcompletionInputFieldPros {
   currentWord: string;
   setCurrentWord: (str: string) => void;
+  inputRef: React.RefObject<HTMLInputElement>;
+
 }
 
 export const AutomcompletionInputField = (
@@ -38,37 +40,33 @@ export const AutomcompletionInputField = (
 ) => {
   const { currentWord, setCurrentWord } = props;
   const [items, setItems] = useState<WordEntry[]>(entries);
-  const inputEl = useRef(null);
 
   const listRef = useRef() as React.MutableRefObject<HTMLInputElement>;
   const rowVirtualizer = useVirtual({
-  size: items.length,
-  parentRef: listRef,
-  estimateSize,
-  overscan: 2,
+    size: items.length,
+    parentRef: listRef,
+    estimateSize,
+    overscan: 2,
   });
 
   const {
-  isOpen,
-  getMenuProps,
-  getInputProps,
-  highlightedIndex,
-  getItemProps,
-  selectedItem,
-  } = useCombobox({
-  items,
-  inputValue: currentWord,
-  onInputValueChange({ inputValue }) {
-  setItems(entries.filter(getBooksFilter(inputValue)));
-  setCurrentWord(inputValue || "");
-  },
-  itemToString(item) {
-  return item && item.word ? item.word : "";
-  },
-  scrollIntoView() {},
-  onHighlightedIndexChange({ highlightedIndex: number }) {
-  rowVirtualizer.scrollToIndex(highlightedIndex);
-  },
+    isOpen,
+    getMenuProps,
+    getInputProps,
+    highlightedIndex,
+    getItemProps,
+    selectedItem,
+  } = useCombobox({ items, inputValue: currentWord, onInputValueChange({ inputValue }) {
+      setItems(entries.filter(getBooksFilter(inputValue)));
+      setCurrentWord(inputValue || "");
+    },
+    itemToString(item) {
+      return item && item.word ? item.word : "";
+    },
+    scrollIntoView() {},
+    onHighlightedIndexChange({ highlightedIndex: number }) {
+      rowVirtualizer.scrollToIndex(highlightedIndex);
+    },
   });
 
   return (
@@ -79,7 +77,7 @@ export const AutomcompletionInputField = (
             placeholder="Enter any word..."
             className="p-6 w-full text-3xl border-slate-300 border-2 rounded-lg"
             autoFocus
-            ref={inputEl}
+            ref={props.inputRef}
             {...getInputProps()}
           />
           {/*
@@ -95,7 +93,7 @@ export const AutomcompletionInputField = (
         </div>
       <ul
         {...getMenuProps({ref: listRef})}
-        className="absolute mt-24 max-w-2xl md:w-2/3 p-0 w-full bg-white shadow-md max-h-80 overflow-scroll"
+        className="absolute z-40 mt-24 max-w-2xl md:w-2/3 p-0 w-full bg-white shadow-md max-h-80 overflow-scroll"
       >
         {isOpen && (
           <>

@@ -1,5 +1,6 @@
-import React, { useState, useMemo } from 'react';
+import React, { useRef, useState, useMemo, useEffect } from 'react';
 import { AutomcompletionInputField } from './AutomcompletionInputField'
+import { convertPemgImToIPA } from './lib/main'
 import './App.css';
 
 import { PengImDictionary, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
@@ -40,9 +41,48 @@ const MatchEntryView = (props: MatchEntryViewProps) => {
   )
 }
 
+interface IPADisplayProps {
+  currentWord: string
+}
+
+const IPADisplay = (props: IPADisplayProps) => {
+  const { currentWord } = props
+  const [selectedClass, setSelectedClass] = useState("")
+  const ipaWord = convertPemgImToIPA(currentWord)
+
+
+  const handleClick = () => {
+    navigator.clipboard.writeText(ipaWord);
+    setSelectedClass("bg-amber-200")
+  }
+
+  useEffect(() => {
+    if (selectedClass !== "") {
+      setTimeout(() => {
+        setSelectedClass("")
+      }, 100)
+    }
+  }, [selectedClass, setSelectedClass])
+
+  if (currentWord === '') {
+    return null
+  }
+
+  // TODO: Add interactive syllable pronunciations
+  return <>
+    <div className={"flex flex-column items-center"}>
+      <div className={'font-bold'}>IPA</div>
+      <div className={'cursor-pointer ml-4 rounded-lg p-2 px-4 text-slate-600 w-full text-lg border-2 flex flex-column justify-between items-center duration-100 transition-colors select-none ' + selectedClass} onClick={handleClick}>
+        <span>{ipaWord}</span>
+        <button className={'pointer-events-none select-none'}>Copy</button>
+      </div>
+    </div>
+  </>
+}
+
 const Home = () => {
   const [text, setText] = useState<string>('')
-  console.log(text);
+  const inputEl = useRef(null);
 
   const matches = useMemo<CharacterEntry[]>(() => {
     const entry = PengImDictionary[text];
@@ -57,14 +97,34 @@ const Home = () => {
     })
   }, [text])
 
+  useEffect(() => {
+    const keyHandler = function (event: KeyboardEvent) {
+      if (event.keyCode === 70 && (event.ctrlKey || event.shiftKey)) {
+        console.log(inputEl);
+        console.log(inputEl?.current);
+        (inputEl?.current as unknown as any)?.focus();
+      }
+    }
+    document.body.addEventListener('keydown', keyHandler);
+    return () => {
+      document.body.removeEventListener('keydown', keyHandler);
+    };
+  }, [inputEl]);
+
   return (
     <div>
-      <div className="flex justify-center my-24">
+      <div className="flex justify-center mt-12 mb-6">
         <div className="px-12 max-w-3xl md:w-2/3">
-          <AutomcompletionInputField currentWord={text} setCurrentWord={setText}/>
+          <AutomcompletionInputField currentWord={text} setCurrentWord={setText} inputRef={inputEl}/>
         </div>
-
       </div>
+
+      <div className="flex justify-center my-2 mb-12">
+        <div className="px-12 max-w-3xl md:w-2/3">
+          <IPADisplay currentWord={text}/>
+        </div>
+      </div>
+
       <div className="px-12 flex justify-center">
         <div className="max-w-6xl md:w-full flex flex-wrap flex-row place-content-center">
           {matches.map((match, i) =>
@@ -79,9 +139,10 @@ const Home = () => {
 function App() {
   return (
     <div className="app">
-      <header className="app-header">
-        <h1>InDou / 圆肚</h1>
-        <p>TeoChew Dictionary</p>
+      <header className="app-header border-zinc-200  border-b-2">
+        <a href="/">
+          <h1 className={'text-xl p-4 border-zinc-200  border-r-2 inline-block'}>圆肚</h1>
+        </a>
       </header>
       <Home/>
     </div>
