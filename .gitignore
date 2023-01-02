@@ -1,4 +1,5 @@
 scripts/node_modules
+scripts/learn-teochew.github.io/
 web/node_modules
 server/node_modules
 .DS_Store
