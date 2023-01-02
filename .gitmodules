@@ -1,0 +1,3 @@
+[submodule "learn-teochew.github.io"]
+  path = scripts/learn-teochew.github.io
+  url = git@github.com:kbseah/learn-teochew.git
