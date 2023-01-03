@@ -5,13 +5,14 @@ import './App.css';
 
 import { PengImDictionary, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
 
+import { Link, Route,useRoute,  useLocation } from "wouter";
+
 interface MatchEntryViewProps {
   match: CharacterEntry
 }
 
 const MatchEntryView = (props: MatchEntryViewProps) => {
   const { match } = props;
-  console.log(match);
 
   return (
     <div className="flex basis-5/12 p-10 rounded-md border-2 border-slate-300 bg-slate-50 flex-column align-top mb-8 mx-4">
@@ -80,8 +81,12 @@ const IPADisplay = (props: IPADisplayProps) => {
   </>
 }
 
-const Home = () => {
-  const [text, setText] = useState<string>('')
+const PhoneticDictionary = () => {
+  const [location, setLocation] = useLocation();
+  const word = location.split("/")[2] || null
+  console.log('word', word)
+  const [text, setText] = useState<string>(word || "")
+  console.log('text', text)
   const inputEl = useRef(null);
 
   const matches = useMemo<CharacterEntry[]>(() => {
@@ -100,8 +105,6 @@ const Home = () => {
   useEffect(() => {
     const keyHandler = function (event: KeyboardEvent) {
       if (event.keyCode === 70 && (event.ctrlKey || event.shiftKey)) {
-        console.log(inputEl);
-        console.log(inputEl?.current);
         (inputEl?.current as unknown as any)?.focus();
       }
     }
@@ -110,6 +113,17 @@ const Home = () => {
       document.body.removeEventListener('keydown', keyHandler);
     };
   }, [inputEl]);
+
+  useEffect(() => {
+    if (text !== "" && text !== word) {
+      console.log('setting location', text)
+      setLocation(`/word/${text}`)
+    }
+    if (text.length === 0 && word !== null) {
+      console.log('setting location to null', text, word)
+      setLocation(`/`)
+    }
+  }, [text, setLocation, word])
 
   return (
     <div>
@@ -136,6 +150,25 @@ const Home = () => {
   )
 }
 
+const FlashCards = () => {
+  return (
+    <p>Flash Cards</p>
+  )
+}
+
+const MenuLink = (props: { href: string, children: JSX.Element | string}) => {
+  const [isMatch] = useRoute(props.href);
+  const [location] = useLocation();
+  const isActive = isMatch || (location.includes('/word/') && props.href === '/')
+
+  return (
+    <Link href={props.href}>
+      <a href={props.href} className={isActive ? "border-zing-300 border-b-2 text-zinc-500 ml-4 pb-px'" : "ml-4 pb-px'"}>{props.children}</a>
+    </Link>
+  );
+
+}
+
 function App() {
   return (
     <div className="app">
@@ -143,8 +176,13 @@ function App() {
         <a href="/">
           <h1 className={'text-xl p-4 border-zinc-200  border-r-2 inline-block'}>圆肚</h1>
         </a>
+
+        <MenuLink href={'/'}>Phonetic Dictionary</MenuLink>
+        <MenuLink href={'/flashcards'}>Flash Cards</MenuLink>
       </header>
-      <Home/>
+      <Route path="/"><PhoneticDictionary/></Route>
+      <Route path="/word/:word"><PhoneticDictionary/></Route>
+      <Route path="/flashcards"><FlashCards/></Route>
     </div>
   );
 }
