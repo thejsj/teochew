@@ -206,8 +206,20 @@ export const checkAgsinstFinals = function (
   return checkAgsinstFinals(str, count - 1);
 };
 
+const numberMap: Record<string, string> = {
+  1: "³³",
+  2: "⁵³",
+  3: "²¹³",
+  4: "²",
+  5: "⁵⁵",
+  6: "³⁵",
+  7: "¹¹",
+  8: "⁵",
+};
+
 export const convertPemgImToIPA = function (str: string): string {
-  const numberSuffix = str.match(/\d$/g);
+  const numberStr = str.match(/\d$/g);
+  const numberSuffix = numberStr && numberMap[numberStr[0]];
   const consonantStr = str.replace(/\d$/g, "");
 
   // 4 is the length of the longest substring
@@ -231,9 +243,5 @@ export const convertPemgImToIPA = function (str: string): string {
     })
     .join("");
 
-  return (
-    prefix +
-    ((suffix && suffix[1]) || "") +
-    ((numberSuffix && numberSuffix[0]) || "")
-  );
+  return prefix + ((suffix && suffix[1]) || "") + (numberSuffix || "");
 };
