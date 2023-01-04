@@ -16,12 +16,12 @@ const shuffledDictionary = shuffleArray(dictionary)
 const FlashCard = (props: { entry: DictionaryEntry }) => {
   return (
     <div className="w-4/5 lg:w-3/5 border-2 border-zing-400 px-12 py-6 pb-10 lg:py-8 lg:pb-16 rounded-md">
-      <div className={'flex justify-end flex-row h-6 mb-4'}>
+      <div className={'flex justify-center flex-row h-6 mb-8'}>
         {props.entry.simplified !== '?' && <p className={'text-2xl'}>{props.entry.simplified}</p>}
         {props.entry.traditional && <p className={'text-2xl ml-6'}>{props.entry.traditional}</p>}
       </div>
       <p className={'text-4xl text-center mb-4'}>{props.entry.word}</p>
-      <p className={'text-xl text-center'}>{convertPemgImToIPA(props.entry.word)}</p>
+      <p className={'text-xl text-center tracking-wider'}>{convertPemgImToIPA(props.entry.word)}</p>
     </div>
   )
 }
