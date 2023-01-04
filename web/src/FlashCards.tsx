@@ -1,5 +1,5 @@
 import { dictionary, DictionaryEntry  } from './dictionary';
-import React, { useState } from 'react';
+import React, { ReactElement, useState } from 'react';
 import { convertPemgImToIPA } from './lib/main';
 
 
@@ -11,7 +11,7 @@ const shuffleArray = (array: any[]) => {
 
 }
 
-const shuffledDictionary = shuffleArray(dictionary)
+const shuffledDictionary = shuffleArray(dictionary.slice(0, 10))
 
 const FlashCard = (props: { entry: DictionaryEntry }) => {
   return (
@@ -26,24 +26,38 @@ const FlashCard = (props: { entry: DictionaryEntry }) => {
   )
 }
 
+const indexToLetterMap : { [key: number]: string } = {
+  0: 'A',
+  1: 'B',
+  2: 'C',
+  3: 'D',
+}
+
 interface FlassCardOptionsProps {
-  incrementIndex: () => void
+  incrementIndex: (incorrectDefinition: DictionaryEntry | null) => void;
   entry: DictionaryEntry
 }
 
 const FlassCardOptions = (props: FlassCardOptionsProps) => {
-  const options = shuffleArray([props.entry.definition, 'mom', 'what you laughing at', 'godbless'])
+  const shuffleIndex = Math.abs(Math.floor(Math.random() * shuffledDictionary.length) - 10)
+  const shuffledOptions = shuffleArray(shuffledDictionary.slice(shuffleIndex, shuffleIndex + 10))
+  const options = shuffleArray([props.entry.definition].concat(shuffledOptions.slice(0, 3).map(x => x.definition)))
 
-  const handleOnClick = () => {
-    props.incrementIndex()
+  const handleOnClick = (option: string, event: React.MouseEvent<HTMLButtonElement>) => {
+    if (props.entry.definition === option) {
+      props.incrementIndex(null)
+    } else {
+      props.incrementIndex(props.entry)
+    }
   }
 
   return (
     <div className="flex flex-col justify-center mt-8 space-x-y.5">
       {options.map((option, index) => {
         return <button
-          onClick={handleOnClick}
-          className="text-xl text-center bg-sky-200 rounded-full p-6 w-80 mb-2 hover:bg-sky-300">{option}</button>
+          onClick={handleOnClick.bind(null, option)}
+          className="text-xl text-center bg-sky-200 rounded-full p-4 w-80 mb-2 hover:bg-sky-300">
+            <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
       })}
     </div>
   )
@@ -51,16 +65,44 @@ const FlassCardOptions = (props: FlassCardOptionsProps) => {
 
 export const FlashCards = () => {
   const [index, setIndex] = useState(0)
+  const [wrongAnswers, setWrongAnswers] = useState<DictionaryEntry[]>([])
 
-  const incrementIndex = () => {
+  const incrementIndex = (incorrectDefinition: DictionaryEntry | null) => {
     setIndex(index + 1)
+    if (incorrectDefinition) {
+      setWrongAnswers(wrongAnswers.concat([incorrectDefinition]))
+    }
+  }
+
+  if (index >= shuffledDictionary.length - 1) {
+    const totalCount = shuffledDictionary.length;
+    const correctCount = shuffledDictionary.length - wrongAnswers.length;
+    return (
+      <div className={'flex flex-col justify-center items-center m-2'}>
+        <h2 className={'text-2xl font-bold p-6'}>Finished!</h2>
+
+
+        <p className={'mb-6 text-3xl tracking-wide'}>{correctCount} / {totalCount}</p>
+
+        <p className={'mb-6'}>Wrong answers:</p>
+        <ul>
+        {wrongAnswers.map(x => {
+          return <p><span className={'font-bold'}>{x.word}</span> &#x2192; {x.definition}</p>
+        })}
+        </ul>
+
+        <button
+          className="text-center bg-sky-200 rounded-full p-2 mt-6 w-80 mb-2 hover:bg-sky-300"
+          onClick={() => { window.location.reload() }}>Restart</button>
+
+      </div>)
   }
 
   return (
     <div className={'flex justify-center flex-col mt-12 mb-6'}>
       <div className={'flex justify-center flex-row pb-6 space-x-2.5'}>
-        <p className={'text-xl text-emerald-500'}>&#10004;</p>
-        <p className={'text-xl text-rose-600'}>&#10006;</p>
+        {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>
+        <p className={'text-xl text-rose-600'}>&#10006;</p>*/}
         <p className={'text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
       </div>
       <div className="flex flex-row justify-center ">
