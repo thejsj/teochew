@@ -11,7 +11,7 @@ const shuffleArray = (array: any[]) => {
 
 }
 
-const shuffledDictionary = shuffleArray(dictionary.slice(0, 10))
+const shuffledDictionary = shuffleArray(dictionary)
 
 const FlashCard = (props: { entry: DictionaryEntry }) => {
   return (
