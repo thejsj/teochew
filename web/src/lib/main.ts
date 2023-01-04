@@ -218,30 +218,37 @@ const numberMap: Record<string, string> = {
 };
 
 export const convertPemgImToIPA = function (str: string): string {
-  const numberStr = str.match(/\d$/g);
-  const numberSuffix = numberStr && numberMap[numberStr[0]];
-  const consonantStr = str.replace(/\d$/g, "");
+  return str
+    .split(/(?=[0-9])|(?<=[0-9])/g)
+    .map((x) => {
+      if (x.match(/^[0-9]+$/)) {
+        return numberMap[x];
+      }
 
-  // 4 is the length of the longest substring
-  const suffix = checkAgsinstFinals(consonantStr, 4);
+      const consonantStr = x.replace(/\d$/g, "");
 
-  let subString: string;
-  if (suffix) {
-    subString = consonantStr.substring(
-      0,
-      consonantStr.length - suffix[0].length
-    );
-  } else {
-    subString = consonantStr;
-  }
+      // 4 is the length of the longest substring
+      const suffix = checkAgsinstFinals(consonantStr, 4);
 
-  const prefix = subString
-    .split("")
-    .reverse()
-    .map((l) => {
-      return pengImIPAMap[l];
+      let subString: string;
+      if (suffix) {
+        subString = consonantStr.substring(
+          0,
+          consonantStr.length - suffix[0].length
+        );
+      } else {
+        subString = consonantStr;
+      }
+
+      const prefix = subString
+        .split("")
+        .reverse()
+        .map((l) => {
+          return pengImIPAMap[l];
+        })
+        .join("");
+
+      return prefix + ((suffix && suffix[1]) || "");
     })
     .join("");
-
-  return prefix + ((suffix && suffix[1]) || "") + (numberSuffix || "");
 };
