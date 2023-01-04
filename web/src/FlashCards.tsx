@@ -15,7 +15,7 @@ const shuffledDictionary = shuffleArray(dictionary)
 
 const FlashCard = (props: { entry: DictionaryEntry }) => {
   return (
-    <div className="w-3/5 border-2 border-zing-400 px-12 py-6 pb-10 lg:py-8 lg:pb-16 rounded-md">
+    <div className="w-4/5 lg:w-3/5 border-2 border-zing-400 px-12 py-6 pb-10 lg:py-8 lg:pb-16 rounded-md">
       <div className={'flex justify-end flex-row h-6 mb-4'}>
         {props.entry.simplified !== '?' && <p className={'text-2xl'}>{props.entry.simplified}</p>}
         {props.entry.traditional && <p className={'text-2xl ml-6'}>{props.entry.traditional}</p>}
@@ -52,12 +52,12 @@ const FlassCardOptions = (props: FlassCardOptionsProps) => {
   }
 
   return (
-    <div className="flex flex-col justify-center mt-8 space-x-y.5">
+    <div className="flex flex-col justify-center mt-8 space-x-y.5 w-4/5 items-center">
       {options.map((option, index) => {
         return <button
           key={option}
           onClick={handleOnClick.bind(null, option)}
-          className="text-xl text-center bg-sky-200 rounded-full p-4 w-80 mb-2 hover:bg-sky-300">
+          className="text-xl text-center bg-sky-200 rounded-full p-4 lg:w-80 mb-2 hover:bg-sky-300">
             <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
       })}
     </div>
