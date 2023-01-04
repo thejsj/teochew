@@ -57,7 +57,7 @@ const FlassCardOptions = (props: FlassCardOptionsProps) => {
         return <button
           key={option}
           onClick={handleOnClick.bind(null, option)}
-          className="text-xl text-center bg-sky-200 rounded-full p-4 lg:w-80 mb-2 hover:bg-sky-300">
+          className="text-xl text-center bg-sky-200 rounded-full p-4 w-full md:w-96 mb-2 hover:bg-sky-300">
             <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
       })}
     </div>
