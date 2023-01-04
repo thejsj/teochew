@@ -220,8 +220,22 @@ const numberMap: Record<string, string> = {
 export const convertPemgImToIPA = function (str: string): string {
   const s = str.replace(/([0-9]*)\(([0-9]*)\)/g, "$2");
 
-  return s
-    .split(/(?=[0-9])|(?<=[0-9])/g)
+  const words = s.split("").reduce(
+    (memo: string[], char: string, i: number) => {
+      if (char.match(/^[0-9]+$/)) {
+        memo.push(char);
+        if (i !== s.length - 1) {
+          memo.push("");
+        }
+      } else {
+        memo[memo.length - 1] += char;
+      }
+      return memo;
+    },
+    [""]
+  );
+
+  return words
     .map((x) => {
       if (x.match(/^[0-9]+$/)) {
         return numberMap[x];
