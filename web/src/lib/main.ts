@@ -218,7 +218,9 @@ const numberMap: Record<string, string> = {
 };
 
 export const convertPemgImToIPA = function (str: string): string {
-  return str
+  const s = str.replace(/([0-9]*)\(([0-9]*)\)/g, "$2");
+
+  return s
     .split(/(?=[0-9])|(?<=[0-9])/g)
     .map((x) => {
       if (x.match(/^[0-9]+$/)) {

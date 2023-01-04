@@ -55,6 +55,7 @@ const FlassCardOptions = (props: FlassCardOptionsProps) => {
     <div className="flex flex-col justify-center mt-8 space-x-y.5">
       {options.map((option, index) => {
         return <button
+          key={option}
           onClick={handleOnClick.bind(null, option)}
           className="text-xl text-center bg-sky-200 rounded-full p-4 w-80 mb-2 hover:bg-sky-300">
             <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
@@ -80,22 +81,20 @@ export const FlashCards = () => {
     return (
       <div className={'flex flex-col justify-center items-center m-2'}>
         <h2 className={'text-2xl font-bold p-6'}>Finished!</h2>
-
-
         <p className={'mb-6 text-3xl tracking-wide'}>{correctCount} / {totalCount}</p>
-
         <p className={'mb-6'}>Wrong answers:</p>
+
         <ul>
-        {wrongAnswers.map(x => {
-          return <p><span className={'font-bold'}>{x.word}</span> &#x2192; {x.definition}</p>
-        })}
+          {wrongAnswers.map(x => {
+            return <p><span className={'font-bold'}>{x.word}</span> &#x2192; {x.definition}</p>
+          })}
         </ul>
 
         <button
           className="text-center bg-sky-200 rounded-full p-2 mt-6 w-80 mb-2 hover:bg-sky-300"
           onClick={() => { window.location.reload() }}>Restart</button>
-
-      </div>)
+      </div>
+    )
   }
 
   return (
