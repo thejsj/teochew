@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import { PhoneticDictionary } from './PhoneticDictionary'
-import { FlashCards } from './FlashCards'
+import { Quiz } from './Quiz'
 import { Link, Route,useRoute,  useLocation } from "wouter";
 
 
@@ -27,11 +27,11 @@ function App() {
         </a>
 
         <MenuLink href={'/'}>Phonetic Dictionary</MenuLink>
-        <MenuLink href={'/flashcards'}>Flash Cards</MenuLink>
+        <MenuLink href={'/quiz'}>Quiz</MenuLink>
       </header>
       <Route path="/"><PhoneticDictionary/></Route>
       <Route path="/word/:word"><PhoneticDictionary/></Route>
-      <Route path="/flashcards"><FlashCards/></Route>
+      <Route path="/quiz"><Quiz/></Route>
     </div>
   );
 }

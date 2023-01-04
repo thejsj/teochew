@@ -13,7 +13,7 @@ const shuffleArray = (array: any[]) => {
 
 const shuffledDictionary = shuffleArray(dictionary)
 
-const FlashCard = (props: { entry: DictionaryEntry }) => {
+const QuizCard = (props: { entry: DictionaryEntry }) => {
   return (
     <div className="w-4/5 lg:w-3/5 border-2 border-zing-400 px-12 py-6 pb-10 lg:py-8 lg:pb-16 rounded-md">
       <div className={'flex justify-center flex-row h-6 mb-8'}>
@@ -33,12 +33,12 @@ const indexToLetterMap : { [key: number]: string } = {
   3: 'D',
 }
 
-interface FlassCardOptionsProps {
+interface QuizOptionsProps {
   incrementIndex: (incorrectDefinition: DictionaryEntry | null) => void;
   entry: DictionaryEntry
 }
 
-const FlassCardOptions = (props: FlassCardOptionsProps) => {
+const QuizOptions = (props: QuizOptionsProps) => {
   const shuffleIndex = Math.abs(Math.floor(Math.random() * shuffledDictionary.length) - 10)
   const shuffledOptions = shuffleArray(shuffledDictionary.slice(shuffleIndex, shuffleIndex + 10))
   const options = shuffleArray([props.entry.definition].concat(shuffledOptions.slice(0, 3).map(x => x.definition)))
@@ -55,16 +55,16 @@ const FlassCardOptions = (props: FlassCardOptionsProps) => {
     <div className="flex flex-col justify-center mt-8 space-x-y.5 w-4/5 items-center">
       {options.map((option, index) => {
         return <button
-          key={option}
+          key={option + index}
           onClick={handleOnClick.bind(null, option)}
-          className="text-xl text-center bg-sky-200 rounded-full p-4 w-full md:w-96 mb-2 hover:bg-sky-300">
+          className="text-xl text-center bg-sky-200 rounded-full p-4 w-full md:w-96 mb-2 md:hover:bg-sky-300">
             <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
       })}
     </div>
   )
 }
 
-export const FlashCards = () => {
+export const Quiz = () => {
   const [index, setIndex] = useState(0)
   const [wrongAnswers, setWrongAnswers] = useState<DictionaryEntry[]>([])
 
@@ -105,10 +105,10 @@ export const FlashCards = () => {
         <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
       </div>
       <div className="flex flex-row justify-center ">
-        <FlashCard entry={shuffledDictionary[index]}/>
+        <QuizCard entry={shuffledDictionary[index]}/>
       </div>
       <div className="flex flex-row justify-center ">
-        <FlassCardOptions incrementIndex={incrementIndex} entry={shuffledDictionary[index]}/>
+        <QuizOptions incrementIndex={incrementIndex} entry={shuffledDictionary[index]}/>
       </div>
     </div>
   )
