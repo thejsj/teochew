@@ -15,7 +15,7 @@ const shuffledDictionary = shuffleArray(dictionary)
 
 const FlashCard = (props: { entry: DictionaryEntry }) => {
   return (
-    <div className="w-3/5 border-2 border-zing-400 px-12 py-8 pb-16 rounded-md">
+    <div className="w-3/5 border-2 border-zing-400 px-12 py-6 pb-10 lg:py-8 lg:pb-16 rounded-md">
       <div className={'flex justify-end flex-row h-6 mb-4'}>
         {props.entry.simplified !== '?' && <p className={'text-2xl'}>{props.entry.simplified}</p>}
         {props.entry.traditional && <p className={'text-2xl ml-6'}>{props.entry.traditional}</p>}
@@ -98,11 +98,11 @@ export const FlashCards = () => {
   }
 
   return (
-    <div className={'flex justify-center flex-col mt-12 mb-6'}>
-      <div className={'flex justify-center flex-row pb-6 space-x-2.5'}>
+    <div className={'flex justify-center flex-col mt-6 lg:mt-12 mb-6'}>
+      <div className={'flex justify-center flex-row pb-2 lg:pb-6 space-x-2.5'}>
         {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>
         <p className={'text-xl text-rose-600'}>&#10006;</p>*/}
-        <p className={'text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
+        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
       </div>
       <div className="flex flex-row justify-center ">
         <FlashCard entry={shuffledDictionary[index]}/>
