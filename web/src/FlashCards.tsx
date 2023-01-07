@@ -6,15 +6,23 @@ import { encode, decode } from 'punycode';
 
 import { ChevronLeft, ChevronRight } from './Icons'
 
-const shuffleArray = (array: any[]) => {
+const orderDictionaryAlphtabetically = (array: any[]) => {
   return array
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
+    .map(value => ({ value, sort: value.pengIm }))
+    .sort((a, b) => {
+      if (a.sort < b.sort) {
+        return -1;
+      }
+      if (a.sort > b.sort) {
+        return 1;
+      }
+      return 0;
+    })
     .map(({ value }) => value)
 
 }
 
-const shuffledDictionary = shuffleArray(dictionary)
+const shuffledDictionary = orderDictionaryAlphtabetically(dictionary)
 
 export interface FlashCardsProps {
   entry: DictionaryEntry,
@@ -68,13 +76,17 @@ export const FlashCards = () => {
   const [index, setIndex] = useState(0)
 
   const incrementIndex = () => {
-    if (index >= (shuffledDictionary.length -1)) return
+    if (index >= (shuffledDictionary.length -1)) {
+      setIndex(0)
+    }
 
     setIndex(index + 1)
   }
 
   const decrementIndex = () => {
-    if (index <= 0) return
+    if (index <= 0) {
+      setIndex(shuffledDictionary.length - 1)
+    }
 
     setIndex(index - 1)
   }
@@ -99,9 +111,6 @@ export const FlashCardSingleCard = () => {
   word = (word && decode(word)) || null
 
   const entry = (word && dictionary.find(x => x.simplified === word)) || null
-  console.log(entry)
-  console.log(word)
-  console.log(dictionary.map(x => x.simplified))
 
   return (
     <div className={'flex justify-center flex-col mt-6 lg:mt-12 mb-6'}>
