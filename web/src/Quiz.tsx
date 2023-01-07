@@ -2,7 +2,6 @@ import { dictionary, DictionaryEntry  } from './dictionary';
 import React, { useState } from 'react';
 import { convertPemgImToIPA } from './lib/main';
 
-
 const shuffleArray = (array: any[]) => {
   return array
     .map(value => ({ value, sort: Math.random() }))
@@ -57,7 +56,7 @@ const QuizOptions = (props: QuizOptionsProps) => {
         return <button
           key={option + index}
           onClick={handleOnClick.bind(null, option)}
-          className="text-xl text-center bg-sky-200 rounded-full p-4 w-full md:w-96 mb-2 md:hover:bg-sky-300">
+          className="text-xl text-center border-2 border-rose-300 bg-rose-100 rounded-full p-4 w-full md:w-96 mb-2 md:hover:bg-rose-300">
             <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
       })}
     </div>
@@ -91,7 +90,7 @@ export const Quiz = () => {
         </ul>
 
         <button
-          className="text-center bg-sky-200 rounded-full p-2 mt-6 w-80 mb-2 hover:bg-sky-300"
+          className="text-center bg-rose-200 rounded-full p-2 mt-6 w-80 mb-2 md:hover:bg-rose-300"
           onClick={() => { window.location.reload() }}>Restart</button>
       </div>
     )
