@@ -1,1 +1,662 @@
-[{"word":"rig8","definition":"day","simplified":"日","traditional":""},{"word":"zab8","definition":"ten","simplified":"十","traditional":"拾"},{"word":"zoh4","definition":"work","simplified":"作","traditional":""},{"word":"cong1mêng5","definition":"smart","simplified":"聪明","traditional":"聰朙, 聰眀"},{"word":"ba5","definition":"dad","simplified":"爸","traditional":""},{"word":"oh8","definition":"learn","simplified":"学","traditional":"學"},{"word":"dua7","definition":"big","simplified":"大","traditional":""},{"word":"zêg8","definition":"one","simplified":"一","traditional":"壹"},{"word":"beng7","definition":"rice, food","simplified":"饭","traditional":"飯"},{"word":"mang7","definition":"slow","simplified":"缓","traditional":"緩"},{"word":"zia2(6)zong1","definition":"now","simplified":"只阵","traditional":"只陣"},{"word":"ga1li5","definition":"curry","simplified":"咖喱","traditional":""},{"word":"uê7","definition":"language, talk","simplified":"话","traditional":"話"},{"word":"no6","definition":"two","simplified":"二","traditional":"贰"},{"word":"ma5","definition":"mom","simplified":"妈","traditional":"媽"},{"word":"muê6","definition":"younger sister","simplified":"妹","traditional":""},{"word":"gao3","definition":"arrive","simplified":"到","traditional":""},{"word":"si3","definition":"four","simplified":"四","traditional":"肆"},{"word":"hag8hao6","definition":"school","simplified":"学校","traditional":"學校"},{"word":"lêng5","definition":"zero","simplified":"零","traditional":""},{"word":"lag8","definition":"six","simplified":"六","traditional":"陆"},{"word":"gu6","definition":"uncle (mom's side)","simplified":"舅","traditional":""},{"word":"pêng5ui2","definition":"friend","simplified":"朋友","traditional":""},{"word":"gou1","definition":"aunt (dad's side)","simplified":"姑","traditional":""},{"word":"de1","definition":"pig, pork","simplified":"猪","traditional":"豬"},{"word":"hian1","definition":"older brother","simplified":"兄","traditional":""},{"word":"zeg8coin1","definition":"one thousand","simplified":"一千","traditional":"壹仟"},{"word":"hi2huan1","definition":"to like","simplified":"喜欢","traditional":"喜歡"},{"word":"zing1","definition":"very, real","simplified":"真","traditional":""},{"word":"ma2","definition":"grandma","simplified":"母","traditional":""},{"word":"nang2","definition":"we","simplified":"咱","traditional":"喒"},{"word":"ho2","definition":"good","simplified":"好","traditional":""},{"word":"gao2","definition":"nine","simplified":"九","traditional":"玖"},{"word":"ngia2","definition":"pretty","simplified":"雅","traditional":""},{"word":"dhou2","definition":"belly","simplified":"肚","traditional":""},{"word":"zê2","definition":"older sister","simplified":"姐","traditional":""},{"word":"huê3","definition":"age, years","simplified":"岁","traditional":"歲"},{"word":"dhou2gho7","definition":"hungry","simplified":"肚饿","traditional":"肚餓"},{"word":"dhou2iau3","definition":"hungry","simplified":"肚饿","traditional":"肚餓"},{"word":"ain3","definition":"love, want","simplified":"爱","traditional":"愛"},{"word":"ke3","definition":"go","simplified":"去","traditional":""},{"word":"u6","definition":"to have","simplified":"有","traditional":""},{"word":"sian1diao7","definition":"tone","simplified":"","traditional":""},{"word":"si6","definition":"yes, to be, this, that","simplified":"是","traditional":""},{"word":"ghu5","definition":"beef, cow","simplified":"牛","traditional":""},{"word":"in5","definition":"round","simplified":"圆","traditional":"圓"},{"word":"ci5","definition":"late","simplified":"迟","traditional":"遲"},{"word":"i5","definition":"aunt (mom's side)","simplified":"姨","traditional":""},{"word":"soi3","definition":"small","simplified":"细","traditional":"細"},{"word":"boih4","definition":"eight","simplified":"八","traditional":"捌"},{"word":"lai5","definition":"come","simplified":"来","traditional":"來"},{"word":"ngou6","definition":"five","simplified":"五","traditional":"伍"},{"word":"hua5ghe2","definition":"Chinese language","simplified":"?","traditional":""},{"word":"ig4","definition":"first","simplified":"一","traditional":"壹"},{"word":"le2","definition":"you (singular)","simplified":"你","traditional":"妳"},{"word":"san1","definition":"third","simplified":"三","traditional":"叁"},{"word":"dai6gê1","definition":"everybody","simplified":"大家","traditional":""},{"word":"goi1","definition":"chicken","simplified":"鸡","traditional":"雞"},{"word":"goi1","definition":"street","simplified":"街","traditional":""},{"word":"hai2","definition":"ocean","simplified":"海","traditional":""},{"word":"sên3","definition":"last name","simplified":"性","traditional":""},{"word":"dang6","definition":"but","simplified":"但","traditional":""},{"word":"ciê3mi1gai5","definition":"laugh you what? What are you laughing about?","simplified":"笑乜个","traditional":"笑乜個"},{"word":"zing1hi2huan1","definition":"my favorite, like the most","simplified":"真喜欢","traditional":"真喜歡"},{"word":"di6","definition":"younger brother","simplified":"弟","traditional":""},{"word":"cig4","definition":"seven","simplified":"七","traditional":"柒"},{"word":"ri6","definition":"second","simplified":"二","traditional":"贰"},{"word":"mian5","definition":"name","simplified":"名","traditional":""},{"word":"zêg8bêh4","definition":"one hundred","simplified":"一百","traditional":"壹百"},{"word":"zêg5","definition":"uncle (dad's side)","simplified":"叔","traditional":""},{"word":"oi6","definition":"i'm able to","simplified":"会","traditional":"會"},{"word":"min7","definition":"noodles","simplified":"麵","traditional":"麪"},{"word":"ping5guê2","definition":"apple","simplified":"蘋果","traditional":"蘋果"},{"word":"lai5","definition":"pear","simplified":"梨","traditional":"棃"},{"word":"giam5","definition":"salty","simplified":"碱","traditional":"鹹"},{"word":"bhuê7","definition":"not yet","simplified":"未","traditional":""},{"word":"za2rig8","definition":"yesterday","simplified":"昨日","traditional":""},{"word":"gim1rig8","definition":"today","simplified":"今 日","traditional":""},{"word":"ma1rig8","definition":"tomorrow","simplified":"明 日","traditional":""},{"word":"ma1ki5","definition":"tomorrow evening","simplified":"?","traditional":""},{"word":"dang2zêg8ê7","definition":"wait a second / wait a minute","simplified":"等 一下","traditional":""},{"word":"zêng1diem2","definition":"hour","simplified":"?","traditional":""}]
+[
+  {
+    "word": "rig8",
+    "definition": "day",
+    "simplified": "日",
+    "traditional": ""
+  },
+  {
+    "word": "zab8",
+    "definition": "ten",
+    "simplified": "十",
+    "traditional": "拾"
+  },
+  {
+    "word": "zoh4",
+    "definition": "work",
+    "simplified": "作",
+    "traditional": ""
+  },
+  {
+    "word": "cong1mêng5",
+    "definition": "smart",
+    "simplified": "聪明",
+    "traditional": "聰朙, 聰眀"
+  },
+  {
+    "word": "ba5",
+    "definition": "dad",
+    "simplified": "爸",
+    "traditional": ""
+  },
+  {
+    "word": "oh8",
+    "definition": "learn",
+    "simplified": "学",
+    "traditional": "學"
+  },
+  {
+    "word": "dua7",
+    "definition": "big",
+    "simplified": "大",
+    "traditional": ""
+  },
+  {
+    "word": "zêg8",
+    "definition": "one",
+    "simplified": "一",
+    "traditional": "壹"
+  },
+  {
+    "word": "beng7",
+    "definition": "rice, food",
+    "simplified": "饭",
+    "traditional": "飯"
+  },
+  {
+    "word": "mang7",
+    "definition": "slow",
+    "simplified": "缓",
+    "traditional": "緩"
+  },
+  {
+    "word": "zia2(6)zong1",
+    "definition": "now",
+    "simplified": "只阵",
+    "traditional": "只陣"
+  },
+  {
+    "word": "ga1li5",
+    "definition": "curry",
+    "simplified": "咖喱",
+    "traditional": ""
+  },
+  {
+    "word": "uê7",
+    "definition": "language, talk",
+    "simplified": "话",
+    "traditional": "話"
+  },
+  {
+    "word": "no6",
+    "definition": "two",
+    "simplified": "二",
+    "traditional": "贰"
+  },
+  {
+    "word": "ma5",
+    "definition": "mom",
+    "simplified": "妈",
+    "traditional": "媽"
+  },
+  {
+    "word": "ma2",
+    "definition": "grandma",
+    "simplified": "母",
+    "traditional": ""
+  },
+  {
+    "word": "muê6",
+    "definition": "younger sister",
+    "simplified": "妹",
+    "traditional": ""
+  },
+  {
+    "word": "gao3",
+    "definition": "arrive",
+    "simplified": "到",
+    "traditional": ""
+  },
+  {
+    "word": "si3",
+    "definition": "four",
+    "simplified": "四",
+    "traditional": "肆"
+  },
+  {
+    "word": "hag8hao6",
+    "definition": "school",
+    "simplified": "学校",
+    "traditional": "學校"
+  },
+  {
+    "word": "lêng5",
+    "definition": "zero",
+    "simplified": "零",
+    "traditional": ""
+  },
+  {
+    "word": "lag8",
+    "definition": "six",
+    "simplified": "六",
+    "traditional": "陆"
+  },
+  {
+    "word": "gu6",
+    "definition": "uncle (mom's side)",
+    "simplified": "舅",
+    "traditional": ""
+  },
+  {
+    "word": "pêng5ui2",
+    "definition": "friend",
+    "simplified": "朋友",
+    "traditional": ""
+  },
+  {
+    "word": "gou1",
+    "definition": "aunt (dad's side)",
+    "simplified": "姑",
+    "traditional": ""
+  },
+  {
+    "word": "de1",
+    "definition": "pig, pork",
+    "simplified": "猪",
+    "traditional": "豬"
+  },
+  {
+    "word": "hian1",
+    "definition": "older brother",
+    "simplified": "兄",
+    "traditional": ""
+  },
+  {
+    "word": "zeg8coin1",
+    "definition": "one thousand",
+    "simplified": "一千",
+    "traditional": "壹仟"
+  },
+  {
+    "word": "hi2huan1",
+    "definition": "to like",
+    "simplified": "喜欢",
+    "traditional": "喜歡"
+  },
+  {
+    "word": "zing1",
+    "definition": "very, real",
+    "simplified": "真",
+    "traditional": ""
+  },
+  {
+    "word": "nang2",
+    "definition": "we",
+    "simplified": "咱",
+    "traditional": "喒"
+  },
+  {
+    "word": "ho2",
+    "definition": "good",
+    "simplified": "好",
+    "traditional": ""
+  },
+  {
+    "word": "gao2",
+    "definition": "nine",
+    "simplified": "九",
+    "traditional": "玖"
+  },
+  {
+    "word": "ngia2",
+    "definition": "pretty",
+    "simplified": "雅",
+    "traditional": ""
+  },
+  {
+    "word": "dhou2",
+    "definition": "belly",
+    "simplified": "肚",
+    "traditional": ""
+  },
+  {
+    "word": "zê2",
+    "definition": "older sister",
+    "simplified": "姐",
+    "traditional": ""
+  },
+  {
+    "word": "huê3",
+    "definition": "age, years",
+    "simplified": "岁",
+    "traditional": "歲"
+  },
+  {
+    "word": "dhou2gho7",
+    "definition": "hungry",
+    "simplified": "肚饿",
+    "traditional": "肚餓"
+  },
+  {
+    "word": "dhou2iau3",
+    "definition": "hungry",
+    "simplified": "肚饿",
+    "traditional": "肚餓"
+  },
+  {
+    "word": "ain3",
+    "definition": "love, want",
+    "simplified": "爱",
+    "traditional": "愛"
+  },
+  {
+    "word": "ke3",
+    "definition": "go",
+    "simplified": "去",
+    "traditional": ""
+  },
+  {
+    "word": "u6",
+    "definition": "to have",
+    "simplified": "有",
+    "traditional": ""
+  },
+  {
+    "word": "sian1diao7",
+    "definition": "tone",
+    "simplified": "",
+    "traditional": ""
+  },
+  {
+    "word": "si6",
+    "definition": "yes, to be, this, that",
+    "simplified": "是",
+    "traditional": ""
+  },
+  {
+    "word": "ghu5",
+    "definition": "beef, cow",
+    "simplified": "牛",
+    "traditional": ""
+  },
+  {
+    "word": "in5",
+    "definition": "round",
+    "simplified": "圆",
+    "traditional": "圓"
+  },
+  {
+    "word": "ci5",
+    "definition": "late",
+    "simplified": "迟",
+    "traditional": "遲"
+  },
+  {
+    "word": "i5",
+    "definition": "aunt (mom's side)",
+    "simplified": "姨",
+    "traditional": ""
+  },
+  {
+    "word": "soi3",
+    "definition": "small",
+    "simplified": "细",
+    "traditional": "細"
+  },
+  {
+    "word": "boih4",
+    "definition": "eight",
+    "simplified": "八",
+    "traditional": "捌"
+  },
+  {
+    "word": "lai5",
+    "definition": "come",
+    "simplified": "来",
+    "traditional": "來"
+  },
+  {
+    "word": "ngou6",
+    "definition": "five",
+    "simplified": "五",
+    "traditional": "伍"
+  },
+  {
+    "word": "hua5ghe2",
+    "definition": "Chinese language",
+    "simplified": "?",
+    "traditional": ""
+  },
+  {
+    "word": "ig4",
+    "definition": "first",
+    "simplified": "一",
+    "traditional": "壹"
+  },
+  {
+    "word": "le2",
+    "definition": "you (singular)",
+    "simplified": "你",
+    "traditional": "妳"
+  },
+  {
+    "word": "san1",
+    "definition": "third",
+    "simplified": "三",
+    "traditional": "叁"
+  },
+  {
+    "word": "dai6gê1",
+    "definition": "everybody",
+    "simplified": "大家",
+    "traditional": ""
+  },
+  {
+    "word": "goi1",
+    "definition": "chicken",
+    "simplified": "鸡",
+    "traditional": "雞"
+  },
+  {
+    "word": "goi1",
+    "definition": "street",
+    "simplified": "街",
+    "traditional": ""
+  },
+  {
+    "word": "hai2",
+    "definition": "ocean",
+    "simplified": "海",
+    "traditional": ""
+  },
+  {
+    "word": "sên3",
+    "definition": "last name",
+    "simplified": "性",
+    "traditional": ""
+  },
+  {
+    "word": "dang6",
+    "definition": "but",
+    "simplified": "但",
+    "traditional": ""
+  },
+  {
+    "word": "ciê3mi1gai5",
+    "definition": "laugh you what? What are you laughing about?",
+    "simplified": "笑乜个",
+    "traditional": "笑乜個"
+  },
+  {
+    "word": "zing1hi2huan1",
+    "definition": "my favorite, like the most",
+    "simplified": "真喜欢",
+    "traditional": "真喜歡"
+  },
+  {
+    "word": "di6",
+    "definition": "younger brother",
+    "simplified": "弟",
+    "traditional": ""
+  },
+  {
+    "word": "cig4",
+    "definition": "seven",
+    "simplified": "七",
+    "traditional": "柒"
+  },
+  {
+    "word": "ri6",
+    "definition": "second",
+    "simplified": "二",
+    "traditional": "贰"
+  },
+  {
+    "word": "mian5",
+    "definition": "name",
+    "simplified": "名",
+    "traditional": ""
+  },
+  {
+    "word": "zêg8bêh4",
+    "definition": "one hundred",
+    "simplified": "一百",
+    "traditional": "壹百"
+  },
+  {
+    "word": "zêg5",
+    "definition": "uncle (dad's side)",
+    "simplified": "叔",
+    "traditional": ""
+  },
+  {
+    "word": "oi6",
+    "definition": "i'm able to",
+    "simplified": "会",
+    "traditional": "會"
+  },
+  {
+    "word": "min7",
+    "definition": "noodles",
+    "simplified": "麵",
+    "traditional": "麪"
+  },
+  {
+    "word": "ping5guê2",
+    "definition": "apple",
+    "simplified": "蘋果",
+    "traditional": "蘋果"
+  },
+  {
+    "word": "lai5",
+    "definition": "pear",
+    "simplified": "梨",
+    "traditional": "棃"
+  },
+  {
+    "word": "giam5",
+    "definition": "salty",
+    "simplified": "碱",
+    "traditional": "鹹"
+  },
+  {
+    "word": "bhuê7",
+    "definition": "not yet",
+    "simplified": "未",
+    "traditional": ""
+  },
+  {
+    "word": "za2rig8",
+    "definition": "yesterday",
+    "simplified": "昨日",
+    "traditional": ""
+  },
+  {
+    "word": "gim1rig8",
+    "definition": "today",
+    "simplified": "今 日",
+    "traditional": ""
+  },
+  {
+    "word": "ma1rig8",
+    "definition": "tomorrow",
+    "simplified": "明日",
+    "traditional": ""
+  },
+  {
+    "word": "ma1ki5",
+    "definition": "tomorrow evening",
+    "simplified": "?",
+    "traditional": ""
+  },
+  {
+    "word": "dang2zêg8ê7\n",
+    "definition": "wait a second / wait a minute\n",
+    "simplified": "等 一下",
+    "traditional": ""
+  },
+  {
+    "word": "zêng1diem2\n\n",
+    "definition": "hour\n",
+    "simplified": "?",
+    "traditional": ""
+  },
+  {
+    "word": "uang2nang2",
+    "definition": "We (exclusive)",
+    "simplified": "阮",
+    "traditional": ""
+  },
+  {
+    "word": "leu2(6)nang7",
+    "definition": "You (plural)",
+    "simplified": "汝侬",
+    "traditional": "汝儂"
+  },
+  {
+    "word": "i1",
+    "definition": "he/she/it",
+    "simplified": "伊",
+    "traditional": ""
+  },
+  {
+    "word": "i1nang7",
+    "definition": "they",
+    "simplified": "伊侬",
+    "traditional": "伊儂"
+  },
+  {
+    "word": "zi2gai5",
+    "definition": "This (noun)",
+    "simplified": "只個",
+    "traditional": ""
+  },
+  {
+    "word": "he2gai5",
+    "definition": "That (noun)",
+    "simplified": "许個",
+    "traditional": "許個"
+  },
+  {
+    "word": "ze1",
+    "definition": "book",
+    "simplified": "书",
+    "traditional": "書"
+  },
+  {
+    "word": "kiêg8",
+    "definition": "bring",
+    "simplified": "挈",
+    "traditional": ""
+  },
+  {
+    "word": "seng2",
+    "definition": "play",
+    "simplified": "耍",
+    "traditional": ""
+  },
+  {
+    "word": "lou2",
+    "definition": "hates/dislikes",
+    "simplified": "卤",
+    "traditional": "滷"
+  },
+  {
+    "word": "zi2coh4muêh8",
+    "definition": "these things",
+    "simplified": "只撮物",
+    "traditional": ""
+  },
+  {
+    "word": "he2coh4muêh8",
+    "definition": "those things",
+    "simplified": "许撮物",
+    "traditional": "許撮物"
+  },
+  {
+    "word": "mag8(4)siab4",
+    "definition": "sleepy",
+    "simplified": "目涩",
+    "traditional": "目澀"
+  },
+  {
+    "word": "zo3(2)ni5",
+    "definition": "why",
+    "simplified": "做呢",
+    "traditional": ""
+  },
+  {
+    "word": "bhi5",
+    "definition": "flavor",
+    "simplified": "味",
+    "traditional": ""
+  },
+  {
+    "word": "zi2ko3",
+    "definition": "here",
+    "simplified": "只塊",
+    "traditional": ""
+  },
+  {
+    "word": "he2(6)ko3",
+    "definition": "there",
+    "simplified": "许塊",
+    "traditional": "許塊"
+  },
+  {
+    "word": "dang2",
+    "definition": "wait",
+    "simplified": "等",
+    "traditional": ""
+  },
+  {
+    "word": "ghua7kao2",
+    "definition": "outside",
+    "simplified": "外口",
+    "traditional": ""
+  },
+  {
+    "word": "cu3(2)lai6",
+    "definition": "house-inside",
+    "simplified": "厝內",
+    "traditional": ""
+  },
+  {
+    "word": "do6",
+    "definition": "at",
+    "simplified": "在",
+    "traditional": ""
+  },
+  {
+    "word": "mung5ka1kao2",
+    "definition": "at the door",
+    "simplified": "門脚口",
+    "traditional": "門腳口"
+  },
+  {
+    "word": "gian5(7)ke3",
+    "definition": "walk",
+    "simplified": "行去",
+    "traditional": ""
+  },
+  {
+    "word": "bhoi2",
+    "definition": "buy",
+    "simplified": "买",
+    "traditional": "買"
+  },
+  {
+    "word": "muêh8(4)gian6",
+    "definition": "something",
+    "simplified": "物件",
+    "traditional": ""
+  },
+  {
+    "word": "ge1",
+    "definition": "more",
+    "simplified": "多",
+    "traditional": ""
+  },
+  {
+    "word": "do6di2ko3",
+    "definition": "where are you?",
+    "simplified": "在底塊",
+    "traditional": ""
+  },
+  {
+    "word": "di2",
+    "definition": "underneath",
+    "simplified": "底",
+    "traditional": ""
+  }
+]
