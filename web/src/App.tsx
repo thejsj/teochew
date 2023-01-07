@@ -3,7 +3,9 @@ import './App.css';
 
 import { PhoneticDictionary } from './PhoneticDictionary'
 import { Quiz } from './Quiz'
+import { FlashCards, FlashCardSingleCard  } from './FlashCards'
 import { Menu } from '@headlessui/react'
+import { HamburgerIcon } from './Icons'
 import { Link, Route,useRoute,  useLocation } from "wouter";
 
 
@@ -27,19 +29,11 @@ const popMenuLinks : Record<string, { label: string, component: JSX.Element }> =
   '/quiz': {
     label: 'Quiz',
     component: <Quiz/>
+  },
+  '/flash-cards': {
+    label: 'Flash Cards',
+    component: <FlashCards/>
   }
-}
-
-function HamburgerIcon() {
-  return (
-    <div className={'w-5 h-5'}>
-    <svg viewBox="0 0 100 80" width="40" height="40" className={'w-full h-full fill-rose-300'}>
-        <rect width="100" height="15"></rect>
-        <rect y="30" width="100" height="15"></rect>
-        <rect y="60" width="100" height="15"></rect>
-    </svg>
-    </div>
-  )
 }
 
 function App() {
@@ -78,7 +72,13 @@ function App() {
       </header>
       <Route path="/"><PhoneticDictionary/></Route>
       <Route path="/word/:word"><PhoneticDictionary/></Route>
-      <Route path="/quiz"><Quiz/></Route>
+
+      {Object.keys(popMenuLinks).map((key) => {
+        if (key === '/') return null
+
+        return <Route path={key}>{popMenuLinks[key].component}</Route>
+      })}
+      <Route path="/flash-card/:word"><FlashCardSingleCard/></Route>
     </div>
   );
 }
