@@ -72,10 +72,10 @@ export const AutomcompletionInputField = (
   return (
     <div>
       <div className="flex flex-col gap-1">
-        <div className="flex shadow-sm bg-white gap-0.5">
+        <div className="flex shadow-sm bg-white">
           <input
             placeholder="Enter any word..."
-            className="p-6 w-full text-3xl border-slate-300 border-2 rounded-lg"
+            className="p-6 w-full text-3xl border-slate-300 border-2 rounded-lg outline-rose-400"
             autoFocus
             ref={props.inputRef}
             {...getInputProps()}

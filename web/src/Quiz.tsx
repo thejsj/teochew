@@ -56,8 +56,10 @@ const QuizOptions = (props: QuizOptionsProps) => {
         return <button
           key={option + index}
           onClick={handleOnClick.bind(null, option)}
-          className="text-xl text-center border-2 border-rose-300 bg-rose-100 rounded-full p-4 w-full md:w-96 mb-2 md:hover:bg-rose-300">
-            <span className={'text-base'}>{indexToLetterMap[index]}.</span> {option}</button>
+          className="text-xl text-center border-2 border-rose-300 bg-rose-100 rounded-full p-4 w-full md:w-96 mb-2 md:hover:bg-rose-300 flex gap-2 align-left">
+            <span className={'text-base rounded-full bg-rose-200 border border-rose-300 h-8 w-8 flex items-center justify-center'}>{indexToLetterMap[index]}</span>
+            <span className={'overflow-hidden whitespace-nowrap text-ellipsis'}>{option}</span>
+          </button>
       })}
     </div>
   )

@@ -50,7 +50,7 @@ function App() {
             <a href="/">
               <h1 className={'text-xl p-4 border-zinc-200  border-r-2 inline-block text-rose-600'}>圆肚</h1>
             </a>
-            <div className={'hidden md:block'}>
+            <div className={'hidden md:inline'}>
               {Object.keys(popMenuLinks).map((key) => {
                 return <MenuLink href={key}>{popMenuLinks[key].label}</MenuLink>
               })}

@@ -13,29 +13,30 @@ interface MatchEntryViewProps {
 const MatchEntryView = (props: MatchEntryViewProps) => {
   const { match } = props;
 
+// flex basis-5/12 p-10   flex-column align-top mx-8
   return (
-    <div className="flex basis-5/12 p-10 rounded-md border-2 border-slate-300 bg-slate-50 flex-column align-top mb-8 mx-4">
-      <div className="w-12 mr-4">
-        <p className="text-4xl pt-2">{match.simplifiedChar}</p>
-        <p className="text-xl mt-4 text-slate-400">{match.traditionalChar}</p>
-      </div>
-      <div className="grow">
-        <p className="italic text-xl mb-4">{match.definition}</p>
-        <div>
-        {match.romanizations.map((romanization:RomaniationEntry) => {
-         return (
-          <div>
-          <p className="text-sm">{romanization.pengIm}</p>
-          <audio controls>
-            <source src={`https://www.mogher.com/${romanization.soundLink}`} type="audio/mpeg"/>
-          </audio>
-          </div>
-          )
-        })}
+    <div className="bg-slate-50 border-2 border-slate-300 mb-8 w-full p-4 rounded-md md:p-10 md:mx-8 block md:basis-5/12 ">
+      <div className={'md:flex md:flex-column md:align-top'}>
+        <div className="w-12 mr-4">
+          <p className="text-4xl pt-2">{match.simplifiedChar}</p>
+          <p className="text-xl mt-4 text-slate-400">{match.traditionalChar}</p>
         </div>
 
-      </div>
-      <div className="w-12 ml-4 justify-center place-content-center">
+        <div className="grow">
+          <p className="italic text-xl mb-4">{match.definition}</p>
+          <div>
+            {match.romanizations.map((romanization:RomaniationEntry) => {
+             return (
+              <div>
+              <p className="text-sm">{romanization.pengIm}</p>
+              <audio controls>
+                <source src={`https://www.mogher.com/${romanization.soundLink}`} type="audio/mpeg"/>
+              </audio>
+              </div>
+              )
+            })}
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -83,9 +84,7 @@ const IPADisplay = (props: IPADisplayProps) => {
 export const PhoneticDictionary = () => {
   const [location, setLocation] = useLocation();
   const word = location.split("/")[2] || null
-  console.log('word', word)
   const [text, setText] = useState<string>(word || "")
-  console.log('text', text)
   const inputEl = useRef(null);
 
   const matches = useMemo<CharacterEntry[]>(() => {
@@ -127,18 +126,18 @@ export const PhoneticDictionary = () => {
   return (
     <div>
       <div className="flex justify-center mt-12 mb-6">
-        <div className="px-12 max-w-3xl md:w-2/3">
+        <div className="px-4 w-full md:w-2/3 md:max-w-3xl">
           <AutomcompletionInputField currentWord={text} setCurrentWord={setText} inputRef={inputEl}/>
         </div>
       </div>
 
       <div className="flex justify-center my-2 mb-12">
-        <div className="px-12 max-w-3xl md:w-2/3">
+        <div className="px-4 w-full md:w-2/4 md:max-w-3xl">
           <IPADisplay currentWord={text}/>
         </div>
       </div>
 
-      <div className="px-12 flex justify-center">
+      <div className="px-4 flex justify-center">
         <div className="max-w-6xl md:w-full flex flex-wrap flex-row place-content-center">
           {matches.map((match, i) =>
             <MatchEntryView key={i} match={match}/>
