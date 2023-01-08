@@ -52,12 +52,12 @@ const FlashCard = (props: FlashCardsProps) => {
 
       {props.decrementIndex && props.incrementIndex && (
         <div className={'flex flex-row items-center h-12 w-full overflow-hidden border-t-2'}>
-          <div className={'border-zinc-200 border-r p-6 flex justify-center items-center h-4 basis-3/6'} onClick={props.decrementIndex}>
+          <button className={'border-zinc-200 md:hover:bg-zinc-100 border-r p-6 flex justify-center items-center h-4 basis-3/6'} onClick={props.decrementIndex}>
             <ChevronLeft/>
-          </div>
-          <div className={'border-zinc-200 border-l p-6 flex justify-center items-center h-4 basis-3/6'} onClick={props.incrementIndex}>
+          </button>
+          <button className={'border-zinc-200 md:hover:bg-zinc-100 border-l p-6 flex justify-center items-center h-4 basis-3/6'} onClick={props.incrementIndex}>
             <ChevronRight/>
-          </div>
+          </button>
         </div>
       )}
      </div>
@@ -78,6 +78,7 @@ export const FlashCards = () => {
   const incrementIndex = () => {
     if (index >= (shuffledDictionary.length -1)) {
       setIndex(0)
+      return
     }
 
     setIndex(index + 1)
@@ -86,6 +87,7 @@ export const FlashCards = () => {
   const decrementIndex = () => {
     if (index <= 0) {
       setIndex(shuffledDictionary.length - 1)
+      return
     }
 
     setIndex(index - 1)

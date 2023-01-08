@@ -58,10 +58,10 @@ export const AutomcompletionInputField = (
     selectedItem,
   } = useCombobox({ items, inputValue: currentWord, onInputValueChange({ inputValue }) {
       setItems(entries.filter(getBooksFilter(inputValue)));
-      setCurrentWord(inputValue || "");
+      setCurrentWord(inputValue?.toLowerCase() || "");
     },
     itemToString(item) {
-      return item && item.word ? item.word : "";
+      return item && item.word ? item.word.replace('ê', 'e') : "";
     },
     scrollIntoView() {},
     onHighlightedIndexChange({ highlightedIndex: number }) {
