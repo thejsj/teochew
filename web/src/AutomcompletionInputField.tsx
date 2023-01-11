@@ -22,7 +22,7 @@ function getBooksFilter(inputValue: string | undefined) {
   return function booksFilter(entry: WordEntry) {
     return (
       !inputValue ||
-      entry.word?.toLowerCase().includes(inputValue) ||
+      entry.word?.toLowerCase().replace('ê', 'e').includes(inputValue) ||
       entry.characters?.toLowerCase().includes(inputValue)
     );
   };
@@ -61,7 +61,7 @@ export const AutomcompletionInputField = (
       setCurrentWord(inputValue?.toLowerCase() || "");
     },
     itemToString(item) {
-      return item && item.word ? item.word.replace('ê', 'e') : "";
+      return item && item.word ? item.word : "";
     },
     scrollIntoView() {},
     onHighlightedIndexChange({ highlightedIndex: number }) {
@@ -77,6 +77,7 @@ export const AutomcompletionInputField = (
             placeholder="Enter any word..."
             className="p-6 w-full text-3xl border-slate-300 border-2 rounded-lg outline-rose-400"
             autoFocus
+            autoCapitalize={"none"}
             ref={props.inputRef}
             {...getInputProps()}
           />
