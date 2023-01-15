@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 
 import { PhoneticDictionary } from './PhoneticDictionary'
-import { Quiz } from './Quiz'
+import { MultipleChoiceQuiz } from './MultipleChoiceQuiz'
+import { WritingQuiz } from './WritingQuiz'
 import { FlashCards, FlashCardSingleCard  } from './FlashCards'
 import { Menu } from '@headlessui/react'
 import { HamburgerIcon } from './Icons'
@@ -26,9 +27,13 @@ const popMenuLinks : Record<string, { label: string, component: JSX.Element }> =
     label: 'Phonetic Dictionary',
     component: <PhoneticDictionary/>
   },
-  '/quiz': {
-    label: 'Quiz',
-    component: <Quiz/>
+  '/multiple-choice-quiz': {
+    label: 'Multiple Choice Quiz',
+    component: <MultipleChoiceQuiz/>
+  },
+  '/writing-quiz': {
+    label: 'Writing Quiz',
+    component: <WritingQuiz/>
   },
   '/flash-cards': {
     label: 'Flash Cards',

@@ -65,7 +65,7 @@ const QuizOptions = (props: QuizOptionsProps) => {
   )
 }
 
-export const Quiz = () => {
+export const MultipleChoiceQuiz = () => {
   const [index, setIndex] = useState(0)
   const [wrongAnswers, setWrongAnswers] = useState<DictionaryEntry[]>([])
 

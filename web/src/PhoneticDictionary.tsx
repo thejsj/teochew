@@ -13,7 +13,6 @@ interface MatchEntryViewProps {
 const MatchEntryView = (props: MatchEntryViewProps) => {
   const { match } = props;
 
-// flex basis-5/12 p-10   flex-column align-top mx-8
   return (
     <div className="bg-slate-50 border-2 border-slate-300 mb-8 w-full p-4 rounded-md md:p-10 md:mx-8 block md:basis-5/12 ">
       <div className={'md:flex md:flex-column md:align-top'}>
