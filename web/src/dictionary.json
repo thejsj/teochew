@@ -21,7 +21,7 @@
     "word": "cong1mêng5",
     "definition": "smart",
     "simplified": "聪明",
-    "traditional": "聰朙, 聰眀"
+    "traditional": "聰朙"
   },
   {
     "word": "ba5",
@@ -163,7 +163,7 @@
   },
   {
     "word": "zeg8coin1",
-    "definition": "one thousand",
+    "definition": "zeg8coin1",
     "simplified": "一千",
     "traditional": "壹仟"
   },
@@ -435,7 +435,7 @@
     "word": "ping5guê2",
     "definition": "apple",
     "simplified": "蘋果",
-    "traditional": "蘋果"
+    "traditional": ""
   },
   {
     "word": "lai5",
@@ -657,6 +657,168 @@
     "word": "di2",
     "definition": "underneath",
     "simplified": "底",
+    "traditional": ""
+  },
+  {
+    "word": "ze2",
+    "definition": "cook",
+    "simplified": "煮",
+    "traditional": "煑"
+  },
+  {
+    "word": "ua2",
+    "definition": "I",
+    "simplified": "我",
+    "traditional": ""
+  },
+  {
+    "word": "bu3",
+    "definition": "wealthy",
+    "simplified": "富",
+    "traditional": ""
+  },
+  {
+    "word": "zin5",
+    "definition": "money",
+    "simplified": "钱",
+    "traditional": "錢"
+  },
+  {
+    "word": "dê5",
+    "definition": "tea",
+    "simplified": "茶",
+    "traditional": ""
+  },
+  {
+    "word": "ah4",
+    "definition": "duck",
+    "simplified": "鸭",
+    "traditional": "鴨"
+  },
+  {
+    "word": "teng1",
+    "definition": "soup",
+    "simplified": "汤",
+    "traditional": "湯漡"
+  },
+  {
+    "word": "de7",
+    "definition": "chopsticks",
+    "simplified": "箸",
+    "traditional": "櫡筯著"
+  },
+  {
+    "word": "zui2",
+    "definition": "water",
+    "simplified": "水",
+    "traditional": ""
+  },
+  {
+    "word": "ruah8",
+    "definition": "hot",
+    "simplified": "热",
+    "traditional": "熱"
+  },
+  {
+    "word": "nang6?",
+    "definition": "cold",
+    "simplified": "冷",
+    "traditional": ""
+  },
+  {
+    "word": "toin2",
+    "definition": "to see",
+    "simplified": "看",
+    "traditional": ""
+  },
+  {
+    "word": "za2",
+    "definition": "early",
+    "simplified": "早",
+    "traditional": ""
+  },
+  {
+    "word": "di7diang1",
+    "definition": "who",
+    "simplified": "哋㐱",
+    "traditional": ""
+  },
+  {
+    "word": "si6(7)mih4",
+    "definition": "what",
+    "simplified": "是乜",
+    "traditional": ""
+  },
+  {
+    "word": "di7gai5",
+    "definition": "what, which",
+    "simplified": "哋个",
+    "traditional": "哋個"
+  },
+  {
+    "word": "mih4(8)gai5",
+    "definition": "what thing / anything",
+    "simplified": "乜个",
+    "traditional": "乜個"
+  },
+  {
+    "word": "mih4(8)se7",
+    "definition": "what happened",
+    "simplified": "乜事",
+    "traditional": ""
+  },
+  {
+    "word": "di7zêg8(4)gai5",
+    "definition": "which one",
+    "simplified": "哋一个",
+    "traditional": "哋一個"
+  },
+  {
+    "word": "di7go3",
+    "definition": "where",
+    "simplified": "哋块",
+    "traditional": "哋塊"
+  },
+  {
+    "word": "diang1si5",
+    "definition": "when",
+    "simplified": "珍时",
+    "traditional": "珍時"
+  },
+  {
+    "word": "zo3(2)ni5",
+    "definition": "how, why",
+    "simplified": "做呢",
+    "traditional": ""
+  },
+  {
+    "word": "riêh8(4)zoi7",
+    "definition": "how many",
+    "simplified": "若济",
+    "traditional": "若濟"
+  },
+  {
+    "word": "zo3",
+    "definition": "do",
+    "simplified": "做",
+    "traditional": ""
+  },
+  {
+    "word": "siang6",
+    "definition": "most",
+    "simplified": "上",
+    "traditional": ""
+  },
+  {
+    "word": "ni5",
+    "definition": "Year",
+    "simplified": "年",
+    "traditional": ""
+  },
+  {
+    "word": "gim1ni5",
+    "definition": "This year",
+    "simplified": "今年",
     "traditional": ""
   }
 ]
