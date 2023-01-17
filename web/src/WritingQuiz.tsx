@@ -124,7 +124,7 @@ const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
   return (<div>
     <div className="flex flex-row justify-center mb-4 space-x-y.5 items-center gap-2">
       {word.split('').map((letter, index) => {
-        const isWrongClass = word[index] !== answer[index] ? 'bg-green-100' : ''
+        const isWrongClass = word[index].replace('ê', 'e') !== answer[index].replace('ê', 'e') ? 'bg-green-100' : ''
         return <input
           className={`${isWrongClass} text-base text-center w-10 border-2 border-rose-300 px-1 py-4 mb-2 gap-2 rounded-4`}
           key={index} type="text"
@@ -136,7 +136,7 @@ const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
 
     <div className="flex flex-row justify-center mb-4 space-x-y.5 items-center gap-2">
       {answer.split('').map((letter, index) => {
-        const isWrongClass = word[index] !== answer[index] ? 'bg-rose-100' : ''
+        const isWrongClass = word[index].replace('ê', 'e') !== answer[index].replace('ê', 'e') ? 'bg-rose-100' : ''
         return <input
           className={`${isWrongClass} text-base text-center w-10 border-2 border-rose-300 px-1 py-4 mb-2 gap-2 rounded-4`}
           key={index} type="text"
@@ -162,6 +162,7 @@ export const WritingQuiz = () => {
   const [index, setIndex] = useState(0)
   const [showLastWrongAnswer, setShowLastWrongAnswer] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState<[DictionaryEntry, string][]>([])
+  const count = 20
 
   const incrementIndex = (incorrectDefinition: [DictionaryEntry, string] | null) => {
     setIndex(index + 1)
@@ -173,7 +174,7 @@ export const WritingQuiz = () => {
     }
   }
 
-  if (index >= shuffledDictionary.length - 1) {
+  if (index >= count - 1) {
     const totalCount = shuffledDictionary.length;
     const correctCount = shuffledDictionary.length - wrongAnswers.length;
     return (
@@ -215,7 +216,7 @@ export const WritingQuiz = () => {
       <div className={'flex justify-center flex-row pb-2 lg:pb-6 space-x-2.5'}>
         {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>
         <p className={'text-xl text-rose-600'}>&#10006;</p>*/}
-        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
+        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{count}</p>
       </div>
     </div>
   )
