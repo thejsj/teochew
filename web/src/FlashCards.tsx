@@ -6,23 +6,6 @@ import { encode, decode } from 'punycode';
 
 import { ChevronLeft, ChevronRight } from './Icons'
 
-const orderDictionaryAlphtabetically = (array: any[]) => {
-  return array
-    .map(value => ({ value, sort: value.pengIm }))
-    .sort((a, b) => {
-      if (a.sort < b.sort) {
-        return -1;
-      }
-      if (a.sort > b.sort) {
-        return 1;
-      }
-      return 0;
-    })
-    .map(({ value }) => value)
-
-}
-
-const shuffledDictionary = orderDictionaryAlphtabetically(dictionary)
 
 export interface FlashCardsProps {
   entry: DictionaryEntry,
@@ -72,11 +55,12 @@ const FlashCard = (props: FlashCardsProps) => {
   )
 }
 
-export const FlashCards = () => {
+export const FlashCards = (props: { dictionary: DictionaryEntry[] }) => {
+  const dictionary = props.dictionary;
   const [index, setIndex] = useState(0)
 
   const incrementIndex = () => {
-    if (index >= (shuffledDictionary.length -1)) {
+    if (index >= (dictionary.length -1)) {
       setIndex(0)
       return
     }
@@ -86,7 +70,7 @@ export const FlashCards = () => {
 
   const decrementIndex = () => {
     if (index <= 0) {
-      setIndex(shuffledDictionary.length - 1)
+      setIndex(dictionary.length - 1)
       return
     }
 
@@ -98,10 +82,10 @@ export const FlashCards = () => {
       <div className={'flex justify-center flex-row pb-2 lg:pb-6 space-x-2.5'}>
         {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>
         <p className={'text-xl text-rose-600'}>&#10006;</p>*/}
-        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
+        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{dictionary.length}</p>
       </div>
       <div className="flex flex-row justify-center ">
-        <FlashCard entry={shuffledDictionary[index]} incrementIndex={incrementIndex} decrementIndex={decrementIndex}/>
+        <FlashCard entry={dictionary[index]} incrementIndex={incrementIndex} decrementIndex={decrementIndex}/>
       </div>
     </div>
   )

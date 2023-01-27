@@ -23,6 +23,9 @@ axios({
       definition: row[1],
       simplified: row[2] || "",
       traditional: row[3] || "",
+      // row[4] is slang?
+      wordGroup: row[5] || "",
+      dateAdded: row[6] || "",
     };
   });
 

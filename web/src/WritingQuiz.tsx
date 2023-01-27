@@ -1,15 +1,5 @@
-import { dictionary, DictionaryEntry  } from './dictionary';
+import { DictionaryEntry  } from './dictionary';
 import React, { useRef, useState, createRef, useEffect } from 'react';
-
-const shuffleArray = (array: any[]) => {
-  return array
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
-
-}
-
-const shuffledDictionary = shuffleArray(dictionary).filter(x => x.word.length < 9);
 
 const QuizCard = (props: { entry: DictionaryEntry }) => {
   return (
@@ -29,7 +19,7 @@ interface QuizOptionsProps {
 }
 
 const QuizInputArea = (props: QuizOptionsProps) => {
-  const word = props.entry.word
+  const word = props.entry.word.replace(/\([0-9]\)*/g, '')
   const [input, setInput] = useState<string[]>([])
   const [currentIndex, setCurrentIndex] = useState<number>(0)
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -118,7 +108,7 @@ interface QuizWrongAnswerProps {
 }
 
 const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
-  const word = props.wrongAnswer[0].word
+  const word = props.wrongAnswer[0].word.replace(/\([0-9]\)*/g, '')
   const answer = props.wrongAnswer[1]
 
   return (<div>
@@ -158,11 +148,11 @@ const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
   </div>)
 }
 
-export const WritingQuiz = () => {
+export const WritingQuiz = (props: { dictionary: DictionaryEntry[] }) => {
   const [index, setIndex] = useState(0)
   const [showLastWrongAnswer, setShowLastWrongAnswer] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState<[DictionaryEntry, string][]>([])
-  const count = 20
+  const count = Math.min(20, props.dictionary.length)
 
   const incrementIndex = (incorrectDefinition: [DictionaryEntry, string] | null) => {
     setIndex(index + 1)
@@ -175,8 +165,8 @@ export const WritingQuiz = () => {
   }
 
   if (index >= count - 1) {
-    const totalCount = shuffledDictionary.length;
-    const correctCount = shuffledDictionary.length - wrongAnswers.length;
+    const totalCount = props.dictionary.length;
+    const correctCount = props.dictionary.length - wrongAnswers.length;
     return (
       <div className={'flex flex-col justify-center items-center m-2'}>
         <h2 className={'text-2xl font-bold p-6'}>Finished!</h2>
@@ -200,7 +190,7 @@ export const WritingQuiz = () => {
     <div className={'flex justify-center flex-col mt-6 lg:mt-12 mb-6'}>
       {!showLastWrongAnswer &&
         <div className="flex flex-row justify-center ">
-          <QuizCard entry={shuffledDictionary[index]}/>
+          <QuizCard entry={props.dictionary[index]}/>
         </div>
       }
 
@@ -211,7 +201,7 @@ export const WritingQuiz = () => {
           nextCallback={() => setShowLastWrongAnswer(false)}
           />}
 
-        {!showLastWrongAnswer && <QuizInputArea incrementIndex={incrementIndex} entry={shuffledDictionary[index]}/>}
+        {!showLastWrongAnswer && <QuizInputArea incrementIndex={incrementIndex} entry={props.dictionary[index]}/>}
       </div>
       <div className={'flex justify-center flex-row pb-2 lg:pb-6 space-x-2.5'}>
         {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>

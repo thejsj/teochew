@@ -8,7 +8,7 @@ import { FlashCards, FlashCardSingleCard  } from './FlashCards'
 import { Menu } from '@headlessui/react'
 import { HamburgerIcon } from './Icons'
 import { Link, Route,useRoute,  useLocation } from "wouter";
-
+import { VocabularySelector } from './VocabularySelector';
 
 const MenuLink = (props: { href: string, children: JSX.Element | string}) => {
   const [isMatch] = useRoute(props.href);
@@ -29,15 +29,15 @@ const popMenuLinks : Record<string, { label: string, component: JSX.Element }> =
   },
   '/multiple-choice-quiz': {
     label: 'Multiple Choice Quiz',
-    component: <MultipleChoiceQuiz/>
+    component: <VocabularySelector nextCompoent={MultipleChoiceQuiz}/>
   },
   '/writing-quiz': {
     label: 'Writing Quiz',
-    component: <WritingQuiz/>
+    component: <VocabularySelector nextCompoent={WritingQuiz}/>
   },
   '/flash-cards': {
     label: 'Flash Cards',
-    component: <FlashCards/>
+    component: <VocabularySelector nextCompoent={FlashCards}/>
   }
 }
 

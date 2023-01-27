@@ -6,6 +6,8 @@ export interface DictionaryEntry {
   definition: string;
   simplified: string | null;
   traditional: string | null;
+  wordGroup: string;
+  dateAdded: string;
 }
 
 const checkWord = (word: any): string | null => {
@@ -13,6 +15,30 @@ const checkWord = (word: any): string | null => {
   if (typeof word !== "string") return null;
   if (word.length === 0) return null;
   return word;
+};
+
+export const shuffleArray = (array: any[]) => {
+  return array
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+};
+
+export const orderDictionaryAlphtabetically = (
+  array: DictionaryEntry[]
+): DictionaryEntry[] => {
+  return array
+    .map((value) => ({ value, sort: value.pengIm }))
+    .sort((a, b) => {
+      if (a.sort < b.sort) {
+        return -1;
+      }
+      if (a.sort > b.sort) {
+        return 1;
+      }
+      return 0;
+    })
+    .map(({ value }) => value);
 };
 
 const dictionaryWithNull: (DictionaryEntry | null)[] = (
@@ -25,6 +51,8 @@ const dictionaryWithNull: (DictionaryEntry | null)[] = (
     definition: checkWord(entry.definition),
     simplified: checkWord(entry.simplified),
     traditional: checkWord(entry.traditional),
+    wordGroup: checkWord(entry.wordGroup),
+    dateAdded: entry.dateAdded || "None",
   };
   if (!def.word) return null;
   if (!def.definition) return null;

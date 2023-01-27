@@ -1,16 +1,7 @@
-import { dictionary, DictionaryEntry  } from './dictionary';
+import { shuffleArray, DictionaryEntry } from './dictionary';
 import React, { useState } from 'react';
 import { convertPemgImToIPA } from './lib/main';
 
-const shuffleArray = (array: any[]) => {
-  return array
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
-
-}
-
-const shuffledDictionary = shuffleArray(dictionary)
 
 const QuizCard = (props: { entry: DictionaryEntry }) => {
   return (
@@ -35,11 +26,15 @@ const indexToLetterMap : { [key: number]: string } = {
 interface QuizOptionsProps {
   incrementIndex: (incorrectDefinition: DictionaryEntry | null) => void;
   entry: DictionaryEntry
+  allEntries: DictionaryEntry[]
 }
 
 const QuizOptions = (props: QuizOptionsProps) => {
-  const shuffleIndex = Math.abs(Math.floor(Math.random() * shuffledDictionary.length) - 10)
-  const shuffledOptions = shuffleArray(shuffledDictionary.slice(shuffleIndex, shuffleIndex + 10))
+
+  const allEntries = shuffleArray(props.allEntries);
+
+  const shuffleIndex = Math.abs(Math.floor(Math.random() * allEntries.length) - 10)
+  const shuffledOptions = shuffleArray(allEntries.slice(shuffleIndex, shuffleIndex + 10))
   const options = shuffleArray([props.entry.definition].concat(shuffledOptions.slice(0, 3).map(x => x.definition)))
 
   const handleOnClick = (option: string, event: React.MouseEvent<HTMLButtonElement>) => {
@@ -65,7 +60,8 @@ const QuizOptions = (props: QuizOptionsProps) => {
   )
 }
 
-export const MultipleChoiceQuiz = () => {
+export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => {
+  const shuffledDictionary = shuffleArray(props.dictionary)
   const [index, setIndex] = useState(0)
   const [wrongAnswers, setWrongAnswers] = useState<DictionaryEntry[]>([])
 
@@ -109,7 +105,7 @@ export const MultipleChoiceQuiz = () => {
         <QuizCard entry={shuffledDictionary[index]}/>
       </div>
       <div className="flex flex-row justify-center ">
-        <QuizOptions incrementIndex={incrementIndex} entry={shuffledDictionary[index]}/>
+        <QuizOptions incrementIndex={incrementIndex} entry={shuffledDictionary[index]} allEntries={shuffledDictionary}/>
       </div>
     </div>
   )
