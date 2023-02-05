@@ -27,7 +27,7 @@
     "word": "cong1mêng5",
     "definition": "smart",
     "simplified": "聪明",
-    "traditional": "聰朙",
+    "traditional": "聰明",
     "wordGroup": "Basic Adjetives",
     "dateAdded": "12/24/2023"
   },
@@ -977,7 +977,7 @@
   },
   {
     "word": "di7gai5",
-    "definition": "whicg one",
+    "definition": "which one",
     "simplified": "哋个",
     "traditional": "哋個",
     "wordGroup": "Questions",
@@ -1219,7 +1219,7 @@
     "word": "ai1",
     "definition": "mother",
     "simplified": "妈",
-    "traditional": "",
+    "traditional": "媽",
     "wordGroup": "People",
     "dateAdded": "1/29/23"
   },
@@ -1332,7 +1332,7 @@
     "definition": "rope",
     "simplified": "索",
     "traditional": "",
-    "wordGroup": "",
+    "wordGroup": "Basic Nouns",
     "dateAdded": "1/29/23"
   },
   {
@@ -1570,7 +1570,7 @@
   {
     "word": "tao2kui7",
     "definition": "breathe",
-    "simplified": "",
+    "simplified": "敨氣",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1746,7 +1746,7 @@
   {
     "word": "ga1laoh8",
     "definition": "fall",
-    "simplified": "",
+    "simplified": "咖落",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1770,7 +1770,7 @@
   {
     "word": "ngim6",
     "definition": "hold",
-    "simplified": "",
+    "simplified": "擒",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1778,7 +1778,7 @@
   {
     "word": "kang1",
     "definition": "hold",
-    "simplified": "",
+    "simplified": "牽",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1794,7 +1794,7 @@
   {
     "word": "ciu3",
     "definition": "rub",
-    "simplified": "",
+    "simplified": "璽",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1826,7 +1826,7 @@
   {
     "word": "lêng2",
     "definition": "push",
-    "simplified": "",
+    "simplified": "攆",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1834,7 +1834,7 @@
   {
     "word": "gag8",
     "definition": "throw",
-    "simplified": "",
+    "simplified": "拽",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1922,7 +1922,7 @@
   {
     "word": "zêng2",
     "definition": "swell",
-    "simplified": "",
+    "simplified": "肿, 腫",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -2050,7 +2050,7 @@
   {
     "word": "bian1seng1",
     "definition": "ice",
-    "simplified": "",
+    "simplified": "冰霜",
     "traditional": "",
     "wordGroup": "Nature",
     "dateAdded": "1/29/23"
@@ -2154,7 +2154,7 @@
   {
     "word": "siê1",
     "definition": "warm",
-    "simplified": "",
+    "simplified": "燒",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
     "dateAdded": "1/29/23"
@@ -2194,7 +2194,7 @@
   {
     "word": "mo2",
     "definition": "bad",
-    "simplified": "",
+    "simplified": "孬",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
     "dateAdded": "1/29/23"
@@ -2210,7 +2210,7 @@
   {
     "word": "mi5",
     "definition": "rotten",
-    "simplified": "",
+    "simplified": "糜",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
     "dateAdded": "1/29/23"
@@ -2218,7 +2218,7 @@
   {
     "word": "ci1ghi5",
     "definition": "dirty",
-    "simplified": "",
+    "simplified": "凄疑",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
     "dateAdded": "1/29/23"
@@ -2258,7 +2258,7 @@
   {
     "word": "dan1",
     "definition": "dry",
-    "simplified": "",
+    "simplified": "潐",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
     "dateAdded": "1/29/23"
@@ -2304,7 +2304,7 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "do6…lai6",
+    "word": "do6 lai6",
     "definition": "in",
     "simplified": "在⋯⋯内",
     "traditional": "在⋯⋯內",
@@ -2312,7 +2312,7 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "do6…doin2",
+    "word": "do6 doin2",
     "definition": "in",
     "simplified": "",
     "traditional": "",
@@ -2321,15 +2321,7 @@
   },
   {
     "word": "gah8",
-    "definition": "with",
-    "simplified": "佮",
-    "traditional": "",
-    "wordGroup": "Adverbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "gah8",
-    "definition": "and",
+    "definition": "with, and",
     "simplified": "佮",
     "traditional": "",
     "wordGroup": "Adverbs",
