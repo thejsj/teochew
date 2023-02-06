@@ -30,12 +30,21 @@ interface QuizOptionsProps {
 }
 
 const QuizOptions = (props: QuizOptionsProps) => {
-
   const allEntries = shuffleArray(props.allEntries);
-
-  const shuffleIndex = Math.abs(Math.floor(Math.random() * allEntries.length) - 10)
-  const shuffledOptions = shuffleArray(allEntries.slice(shuffleIndex, shuffleIndex + 10))
-  const options = shuffleArray([props.entry.definition].concat(shuffledOptions.slice(0, 3).map(x => x.definition)))
+  const shuffleIndex = Math.abs(Math.floor(Math.random() * allEntries.length) - 4)
+  const shuffledOptions = shuffleArray(allEntries.slice(shuffleIndex, shuffleIndex + 4))
+  const additionalOptions = shuffledOptions.slice(0, 4).map(x => x.definition)
+  const options : string[] = shuffleArray([props.entry.definition]
+      .concat(additionalOptions))
+      .reduce((arr: string[], option: string) => {
+        // Exclude all entries that already exist
+        // Only handles 1 repeated entry
+        if (!arr.includes(option)) {
+          arr.push(option)
+        }
+        return arr
+      }, [])
+      .splice(0, 4)
 
   const handleOnClick = (option: string, event: React.MouseEvent<HTMLButtonElement>) => {
     if (props.entry.definition === option) {
@@ -61,7 +70,7 @@ const QuizOptions = (props: QuizOptionsProps) => {
 }
 
 export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => {
-  const shuffledDictionary = shuffleArray(props.dictionary)
+  const dictionary = props.dictionary
   const [index, setIndex] = useState(0)
   const [wrongAnswers, setWrongAnswers] = useState<DictionaryEntry[]>([])
 
@@ -72,9 +81,9 @@ export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => 
     }
   }
 
-  if (index >= shuffledDictionary.length - 1) {
-    const totalCount = shuffledDictionary.length;
-    const correctCount = shuffledDictionary.length - wrongAnswers.length;
+  if (index > dictionary.length - 1) {
+    const totalCount = dictionary.length;
+    const correctCount = dictionary.length - wrongAnswers.length;
     return (
       <div className={'flex flex-col justify-center items-center m-2'}>
         <h2 className={'text-2xl font-bold p-6'}>Finished!</h2>
@@ -83,7 +92,7 @@ export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => 
 
         <ul>
           {wrongAnswers.map(x => {
-            return <p><span className={'font-bold'}>{x.word}</span> &#x2192; {x.definition}</p>
+            return <p key={x.word}><span className={'font-bold'}>{x.word}</span> &#x2192; {x.definition}</p>
           })}
         </ul>
 
@@ -94,18 +103,19 @@ export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => 
     )
   }
 
+  const allEntries = [...dictionary]
+  allEntries.splice(index, 1)
+
   return (
     <div className={'flex justify-center flex-col mt-6 lg:mt-12 mb-6'}>
       <div className={'flex justify-center flex-row pb-2 lg:pb-6 space-x-2.5'}>
-        {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>
-        <p className={'text-xl text-rose-600'}>&#10006;</p>*/}
-        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{shuffledDictionary.length}</p>
+        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{dictionary.length}</p>
       </div>
       <div className="flex flex-row justify-center ">
-        <QuizCard entry={shuffledDictionary[index]}/>
+        <QuizCard entry={dictionary[index]}/>
       </div>
       <div className="flex flex-row justify-center ">
-        <QuizOptions incrementIndex={incrementIndex} entry={shuffledDictionary[index]} allEntries={shuffledDictionary}/>
+        <QuizOptions incrementIndex={incrementIndex} entry={dictionary[index]} allEntries={allEntries}/>
       </div>
     </div>
   )
