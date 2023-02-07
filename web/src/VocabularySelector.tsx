@@ -1,10 +1,8 @@
-import { orderDictionaryAlphtabetically,  dictionary, DictionaryEntry } from './dictionary';
+import { orderDictionaryAlphtabetically,  shuffleArray, dictionary as DEFAULT_DICTIONARY, DictionaryEntry } from './dictionary';
 import React, { useState } from 'react';
-
-const allCategories : string[] = Array.from(new Set(dictionary.map(x => x.wordGroup)))
-const allDates : string[] = Array.from(new Set(dictionary.map(x => x.dateAdded)))
-
-export const shuffledDictionary = orderDictionaryAlphtabetically(dictionary)
+ 
+const allCategories : string[] = Array.from(new Set(DEFAULT_DICTIONARY.map(x => x.wordGroup)))
+const allDates : string[] = Array.from(new Set(DEFAULT_DICTIONARY.map(x => x.dateAdded)))
 
 interface ButtonProps {
   i: number,
@@ -34,6 +32,7 @@ const Button = (props: ButtonProps) => {
 
 interface VocabularySelectorProps {
   nextCompoent: (props: { dictionary: DictionaryEntry[] }) => JSX.Element
+  shouldShuffle?: boolean
 }
 
 export const VocabularySelector = (props: VocabularySelectorProps) => {
@@ -46,7 +45,7 @@ export const VocabularySelector = (props: VocabularySelectorProps) => {
     const finalCategories = categories.filter(x => x[1]).map(x => x[0])
     const finalDates = dates.filter(x => x[1]).map(x => x[0])
 
-    const dictionary : DictionaryEntry[] = shuffledDictionary
+    const dictionary : DictionaryEntry[] = DEFAULT_DICTIONARY
       .filter(x => {
         const includesDate = finalDates.length > 0 ? finalDates.includes(x.dateAdded) : true
         const includesWorkdGroup = finalCategories.length > 0 ? finalCategories.includes(x.wordGroup) : true
@@ -56,14 +55,17 @@ export const VocabularySelector = (props: VocabularySelectorProps) => {
   }
 
   if (dictionary) {
-    return <props.nextCompoent dictionary={dictionary}/>
+    if (props.shouldShuffle) {
+      return <props.nextCompoent dictionary={shuffleArray(dictionary)}/>
+    }
+    return <props.nextCompoent dictionary={orderDictionaryAlphtabetically(dictionary)}/>
   }
 
   return <div className={'flex flex-col justify-center items-center m-2 py-6'}>
     <div className={'pb-6'}>
     <h3 className={'mb-2'}>Categories</h3>
     {categories.map((entry, i) => {
-      return <Button i={i} text={entry[0]} onClick={(value: boolean) => {
+      return <Button key={entry[0]} i={i} text={entry[0]} onClick={(value: boolean) => {
         const newCategories = [...categories]
         const ii = newCategories.findIndex(x => x[0] === entry[0])
         newCategories[ii][1] = value
@@ -74,7 +76,7 @@ export const VocabularySelector = (props: VocabularySelectorProps) => {
     <div>
     <h3 className={'mb-2'}>Dates</h3>
     {dates.map((entry, i) => {
-      return <Button i={i} text={entry[0]} onClick={(value: boolean) => {
+      return <Button key={entry[0]} i={i} text={entry[0]} onClick={(value: boolean) => {
         const newDates = [...dates]
         const i = newDates.findIndex(x => x[0] === entry[0])
         newDates[i][1] = value

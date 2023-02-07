@@ -29,11 +29,11 @@ const popMenuLinks : Record<string, { label: string, component: JSX.Element }> =
   },
   '/multiple-choice-quiz': {
     label: 'Multiple Choice Quiz',
-    component: <VocabularySelector nextCompoent={MultipleChoiceQuiz}/>
+    component: <VocabularySelector nextCompoent={MultipleChoiceQuiz} shouldShuffle={true}/>
   },
   '/writing-quiz': {
     label: 'Writing Quiz',
-    component: <VocabularySelector nextCompoent={WritingQuiz}/>
+    component: <VocabularySelector nextCompoent={WritingQuiz} shouldShuffle={true}/>
   },
   '/flash-cards': {
     label: 'Flash Cards',
