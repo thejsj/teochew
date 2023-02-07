@@ -14,7 +14,7 @@ interface Entry {
   definition: string | null;
 }
 
-const PATH = "./dist/word-definitions/";
+const PATH = "./dist/word-definitions-v2/";
 
 const files = readdirSync(PATH);
 
@@ -85,6 +85,6 @@ files.forEach((fileName: string) => {
 });
 
 writeFileSync(
-  "./dist/romanizations.json",
+  "./dist/romanizationsV2.json",
   JSON.stringify(dictionary, null, "  ")
 );
