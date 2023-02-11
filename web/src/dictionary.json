@@ -11,7 +11,7 @@
     "word": "zab8",
     "definition": "ten",
     "simplified": "十",
-    "traditional": "拾",
+    "traditional": "",
     "wordGroup": "Numbers",
     "dateAdded": "12/24/2023"
   },
@@ -59,7 +59,7 @@
     "word": "zêg8",
     "definition": "one",
     "simplified": "一",
-    "traditional": "壹",
+    "traditional": "",
     "wordGroup": "Numbers",
     "dateAdded": "12/24/2023"
   },
@@ -217,7 +217,7 @@
   },
   {
     "word": "zeg8coin1",
-    "definition": "zeg8coin1",
+    "definition": "one thousand",
     "simplified": "一千",
     "traditional": "壹仟",
     "wordGroup": "Numbers",
@@ -413,14 +413,6 @@
     "simplified": "五",
     "traditional": "伍",
     "wordGroup": "Numbers",
-    "dateAdded": "12/24/2023"
-  },
-  {
-    "word": "hua5ghe2",
-    "definition": "Chinese language",
-    "simplified": "?",
-    "traditional": "",
-    "wordGroup": "Basic Nouns",
     "dateAdded": "12/24/2023"
   },
   {
@@ -1256,30 +1248,6 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "sag4",
-    "definition": "louse, lice",
-    "simplified": "虱",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "zua5",
-    "definition": "snake",
-    "simplified": "蛇",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "tang5",
-    "definition": "worm",
-    "simplified": "虫",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "ciu7",
     "definition": "tree",
     "simplified": "树",
@@ -1293,46 +1261,6 @@
     "simplified": "叶",
     "traditional": "葉",
     "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "ging1",
-    "definition": "root",
-    "simplified": "根",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "ciu7puê5",
-    "definition": "bark",
-    "simplified": "树皮",
-    "traditional": "樹皮",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "huê1",
-    "definition": "flower",
-    "simplified": "花",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "cao2",
-    "definition": "grass",
-    "simplified": "草",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "soh4",
-    "definition": "rope",
-    "simplified": "索",
-    "traditional": "",
-    "wordGroup": "Basic Nouns",
     "dateAdded": "1/29/23"
   },
   {
@@ -1373,22 +1301,6 @@
     "simplified": "卵",
     "traditional": "",
     "wordGroup": "Food",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "gag4",
-    "definition": "horn",
-    "simplified": "角",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "bhuê2",
-    "definition": "tail",
-    "simplified": "尾",
-    "traditional": "",
-    "wordGroup": "Nature",
     "dateAdded": "1/29/23"
   },
   {
@@ -1456,14 +1368,6 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "zoin2gag4",
-    "definition": "fingernail",
-    "simplified": "指甲",
-    "traditional": "",
-    "wordGroup": "Body",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "ka1",
     "definition": "foot",
     "simplified": "跤",
@@ -1496,14 +1400,6 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "sig8",
-    "definition": "wing",
-    "simplified": "翼",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "am6",
     "definition": "neck",
     "simplified": "颔",
@@ -1528,14 +1424,6 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "guan1",
-    "definition": "liver",
-    "simplified": "肝",
-    "traditional": "",
-    "wordGroup": "Body",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "ga6",
     "definition": "bite",
     "simplified": "咬",
@@ -1556,22 +1444,6 @@
     "definition": "vomit",
     "simplified": "呕",
     "traditional": "嘔",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "bung5",
-    "definition": "blow",
-    "simplified": "",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "tao2kui7",
-    "definition": "breathe",
-    "simplified": "敨氣",
-    "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
   },
@@ -1672,25 +1544,9 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "liah8",
-    "definition": "hunt",
-    "simplified": "擸",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "pah4",
     "definition": "hit",
     "simplified": "拍",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "guah4",
-    "definition": "cut",
-    "simplified": "割",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1700,14 +1556,6 @@
     "definition": "split",
     "simplified": "分开",
     "traditional": "分開",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "bê5",
-    "definition": "scratch",
-    "simplified": "扒",
-    "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
   },
@@ -1739,14 +1587,6 @@
     "word": "kia6",
     "definition": "stand",
     "simplified": "企",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "ga1laoh8",
-    "definition": "fall",
-    "simplified": "咖落",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1784,90 +1624,10 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "dên6",
-    "definition": "squeeze",
-    "simplified": "",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "ciu3",
-    "definition": "rub",
-    "simplified": "璽",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "soin2",
     "definition": "wash",
     "simplified": "洗",
     "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "cig4",
-    "definition": "wipe",
-    "simplified": "拭",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "dui2",
-    "definition": "pull",
-    "simplified": "",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "lêng2",
-    "definition": "push",
-    "simplified": "攆",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "gag8",
-    "definition": "throw",
-    "simplified": "拽",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "bag8",
-    "definition": "tie",
-    "simplified": "缚",
-    "traditional": "縛",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "pong5",
-    "definition": "sew",
-    "simplified": "缝",
-    "traditional": "縫",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "tin7",
-    "definition": "sew",
-    "simplified": "紩",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "siao7",
-    "definition": "count",
-    "simplified": "数",
-    "traditional": "數",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
   },
@@ -1883,46 +1643,6 @@
     "word": "ciang3",
     "definition": "sing",
     "simplified": "唱",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "pu5",
-    "definition": "float",
-    "simplified": "浮",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "lao5",
-    "definition": "flow, drip",
-    "simplified": "流",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "gêg4seng1",
-    "definition": "freeze",
-    "simplified": "",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "gêg4dong1",
-    "definition": "freeze",
-    "simplified": "",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "zêng2",
-    "definition": "swell",
-    "simplified": "肿, 腫",
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "1/29/23"
@@ -1947,14 +1667,6 @@
     "word": "ghuêh8niên5",
     "definition": "moon",
     "simplified": "月亮",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "cêng1",
-    "definition": "star",
-    "simplified": "星",
     "traditional": "",
     "wordGroup": "Nature",
     "dateAdded": "1/29/23"
@@ -1992,105 +1704,9 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "zioh8",
-    "definition": "stone",
-    "simplified": "石",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "sua1",
-    "definition": "sand",
-    "simplified": "沙",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "di7giu5",
-    "definition": "earth(planet)",
-    "simplified": "地球",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "hung5",
-    "definition": "cloud",
-    "simplified": "云",
-    "traditional": "雲",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "tin1",
-    "definition": "sky",
-    "simplified": "天",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "huang1",
-    "definition": "wind",
-    "simplified": "风",
-    "traditional": "風",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "soh4",
-    "definition": "snow",
-    "simplified": "雪",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "bian1seng1",
-    "definition": "ice",
-    "simplified": "冰霜",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "ing1",
-    "definition": "smoke",
-    "simplified": "烟",
-    "traditional": "煙",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "huê2",
-    "definition": "fire",
-    "simplified": "火",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "siê1",
-    "definition": "burn",
-    "simplified": "烧",
-    "traditional": "燒",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
     "word": "lou7",
     "definition": "road",
     "simplified": "路",
-    "traditional": "",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "suan1",
-    "definition": "mountain",
-    "simplified": "山",
     "traditional": "",
     "wordGroup": "Nature",
     "dateAdded": "1/29/23"
@@ -2307,7 +1923,7 @@
     "word": "do6 lai6",
     "definition": "in",
     "simplified": "在⋯⋯内",
-    "traditional": "在⋯⋯內",
+    "traditional": "",
     "wordGroup": "Location",
     "dateAdded": "1/29/23"
   },
@@ -2366,5 +1982,29 @@
     "traditional": "電視",
     "wordGroup": "Basic Nouns",
     "dateAdded": "1/29/23"
+  },
+  {
+    "word": "bhoi",
+    "definition": "not",
+    "simplified": "袂",
+    "traditional": "",
+    "wordGroup": "Adverbs",
+    "dateAdded": "2/5/2023"
+  },
+  {
+    "word": "ziah8",
+    "definition": "eat",
+    "simplified": "食",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/5/2023"
+  },
+  {
+    "word": "oh4",
+    "definition": "difficult",
+    "simplified": "戹",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/5/2023"
   }
 ]

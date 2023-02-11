@@ -24,8 +24,8 @@ axios({
       simplified: row[2] || "",
       traditional: row[3] || "",
       // row[4] is slang?
-      wordGroup: row[5] || "",
-      dateAdded: row[6] || "",
+      wordGroup: row[7] || "",
+      dateAdded: row[8] || "",
     };
   });
 
