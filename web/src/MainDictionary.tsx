@@ -1,6 +1,5 @@
 import React, { useRef, useState, useMemo, useEffect } from 'react';
 import { AutomcompletionInputField } from './AutomcompletionInputField'
-import { convertPemgImToIPA } from './lib/main'
 
 import { DefinitionLookupDictionary as dict, SearchEntry, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
 
@@ -66,45 +65,6 @@ const MatchEntryView = (props: MatchEntryViewProps) => {
       </div>
     </div>
   )
-}
-
-interface IPADisplayProps {
-  currentWord: string
-}
-
-const IPADisplay = (props: IPADisplayProps) => {
-  const { currentWord } = props
-  const [selectedClass, setSelectedClass] = useState("")
-  const ipaWord = convertPemgImToIPA(currentWord)
-
-
-  const handleClick = () => {
-    navigator.clipboard.writeText(ipaWord);
-    setSelectedClass("bg-amber-200")
-  }
-
-  useEffect(() => {
-    if (selectedClass !== "") {
-      setTimeout(() => {
-        setSelectedClass("")
-      }, 100)
-    }
-  }, [selectedClass, setSelectedClass])
-
-  if (currentWord === '') {
-    return null
-  }
-
-  // TODO: Add interactive syllable pronunciations
-  return <>
-    <div className={"flex flex-column items-center"}>
-      <div className={'font-bold'}>IPA</div>
-      <div className={'cursor-pointer ml-4 rounded-lg p-2 px-4 text-slate-600 w-full text-lg border-2 flex flex-column justify-between items-center duration-100 transition-colors select-none ' + selectedClass} onClick={handleClick}>
-        <span>{ipaWord}</span>
-        <button className={'pointer-events-none select-none'}>Copy</button>
-      </div>
-    </div>
-  </>
 }
 
 export const MainDictionary = () => {
