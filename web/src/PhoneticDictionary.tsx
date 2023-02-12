@@ -2,9 +2,27 @@ import React, { useRef, useState, useMemo, useEffect } from 'react';
 import { AutomcompletionInputField } from './AutomcompletionInputField'
 import { convertPemgImToIPA } from './lib/main'
 
-import { PengImDictionary, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
+import { PhoneticDictionary as phoneticDict, SearchEntry, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
 
 import { useLocation } from "wouter";
+
+const entries: SearchEntry[] = [];
+for (var entry of Object.keys(phoneticDict)) {
+  if (!entry.includes(" ")) {
+    const characters = phoneticDict[entry].result.join(' / ')
+    entries.push({ queryTerm: entry, title: entry, subTitle: characters });
+  }
+}
+
+function getPhoneticFilter(inputValue: string | undefined) {
+  return function filter(entry: SearchEntry) {
+    return (
+      !inputValue ||
+      entry.queryTerm?.toLowerCase().replace('ê', 'e').includes(inputValue) ||
+      entry.subTitle?.toLowerCase().includes(inputValue)
+    );
+  };
+}
 
 interface MatchEntryViewProps {
   match: CharacterEntry
@@ -87,12 +105,12 @@ export const PhoneticDictionary = () => {
   const inputEl = useRef(null);
 
   const matches = useMemo<CharacterEntry[]>(() => {
-    const entry = PengImDictionary[text];
+    const entry = phoneticDict[text];
     if (!entry) {
       return []
     }
-    const missing = entry.definitions.filter(x => !CharacterDictionary[x])
-    const present = entry.definitions.filter(x => CharacterDictionary[x])
+    const missing = entry.result.filter(x => !CharacterDictionary[x])
+    const present = entry.result.filter(x => CharacterDictionary[x])
     console.warn('The following symbols are missing definitions', missing);
     return present.map(x => {
       return CharacterDictionary[x]
@@ -126,7 +144,13 @@ export const PhoneticDictionary = () => {
     <div>
       <div className="flex justify-center mt-12 mb-6">
         <div className="px-4 w-full md:w-2/3 md:max-w-3xl">
-          <AutomcompletionInputField currentWord={text} setCurrentWord={setText} inputRef={inputEl}/>
+          <AutomcompletionInputField
+            currentWord={text}
+            setCurrentWord={setText}
+            inputRef={inputEl}
+            entries={entries}
+            filter={getPhoneticFilter}
+          />
         </div>
       </div>
 

@@ -4,42 +4,26 @@ import { useCombobox } from "downshift";
 import classNames from "classnames";
 import "./App.css";
 
-import { PengImDictionary,  WordEntry } from './types'
-
-const entries: WordEntry[] = [];
-for (var entry of Object.keys(PengImDictionary)) {
-  if (!entry.includes(" ")) {
-    const characters = PengImDictionary[entry].definitions.join(' / ')
-    entries.push({ word: entry, characters, definitions: entry });
-  }
-}
+import {  SearchEntry } from './types'
 
 function estimateSize() {
   return 60;
-}
-
-function getBooksFilter(inputValue: string | undefined) {
-  return function booksFilter(entry: WordEntry) {
-    return (
-      !inputValue ||
-      entry.word?.toLowerCase().replace('ê', 'e').includes(inputValue) ||
-      entry.characters?.toLowerCase().includes(inputValue)
-    );
-  };
 }
 
 interface AutomcompletionInputFieldPros {
   currentWord: string;
   setCurrentWord: (str: string) => void;
   inputRef: React.RefObject<HTMLInputElement>;
-
+  entries: SearchEntry[]
+  filter: (inputValue: string | undefined) => (entry: SearchEntry) => boolean
 }
 
 export const AutomcompletionInputField = (
   props: AutomcompletionInputFieldPros
 ) => {
   const { currentWord, setCurrentWord } = props;
-  const [items, setItems] = useState<WordEntry[]>(entries);
+  const entries = props.entries
+  const [items, setItems] = useState<SearchEntry[]>(entries);
 
   const listRef = useRef() as React.MutableRefObject<HTMLInputElement>;
   const rowVirtualizer = useVirtual({
@@ -57,11 +41,14 @@ export const AutomcompletionInputField = (
     getItemProps,
     selectedItem,
   } = useCombobox({ items, inputValue: currentWord, onInputValueChange({ inputValue }) {
-      setItems(entries.filter(getBooksFilter(inputValue)));
+      const items = entries.filter(props.filter(inputValue)).sort((a, b) => {
+        return a.subTitle.length > b.subTitle.length ? 1 : -1
+      })
+      setItems(items);
       setCurrentWord(inputValue?.toLowerCase() || "");
     },
     itemToString(item) {
-      return item && item.word ? item.word : "";
+      return item && item.queryTerm ? item.queryTerm : "";
     },
     scrollIntoView() {},
     onHighlightedIndexChange({ highlightedIndex: number }) {
@@ -81,32 +68,23 @@ export const AutomcompletionInputField = (
             ref={props.inputRef}
             {...getInputProps()}
           />
-          {/*
-          <button
-            aria-label="toggle menu"
-            className="px-2"
-            type="button"
-            {...getToggleButtonProps()}
-          >
-            {isOpen ? <>&#8593;</> : <>&#8595;</>}
-          </button>
-          */}
         </div>
       <ul
         {...getMenuProps({ref: listRef})}
-        className="absolute z-40 mt-24 max-w-2xl md:w-2/3 p-0 w-full bg-white shadow-md max-h-80 overflow-scroll"
+        className="absolute z-40 mt-24 max-w-2xl md:w-2/3 p-0 w-full bg-white shadow-md max-h-80 overflow-y-scroll overflow-x-hidden"
       >
         {isOpen && (
           <>
             <li key="total-size" style={{height: rowVirtualizer.totalSize}} />
-            {rowVirtualizer.virtualItems.map(virtualRow => (
-              <li
+            {rowVirtualizer.virtualItems.map(virtualRow => {
+              console.log(items[virtualRow.index])
+              return (<li
                 className={classNames(
                   highlightedIndex === virtualRow.index && 'bg-blue-300',
                   selectedItem === items[virtualRow.index] && 'font-bold',
                   'py-2 px-3 shadow-sm flex flex-col',
                 )}
-                key={items[virtualRow.index].word}
+                key={items[virtualRow.index].queryTerm}
                 {...getItemProps({
                   index: virtualRow.index,
                   item: items[virtualRow.index],
@@ -120,12 +98,12 @@ export const AutomcompletionInputField = (
                   transform: `translateY(${virtualRow.start}px)`,
                 }}
               >
-                <span>{items[virtualRow.index].word}</span>
+                <span>{items[virtualRow.index].title}</span>
                 <span className="text-sm text-gray-700">
-                  {items[virtualRow.index].characters}
+                  {items[virtualRow.index].subTitle}
                 </span>
-              </li>
-            ))}
+              </li>)
+            })}
           </>
         )}
       </ul>

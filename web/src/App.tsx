@@ -28,10 +28,10 @@ const popMenuLinks : Record<string, { label: string, component: JSX.Element }> =
     label: 'Phonetic Dictionary',
     component: <PhoneticDictionary/>
   },
-  // '/dictionary': {
-    // label: 'Dictionary',
-    // component: <MainDictionary />
-  // },
+  '/dictionary': {
+    label: 'Dictionary',
+    component: <MainDictionary />
+  },
   '/multiple-choice-quiz': {
     label: 'Multiple Choice Quiz',
     component: <VocabularySelector nextCompoent={MultipleChoiceQuiz} shouldShuffle={true}/>

@@ -7,7 +7,7 @@ export interface RomanizationEntry {
 export interface Entry {
   simplifiedChar: string;
   traditionalChar: string;
-  romanizations: RomaniationEntry[];
+  romanizations: RomanizationEntry[];
   definition: string | null;
 }
 
@@ -24,4 +24,9 @@ export interface EntryCustom {
 export interface PhoneticEntry {
   pengIm: string
   definitions: string[]
+}
+
+export interface LookupEntry {
+  lookup: string
+  result: string[]
 }

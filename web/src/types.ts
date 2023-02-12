@@ -1,9 +1,15 @@
-import pengImDictionary from "./phonetic-dictionary.json";
+import phoneticDictionaryJSON from "./phonetic-dictionary.json";
+import definitionLookup from "./definition-lookup.json";
 import romanizations from "./dictionary.json";
 
-export const PengImDictionary = pengImDictionary as unknown as Record<
+export const PhoneticDictionary = phoneticDictionaryJSON as unknown as Record<
   string,
-  DictionaryEntry
+  LookupEntry
+>;
+
+export const DefinitionLookupDictionary = definitionLookup as unknown as Record<
+  string,
+  LookupEntry
 >;
 
 export const CharacterDictionary = romanizations as unknown as Record<
@@ -29,16 +35,15 @@ export const Romanization = romanizations as unknown as Record<
   DictionaryEntry
 >;
 
-export interface DictionaryEntry {
-  pengIm: string;
-  IPA: string;
-  definitions: Definition[];
+export interface LookupEntry {
+  lookup: string;
+  result: string[];
 }
 
-export interface WordEntry {
-  word: string;
-  characters: string;
-  definitions: string;
+export interface SearchEntry {
+  queryTerm: string
+  title: string;
+  subTitle: string;
 }
 
 export type Definition = string;
