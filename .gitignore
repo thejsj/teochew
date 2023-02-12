@@ -4,3 +4,4 @@ scripts/dist/word-definitions-v2
 web/node_modules
 server/node_modules
 .DS_Store
+docs
