@@ -3,6 +3,7 @@ import './App.css';
 
 import { PhoneticDictionary } from './PhoneticDictionary'
 import { MultipleChoiceQuiz } from './MultipleChoiceQuiz'
+import { MainDictionary } from './MainDictionary'
 import { WritingQuiz } from './WritingQuiz'
 import { FlashCards, FlashCardSingleCard  } from './FlashCards'
 import { Menu } from '@headlessui/react'
@@ -27,6 +28,10 @@ const popMenuLinks : Record<string, { label: string, component: JSX.Element }> =
     label: 'Phonetic Dictionary',
     component: <PhoneticDictionary/>
   },
+  // '/dictionary': {
+    // label: 'Dictionary',
+    // component: <MainDictionary />
+  // },
   '/multiple-choice-quiz': {
     label: 'Multiple Choice Quiz',
     component: <VocabularySelector nextCompoent={MultipleChoiceQuiz} shouldShuffle={true}/>
