@@ -1,18 +1,7 @@
 import * as cheerio from "cheerio";
 import { readdirSync, readFileSync, writeFileSync } from "fs";
 
-interface RomaniationEntry {
-  pengIm: string;
-  symbol: string;
-  soundLink?: string;
-}
-
-interface Entry {
-  simplifiedChar: string;
-  traditionalChar: string;
-  romanizations: RomaniationEntry[];
-  definition: string | null;
-}
+import { RomanizationEntry, Entry } from './types'
 
 const PATH = "./dist/word-definitions-v2/";
 
@@ -78,6 +67,11 @@ files.forEach((fileName: string) => {
         });
       });
   });
+
+  if (!simplifiedChar || simplifiedChar.length === 0) {
+    return
+  }
+
   dictionary[simplifiedChar] = entry;
   if (traditionalChar) {
     dictionary[traditionalChar] = entry;
@@ -85,6 +79,6 @@ files.forEach((fileName: string) => {
 });
 
 writeFileSync(
-  "./dist/romanizationsV2.json",
+  "./dist/dictionary.scraped.json",
   JSON.stringify(dictionary, null, "  ")
 );

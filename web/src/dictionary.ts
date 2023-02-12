@@ -1,4 +1,4 @@
-const dictionaryJSON = require("./dictionary.json");
+const dictionaryJSON = require("./dictionary.custom.json");
 
 export interface DictionaryEntry {
   word: string;

@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-dictionary": "node build-dictionary.ts"
+    "fetch-dictionary": "ts-node fetch-dictionary.ts",
+    "scrape": "ts-node scrape-chinese-chars.ts",
+    "generate-main": "ts-node generate-main-dictionary.ts",
+    "generate-phonetic": "ts-node generate-phonetic-dictionary.ts",
+    "generate-sound": "ts-node generate-sound-dictionary.ts"
   },
   "author": "",
   "license": "ISC",

@@ -5124,12 +5124,8 @@
   },
   "佮": {
     "simplifiedChar": "佮",
-    "definition": "with, and; (Cant.) intensive particle",
-    "romanizations": [
-      {
-        "pengIm": "gah8"
-      }
-    ]
+    "definition": "(Cant.) intensive particle",
+    "romanizations": []
   },
   "佯": {
     "simplifiedChar": "佯",
@@ -9325,7 +9321,7 @@
   },
   "捌": {
     "simplifiedChar": "捌",
-    "definition": "know; break open, split open; an accounting version of the numeral eight",
+    "definition": "break open, split open; an accounting version of the numeral eight",
     "romanizations": [
       {
         "pengIm": "boih4",
@@ -9336,9 +9332,6 @@
         "pengIm": "bag4",
         "symbol": "文",
         "soundLink": "/sound/syllabes/pak4.mp3"
-      },
-      {
-        "pengIm": "pag8"
       }
     ]
   },
@@ -15129,15 +15122,12 @@
   },
   "戹": {
     "simplifiedChar": "戹",
-    "definition": "difficult; In difficulty, distressed",
+    "definition": "In difficulty, distressed",
     "romanizations": [
       {
         "pengIm": "êh4",
         "symbol": "白",
         "soundLink": "/sound/syllabes/eh4.mp3"
-      },
-      {
-        "pengIm": "oh4"
       }
     ]
   },
@@ -15998,7 +15988,7 @@
   },
   "叔": {
     "simplifiedChar": "叔",
-    "definition": "uncle (dad's side); father's younger brother",
+    "definition": "father's younger brother",
     "romanizations": [
       {
         "pengIm": "sog4",
@@ -16009,9 +15999,6 @@
         "pengIm": "zêg4",
         "symbol": "白",
         "soundLink": "/sound/syllabes/tsek4.mp3"
-      },
-      {
-        "pengIm": "zêg5"
       }
     ]
   },
@@ -18095,15 +18082,12 @@
   },
   "味": {
     "simplifiedChar": "味",
-    "definition": "flavor; taste, smell, odor; delicacy",
+    "definition": "taste, smell, odor; delicacy",
     "romanizations": [
       {
         "pengIm": "bhi7",
         "symbol": "文",
         "soundLink": "/sound/syllabes/bi7.mp3"
-      },
-      {
-        "pengIm": "bhi5"
       }
     ]
   },
@@ -18157,7 +18141,7 @@
   },
   "呸": {
     "simplifiedChar": "呸",
-    "definition": "spit; expression of reprimand",
+    "definition": "expression of reprimand",
     "romanizations": [
       {
         "pengIm": "pai2",
@@ -18167,9 +18151,6 @@
       {
         "pengIm": "pui2",
         "soundLink": "/sound/syllabes/phui2.mp3"
-      },
-      {
-        "pengIm": "pui3"
       }
     ]
   },
@@ -18813,15 +18794,12 @@
   "咱": {
     "simplifiedChar": "咱",
     "traditionalChar": "喒",
-    "definition": "we; us",
+    "definition": "us",
     "romanizations": [
       {
         "pengIm": "za1",
         "symbol": "文",
         "soundLink": "/sound/syllabes/tsa1.mp3"
-      },
-      {
-        "pengIm": "nang2"
       }
     ]
   },
@@ -22448,15 +22426,12 @@
   "嘴": {
     "simplifiedChar": "嘴",
     "traditionalChar": "咀",
-    "definition": "mouth; mouth, lips",
+    "definition": "mouth, lips",
     "romanizations": [
       {
         "pengIm": "cui3",
         "symbol": "俗",
         "soundLink": "/sound/syllabes/tshui3.mp3"
-      },
-      {
-        "pengIm": "cui7"
       }
     ]
   },
@@ -28405,15 +28380,12 @@
   },
   "多": {
     "simplifiedChar": "多",
-    "definition": "more; much, many; more than, over",
+    "definition": "much, many; more than, over",
     "romanizations": [
       {
         "pengIm": "do1",
         "symbol": "文",
         "soundLink": "/sound/syllabes/to1.mp3"
-      },
-      {
-        "pengIm": "ge1"
       }
     ]
   },
@@ -29539,7 +29511,7 @@
   "妈": {
     "simplifiedChar": "妈",
     "traditionalChar": "媽",
-    "definition": "mother; mother, mama",
+    "definition": "mother, mama",
     "romanizations": [
       {
         "pengIm": "ma1",
@@ -29555,9 +29527,6 @@
         "pengIm": "ma2",
         "symbol": "白",
         "soundLink": "/sound/syllabes/ma2.mp3"
-      },
-      {
-        "pengIm": "ai1"
       }
     ]
   },
@@ -34246,7 +34215,7 @@
   },
   "寒": {
     "simplifiedChar": "寒",
-    "definition": "cold; cold, wintry, chilly",
+    "definition": "cold, wintry, chilly",
     "romanizations": [
       {
         "pengIm": "hang5",
@@ -34257,9 +34226,6 @@
         "pengIm": "guan5",
         "symbol": "白",
         "soundLink": "/sound/syllabes/kua~5.mp3"
-      },
-      {
-        "pengIm": "ngang5"
       }
     ]
   },
@@ -34807,15 +34773,12 @@
   },
   "尖": {
     "simplifiedChar": "尖",
-    "definition": "sharp; sharp, pointed, acute, keen",
+    "definition": "sharp, pointed, acute, keen",
     "romanizations": [
       {
         "pengIm": "ziem1",
         "symbol": "文",
         "soundLink": "/sound/syllabes/tsiem1.mp3"
-      },
-      {
-        "pengIm": "ziam1"
       }
     ]
   },
@@ -50598,7 +50561,7 @@
   },
   "挈": {
     "simplifiedChar": "挈",
-    "definition": "bring; assist, help, lead by hand，take",
+    "definition": "assist, help, lead by hand，take",
     "romanizations": [
       {
         "pengIm": "kiêg4",
@@ -50608,9 +50571,6 @@
       {
         "pengIm": "kiêh8",
         "symbol": "白"
-      },
-      {
-        "pengIm": "kiêg8"
       }
     ]
   },
@@ -54818,15 +54778,12 @@
   },
   "擒": {
     "simplifiedChar": "擒",
-    "definition": "hold; ◎ catch, capture, seize, arrest",
+    "definition": "◎ catch, capture, seize, arrest",
     "romanizations": [
       {
         "pengIm": "kim5",
         "symbol": "文",
         "soundLink": "/sound/syllabes/khim5.mp3"
-      },
-      {
-        "pengIm": "ngim6"
       }
     ]
   },
@@ -69273,7 +69230,7 @@
   },
   "母": {
     "simplifiedChar": "母",
-    "definition": "grandma; mother; female elders; female",
+    "definition": "mother; female elders; female",
     "romanizations": [
       {
         "pengIm": "bho2",
@@ -69289,9 +69246,6 @@
         "pengIm": "bhou2",
         "symbol": "文",
         "soundLink": "/sound/syllabes/bou2.mp3"
-      },
-      {
-        "pengIm": "ma2"
       }
     ]
   },
@@ -72589,7 +72543,7 @@
   "洗": {
     "simplifiedChar": "洗",
     "traditionalChar": "冼",
-    "definition": "wash; wash, rinse; clean, purify",
+    "definition": "wash, rinse; clean, purify",
     "romanizations": [
       {
         "pengIm": "soi2",
@@ -72600,9 +72554,6 @@
         "pengIm": "siêng2",
         "symbol": "文",
         "soundLink": "/sound/syllabes/sieng2.mp3"
-      },
-      {
-        "pengIm": "soin2"
       }
     ]
   },
@@ -73219,15 +73170,12 @@
   "济": {
     "simplifiedChar": "济",
     "traditionalChar": "濟",
-    "definition": "many; help, aid, relieve; ferry, cross",
+    "definition": "help, aid, relieve; ferry, cross",
     "romanizations": [
       {
         "pengIm": "zi3",
         "symbol": "文",
         "soundLink": "/sound/syllabes/tsi3.mp3"
-      },
-      {
-        "pengIm": "zoi7"
       }
     ]
   },
@@ -77807,12 +77755,8 @@
   },
   "潐": {
     "simplifiedChar": "潐",
-    "definition": "dry; null",
-    "romanizations": [
-      {
-        "pengIm": "dan1"
-      }
-    ]
+    "definition": null,
+    "romanizations": []
   },
   "潒": {
     "simplifiedChar": "潒",
@@ -78462,7 +78406,7 @@
   },
   "澹": {
     "simplifiedChar": "澹",
-    "definition": "wet; calm, quiet, tranquil",
+    "definition": "calm, quiet, tranquil",
     "romanizations": [
       {
         "pengIm": "dan6",
@@ -78473,9 +78417,6 @@
         "pengIm": "tam5",
         "symbol": "文",
         "soundLink": "/sound/syllabes/tham5.mp3"
-      },
-      {
-        "pengIm": "dam5"
       }
     ]
   },
@@ -83008,7 +82949,7 @@
   },
   "爸": {
     "simplifiedChar": "爸",
-    "definition": "father; father, papa",
+    "definition": "father, papa",
     "romanizations": [
       {
         "pengIm": "ba1",
@@ -83019,9 +82960,6 @@
         "pengIm": "ba5",
         "symbol": "文",
         "soundLink": "/sound/syllabes/pa5.mp3"
-      },
-      {
-        "pengIm": "bê6"
       }
     ]
   },
@@ -92612,15 +92550,12 @@
   "盐": {
     "simplifiedChar": "盐",
     "traditionalChar": "鹽",
-    "definition": "salt; salt",
+    "definition": "salt",
     "romanizations": [
       {
         "pengIm": "iem5",
         "symbol": "文",
         "soundLink": "/sound/syllabes/iem5.mp3"
-      },
-      {
-        "pengIm": "iam5"
       }
     ]
   },
@@ -96744,7 +96679,7 @@
   "碱": {
     "simplifiedChar": "碱",
     "traditionalChar": "鹹",
-    "definition": "salty; alkaline, alkali, lye, salt",
+    "definition": "alkaline, alkali, lye, salt",
     "romanizations": [
       {
         "pengIm": "giem5",
@@ -96755,9 +96690,6 @@
         "pengIm": "giem2",
         "symbol": "白",
         "soundLink": "/sound/syllabes/kiem2.mp3"
-      },
-      {
-        "pengIm": "giam5"
       }
     ]
   },
@@ -103085,7 +103017,7 @@
   "箸": {
     "simplifiedChar": "著",
     "traditionalChar": "箸",
-    "definition": "chopsticks; manifest; (Cant.) to wear",
+    "definition": "manifest; (Cant.) to wear",
     "romanizations": [
       {
         "pengIm": "du3",
@@ -103096,9 +103028,6 @@
         "pengIm": "diêh4",
         "symbol": "白",
         "soundLink": "/sound/syllabes/tieh4.mp3"
-      },
-      {
-        "pengIm": "de7"
       }
     ]
   },
@@ -113623,7 +113552,7 @@
   },
   "肚": {
     "simplifiedChar": "肚",
-    "definition": "belly; belly; abdomen; bowels",
+    "definition": "belly; abdomen; bowels",
     "romanizations": [
       {
         "pengIm": "dou2",
@@ -113634,9 +113563,6 @@
         "pengIm": "dou6",
         "symbol": "白",
         "soundLink": "/sound/syllabes/tou6.mp3"
-      },
-      {
-        "pengIm": "dhou2"
       }
     ]
   },
@@ -129608,7 +129534,7 @@
   },
   "行": {
     "simplifiedChar": "行",
-    "definition": "walk; go; walk; move, travel; circulate",
+    "definition": "go; walk; move, travel; circulate",
     "romanizations": [
       {
         "pengIm": "gian5",
@@ -129629,9 +129555,6 @@
         "pengIm": "hêng6",
         "symbol": "文",
         "soundLink": "/sound/syllabes/heng6.mp3"
-      },
-      {
-        "pengIm": "gian1"
       }
     ]
   },
@@ -130095,15 +130018,12 @@
   },
   "袂": {
     "simplifiedChar": "袂",
-    "definition": "not; sleeves",
+    "definition": "sleeves",
     "romanizations": [
       {
         "pengIm": "mi6",
         "symbol": "文",
         "soundLink": "/sound/syllabes/mi6.mp3"
-      },
-      {
-        "pengIm": "bhoi"
       }
     ]
   },
@@ -141874,15 +141794,12 @@
   },
   "跤": {
     "simplifiedChar": "跤",
-    "definition": "foot; stumble, fall down; wrestle",
+    "definition": "stumble, fall down; wrestle",
     "romanizations": [
       {
         "pengIm": "gao1",
         "symbol": "文",
         "soundLink": "/sound/syllabes/kau1.mp3"
-      },
-      {
-        "pengIm": "ka1"
       }
     ]
   },
@@ -146048,14 +145965,11 @@
   },
   "近": {
     "simplifiedChar": "近",
-    "definition": "near; near, close; approach; intimate",
+    "definition": "near, close; approach; intimate",
     "romanizations": [
       {
         "pengIm": "geng6",
         "symbol": "文"
-      },
-      {
-        "pengIm": "gêng6"
       }
     ]
   },
@@ -159947,7 +159861,7 @@
   },
   "阮": {
     "simplifiedChar": "阮",
-    "definition": "We (exclusive); ancient musical instrument: surname",
+    "definition": "ancient musical instrument: surname",
     "romanizations": [
       {
         "pengIm": "nguêng2",
@@ -159958,9 +159872,6 @@
         "pengIm": "ung2",
         "symbol": "白",
         "soundLink": "/sound/syllabes/ung2.mp3"
-      },
-      {
-        "pengIm": "uang2nang2"
       }
     ]
   },
@@ -165833,7 +165744,7 @@
   "饭": {
     "simplifiedChar": "饭",
     "traditionalChar": "飯",
-    "definition": "rice, food; cooked rice; food, meal",
+    "definition": "cooked rice; food, meal",
     "romanizations": [
       {
         "pengIm": "bung7",
@@ -165844,9 +165755,6 @@
         "pengIm": "huêng6",
         "symbol": "文",
         "soundLink": "/sound/syllabes/hueng6.mp3"
-      },
-      {
-        "pengIm": "beng7"
       }
     ]
   },
@@ -173824,15 +173732,12 @@
   "鸟": {
     "simplifiedChar": "鸟",
     "traditionalChar": "鳥",
-    "definition": "bird; bird; KangXi radical 196",
+    "definition": "bird; KangXi radical 196",
     "romanizations": [
       {
         "pengIm": "zieu2",
         "symbol": "文",
         "soundLink": "/sound/syllabes/tsieu2.mp3"
-      },
-      {
-        "pengIm": "ziao2"
       }
     ]
   },
@@ -179037,770 +178942,5 @@
     "simplifiedChar": "龥",
     "definition": "beg, appeal for help",
     "romanizations": []
-  },
-  "聪明": {
-    "simplifiedChar": "聪明",
-    "traditionalChar": "聰明",
-    "definition": "smart",
-    "romanizations": [
-      {
-        "pengIm": "cong1mêng5",
-        "symbol": ""
-      }
-    ]
-  },
-  "只阵": {
-    "simplifiedChar": "只阵",
-    "traditionalChar": "只陣",
-    "definition": "now",
-    "romanizations": [
-      {
-        "pengIm": "zia2(6)zong1",
-        "symbol": ""
-      }
-    ]
-  },
-  "咖喱": {
-    "simplifiedChar": "咖喱",
-    "traditionalChar": "",
-    "definition": "curry",
-    "romanizations": [
-      {
-        "pengIm": "ga1li5",
-        "symbol": ""
-      }
-    ]
-  },
-  "学校": {
-    "simplifiedChar": "学校",
-    "traditionalChar": "學校",
-    "definition": "school",
-    "romanizations": [
-      {
-        "pengIm": "hag8hao6",
-        "symbol": ""
-      }
-    ]
-  },
-  "朋友": {
-    "simplifiedChar": "朋友",
-    "traditionalChar": "",
-    "definition": "friend",
-    "romanizations": [
-      {
-        "pengIm": "pêng5ui2",
-        "symbol": ""
-      }
-    ]
-  },
-  "一千": {
-    "simplifiedChar": "一千",
-    "traditionalChar": "壹仟",
-    "definition": "one thousand",
-    "romanizations": [
-      {
-        "pengIm": "zeg8coin1",
-        "symbol": ""
-      }
-    ]
-  },
-  "喜欢": {
-    "simplifiedChar": "喜欢",
-    "traditionalChar": "喜歡",
-    "definition": "to like",
-    "romanizations": [
-      {
-        "pengIm": "hi2huan1",
-        "symbol": ""
-      }
-    ]
-  },
-  "肚饿": {
-    "simplifiedChar": "肚饿",
-    "traditionalChar": "肚餓",
-    "definition": "hungry; hungry",
-    "romanizations": [
-      {
-        "pengIm": "dhou2gho7",
-        "symbol": ""
-      },
-      {
-        "pengIm": "dhou2iau3"
-      }
-    ]
-  },
-  "大家": {
-    "simplifiedChar": "大家",
-    "traditionalChar": "",
-    "definition": "everybody",
-    "romanizations": [
-      {
-        "pengIm": "dai6gê1",
-        "symbol": ""
-      }
-    ]
-  },
-  "笑乜个": {
-    "simplifiedChar": "笑乜个",
-    "traditionalChar": "笑乜個",
-    "definition": "laugh you what? What are you laughing about?",
-    "romanizations": [
-      {
-        "pengIm": "ciê3mi1gai5",
-        "symbol": ""
-      }
-    ]
-  },
-  "真喜欢": {
-    "simplifiedChar": "真喜欢",
-    "traditionalChar": "真喜歡",
-    "definition": "my favorite, like the most",
-    "romanizations": [
-      {
-        "pengIm": "zing1hi2huan1",
-        "symbol": ""
-      }
-    ]
-  },
-  "一百": {
-    "simplifiedChar": "一百",
-    "traditionalChar": "壹百",
-    "definition": "one hundred",
-    "romanizations": [
-      {
-        "pengIm": "zêg8bêh4",
-        "symbol": ""
-      }
-    ]
-  },
-  "蘋果": {
-    "simplifiedChar": "蘋果",
-    "traditionalChar": "",
-    "definition": "apple",
-    "romanizations": [
-      {
-        "pengIm": "ping5guê2",
-        "symbol": ""
-      }
-    ]
-  },
-  "昨日": {
-    "simplifiedChar": "昨日",
-    "traditionalChar": "",
-    "definition": "yesterday",
-    "romanizations": [
-      {
-        "pengIm": "za2rig8",
-        "symbol": ""
-      }
-    ]
-  },
-  "今 日": {
-    "simplifiedChar": "今 日",
-    "traditionalChar": "",
-    "definition": "today",
-    "romanizations": [
-      {
-        "pengIm": "gim1rig8",
-        "symbol": ""
-      }
-    ]
-  },
-  "明日": {
-    "simplifiedChar": "明日",
-    "traditionalChar": "",
-    "definition": "tomorrow evening; tomorrow",
-    "romanizations": [
-      {
-        "pengIm": "ma1rig8",
-        "symbol": ""
-      },
-      {
-        "pengIm": "ma1ki5"
-      }
-    ]
-  },
-  "等 一下": {
-    "simplifiedChar": "等 一下",
-    "traditionalChar": "",
-    "definition": "wait a second / wait a minute\n",
-    "romanizations": [
-      {
-        "pengIm": "dang2zêg8ê7\n",
-        "symbol": ""
-      }
-    ]
-  },
-  "钟点": {
-    "simplifiedChar": "钟点",
-    "traditionalChar": "鐘點",
-    "definition": "hour\n",
-    "romanizations": [
-      {
-        "pengIm": "zêng1diem2\n\n",
-        "symbol": ""
-      }
-    ]
-  },
-  "汝侬": {
-    "simplifiedChar": "汝侬",
-    "traditionalChar": "汝儂",
-    "definition": "You (plural)",
-    "romanizations": [
-      {
-        "pengIm": "leu2(6)nang7",
-        "symbol": ""
-      }
-    ]
-  },
-  "伊侬": {
-    "simplifiedChar": "伊侬",
-    "traditionalChar": "伊儂",
-    "definition": "they",
-    "romanizations": [
-      {
-        "pengIm": "i1nang7",
-        "symbol": ""
-      }
-    ]
-  },
-  "只個": {
-    "simplifiedChar": "只個",
-    "traditionalChar": "",
-    "definition": "This (noun)",
-    "romanizations": [
-      {
-        "pengIm": "zi2gai5",
-        "symbol": ""
-      }
-    ]
-  },
-  "许個": {
-    "simplifiedChar": "许個",
-    "traditionalChar": "許個",
-    "definition": "That (noun)",
-    "romanizations": [
-      {
-        "pengIm": "he2gai5",
-        "symbol": ""
-      }
-    ]
-  },
-  "只撮物": {
-    "simplifiedChar": "只撮物",
-    "traditionalChar": "",
-    "definition": "these things",
-    "romanizations": [
-      {
-        "pengIm": "zi2coh4muêh8",
-        "symbol": ""
-      }
-    ]
-  },
-  "许撮物": {
-    "simplifiedChar": "许撮物",
-    "traditionalChar": "許撮物",
-    "definition": "those things",
-    "romanizations": [
-      {
-        "pengIm": "he2coh4muêh8",
-        "symbol": ""
-      }
-    ]
-  },
-  "目涩": {
-    "simplifiedChar": "目涩",
-    "traditionalChar": "目澀",
-    "definition": "sleepy",
-    "romanizations": [
-      {
-        "pengIm": "mag8(4)siab4",
-        "symbol": ""
-      }
-    ]
-  },
-  "做呢": {
-    "simplifiedChar": "做呢",
-    "traditionalChar": "",
-    "definition": "why",
-    "romanizations": [
-      {
-        "pengIm": "zo3(2)ni5",
-        "symbol": ""
-      }
-    ]
-  },
-  "只塊": {
-    "simplifiedChar": "只塊",
-    "traditionalChar": "",
-    "definition": "here",
-    "romanizations": [
-      {
-        "pengIm": "zi2ko3",
-        "symbol": ""
-      }
-    ]
-  },
-  "许塊": {
-    "simplifiedChar": "许塊",
-    "traditionalChar": "許塊",
-    "definition": "there",
-    "romanizations": [
-      {
-        "pengIm": "he2(6)ko3",
-        "symbol": ""
-      }
-    ]
-  },
-  "外口": {
-    "simplifiedChar": "外口",
-    "traditionalChar": "",
-    "definition": "outside",
-    "romanizations": [
-      {
-        "pengIm": "ghua7kao2",
-        "symbol": ""
-      }
-    ]
-  },
-  "厝內": {
-    "simplifiedChar": "厝內",
-    "traditionalChar": "",
-    "definition": "house-inside",
-    "romanizations": [
-      {
-        "pengIm": "cu3(2)lai6",
-        "symbol": ""
-      }
-    ]
-  },
-  "門脚口": {
-    "simplifiedChar": "門脚口",
-    "traditionalChar": "門腳口",
-    "definition": "at the door",
-    "romanizations": [
-      {
-        "pengIm": "mung5ka1kao2",
-        "symbol": ""
-      }
-    ]
-  },
-  "物件": {
-    "simplifiedChar": "物件",
-    "traditionalChar": "",
-    "definition": "something",
-    "romanizations": [
-      {
-        "pengIm": "muêh8(4)gian6",
-        "symbol": ""
-      }
-    ]
-  },
-  "在底塊": {
-    "simplifiedChar": "在底塊",
-    "traditionalChar": "",
-    "definition": "where are you?",
-    "romanizations": [
-      {
-        "pengIm": "do6di2ko3",
-        "symbol": ""
-      }
-    ]
-  },
-  "哋㐱": {
-    "simplifiedChar": "哋㐱",
-    "traditionalChar": "",
-    "definition": "who",
-    "romanizations": [
-      {
-        "pengIm": "di7diang1",
-        "symbol": ""
-      }
-    ]
-  },
-  "哋个": {
-    "simplifiedChar": "哋个",
-    "traditionalChar": "哋個",
-    "definition": "which one",
-    "romanizations": [
-      {
-        "pengIm": "di7gai5",
-        "symbol": ""
-      }
-    ]
-  },
-  "乜个": {
-    "simplifiedChar": "乜个",
-    "traditionalChar": "乜個",
-    "definition": "what thing / anything",
-    "romanizations": [
-      {
-        "pengIm": "mih4(8)gai5",
-        "symbol": ""
-      }
-    ]
-  },
-  "乜事": {
-    "simplifiedChar": "乜事",
-    "traditionalChar": "",
-    "definition": "what happened",
-    "romanizations": [
-      {
-        "pengIm": "mih4(8)se7",
-        "symbol": ""
-      }
-    ]
-  },
-  "哋块": {
-    "simplifiedChar": "哋块",
-    "traditionalChar": "哋塊",
-    "definition": "where",
-    "romanizations": [
-      {
-        "pengIm": "di7go3",
-        "symbol": ""
-      }
-    ]
-  },
-  "珍时": {
-    "simplifiedChar": "珍时",
-    "traditionalChar": "珍時",
-    "definition": "when",
-    "romanizations": [
-      {
-        "pengIm": "diang1si5",
-        "symbol": ""
-      }
-    ]
-  },
-  "若济": {
-    "simplifiedChar": "若济",
-    "traditionalChar": "若濟",
-    "definition": "how many, how much",
-    "romanizations": [
-      {
-        "pengIm": "riêh8(4)zoi7",
-        "symbol": ""
-      }
-    ]
-  },
-  "今年": {
-    "simplifiedChar": "今年",
-    "traditionalChar": "",
-    "definition": "This year",
-    "romanizations": [
-      {
-        "pengIm": "gim1ni5",
-        "symbol": ""
-      }
-    ]
-  },
-  "新年快乐": {
-    "simplifiedChar": "新年快乐",
-    "traditionalChar": "新年快樂",
-    "definition": "Happy new year!",
-    "romanizations": [
-      {
-        "pengIm": "sing1ni5kuai3lag8",
-        "symbol": ""
-      }
-    ]
-  },
-  "身体健康": {
-    "simplifiedChar": "身体健康",
-    "traditionalChar": "",
-    "definition": "Good health!",
-    "romanizations": [
-      {
-        "pengIm": "sing1ti2gian7kang1",
-        "symbol": ""
-      }
-    ]
-  },
-  "全部": {
-    "simplifiedChar": "全部",
-    "traditionalChar": "",
-    "definition": "all",
-    "romanizations": [
-      {
-        "pengIm": "chuang5bou6",
-        "symbol": ""
-      }
-    ]
-  },
-  "别个": {
-    "simplifiedChar": "别个",
-    "traditionalChar": "別個",
-    "definition": "other",
-    "romanizations": [
-      {
-        "pengIm": "bag8gai5",
-        "symbol": ""
-      }
-    ]
-  },
-  "诸娘": {
-    "simplifiedChar": "诸娘",
-    "traditionalChar": "諸娘",
-    "definition": "woman",
-    "romanizations": [
-      {
-        "pengIm": "ze1niê5",
-        "symbol": ""
-      }
-    ]
-  },
-  "查埔": {
-    "simplifiedChar": "查埔",
-    "traditionalChar": "",
-    "definition": "man",
-    "romanizations": [
-      {
-        "pengIm": "da1bou1",
-        "symbol": ""
-      }
-    ]
-  },
-  "侬/人": {
-    "simplifiedChar": "侬/人",
-    "traditionalChar": "儂/人",
-    "definition": "person",
-    "romanizations": [
-      {
-        "pengIm": "nang5",
-        "symbol": ""
-      }
-    ]
-  },
-  "孥囝": {
-    "simplifiedChar": "孥囝",
-    "traditionalChar": "",
-    "definition": "child, son",
-    "romanizations": [
-      {
-        "pengIm": "nou1gian2",
-        "symbol": ""
-      }
-    ]
-  },
-  "𡚸": {
-    "simplifiedChar": "𡚸",
-    "traditionalChar": "",
-    "definition": "wife",
-    "romanizations": [
-      {
-        "pengIm": "bhou2",
-        "symbol": ""
-      }
-    ]
-  },
-  "丈夫人": {
-    "simplifiedChar": "丈夫人",
-    "traditionalChar": "",
-    "definition": "husband, male person",
-    "romanizations": [
-      {
-        "pengIm": "da1bou1nang5",
-        "symbol": ""
-      }
-    ]
-  },
-  "头毛": {
-    "simplifiedChar": "头毛",
-    "traditionalChar": "頭毛",
-    "definition": "hair",
-    "romanizations": [
-      {
-        "pengIm": "tao5mo1",
-        "symbol": ""
-      }
-    ]
-  },
-  "脚头窝": {
-    "simplifiedChar": "脚头窝",
-    "traditionalChar": "腳頭窩",
-    "definition": "knee",
-    "romanizations": [
-      {
-        "pengIm": "ka1tao5u1",
-        "symbol": ""
-      }
-    ]
-  },
-  "胛脊": {
-    "simplifiedChar": "胛脊",
-    "traditionalChar": "",
-    "definition": "back",
-    "romanizations": [
-      {
-        "pengIm": "ga1ziah4",
-        "symbol": ""
-      }
-    ]
-  },
-  "心脏": {
-    "simplifiedChar": "心脏",
-    "traditionalChar": "心臟",
-    "definition": "heart",
-    "romanizations": [
-      {
-        "pengIm": "sim1zang6",
-        "symbol": ""
-      }
-    ]
-  },
-  "相拍": {
-    "simplifiedChar": "相拍",
-    "traditionalChar": "",
-    "definition": "fight",
-    "romanizations": [
-      {
-        "pengIm": "siê1pah4",
-        "symbol": ""
-      }
-    ]
-  },
-  "分开": {
-    "simplifiedChar": "分开",
-    "traditionalChar": "分開",
-    "definition": "split",
-    "romanizations": [
-      {
-        "pengIm": "bung1kui1",
-        "symbol": ""
-      }
-    ]
-  },
-  "太阳": {
-    "simplifiedChar": "太阳",
-    "traditionalChar": "太陽",
-    "definition": "sun",
-    "romanizations": [
-      {
-        "pengIm": "tai3iang5",
-        "symbol": ""
-      }
-    ]
-  },
-  "日头": {
-    "simplifiedChar": "日头",
-    "traditionalChar": "日頭",
-    "definition": "afternoon",
-    "romanizations": [
-      {
-        "pengIm": "rig8tao5",
-        "symbol": ""
-      }
-    ]
-  },
-  "月亮": {
-    "simplifiedChar": "月亮",
-    "traditionalChar": "",
-    "definition": "moon",
-    "romanizations": [
-      {
-        "pengIm": "ghuêh8niên5",
-        "symbol": ""
-      }
-    ]
-  },
-  "凄疑": {
-    "simplifiedChar": "凄疑",
-    "traditionalChar": "",
-    "definition": "dirty",
-    "romanizations": [
-      {
-        "pengIm": "ci1ghi5",
-        "symbol": ""
-      }
-    ]
-  },
-  "正手爿": {
-    "simplifiedChar": "正手爿",
-    "traditionalChar": "",
-    "definition": "right",
-    "romanizations": [
-      {
-        "pengIm": "zian3ciu2",
-        "symbol": ""
-      }
-    ]
-  },
-  "倒手爿": {
-    "simplifiedChar": "倒手爿",
-    "traditionalChar": "",
-    "definition": "left",
-    "romanizations": [
-      {
-        "pengIm": "do3ciu2",
-        "symbol": ""
-      }
-    ]
-  },
-  "在⋯⋯内": {
-    "simplifiedChar": "在⋯⋯内",
-    "traditionalChar": "",
-    "definition": "in",
-    "romanizations": [
-      {
-        "pengIm": "do6 lai6",
-        "symbol": ""
-      }
-    ]
-  },
-  "哪是": {
-    "simplifiedChar": "哪是",
-    "traditionalChar": "",
-    "definition": "if",
-    "romanizations": [
-      {
-        "pengIm": "na1si7",
-        "symbol": ""
-      }
-    ]
-  },
-  "如果": {
-    "simplifiedChar": "如果",
-    "traditionalChar": "",
-    "definition": "if",
-    "romanizations": [
-      {
-        "pengIm": "ru2guên2",
-        "symbol": ""
-      }
-    ]
-  },
-  "因为": {
-    "simplifiedChar": "因为",
-    "traditionalChar": "因為",
-    "definition": "because",
-    "romanizations": [
-      {
-        "pengIm": "ing1ui7",
-        "symbol": ""
-      }
-    ]
-  },
-  "济谢": {
-    "simplifiedChar": "济谢",
-    "traditionalChar": "濟謝",
-    "definition": "thank you",
-    "romanizations": [
-      {
-        "pengIm": "zoi7sia7",
-        "symbol": ""
-      }
-    ]
-  },
-  "电视": {
-    "simplifiedChar": "电视",
-    "traditionalChar": "電視",
-    "definition": "tv",
-    "romanizations": [
-      {
-        "pengIm": "diang6si6",
-        "symbol": ""
-      }
-    ]
   }
 }

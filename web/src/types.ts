@@ -1,5 +1,5 @@
-import pengImDictionary from "./pemg_im_dictionary.json";
-import romanizations from "./romanizations.json";
+import pengImDictionary from "./phonetic-dictionary.json";
+import romanizations from "./dictionary.json";
 
 export const PengImDictionary = pengImDictionary as unknown as Record<
   string,
