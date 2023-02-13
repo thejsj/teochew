@@ -82,6 +82,7 @@ function App() {
       </header>
       <Route path="/" key={'/'}><PhoneticDictionary/></Route>
       <Route path="/word/:word" key={'word'}><PhoneticDictionary/></Route>
+      <Route path="/dictionary/definition/:definition" key={'definition'}><MainDictionary/></Route>
 
       {Object.keys(popMenuLinks).map((key) => {
         if (key === '/') return null

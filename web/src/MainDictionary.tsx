@@ -3,7 +3,7 @@ import { AutomcompletionInputField } from './AutomcompletionInputField'
 
 import { DefinitionLookupDictionary as dict, SearchEntry, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
 
-// import { useLocation } from "wouter";
+import { useLocation } from "wouter";
 
 interface MatchEntryViewProps {
   match: CharacterEntry
@@ -68,9 +68,9 @@ const MatchEntryView = (props: MatchEntryViewProps) => {
 }
 
 export const MainDictionary = () => {
-  // const [location] = useLocation();
-  // const word = location.split("/")[2] || null
-  const word = null
+  const [location, setLocation] = useLocation();
+  const uriEncoded = location.split("/")[3] || null
+  const word = uriEncoded  && decodeURI(uriEncoded)
   const [text, setText] = useState<string>(word || "")
   const inputEl = useRef(null);
 
@@ -82,6 +82,10 @@ export const MainDictionary = () => {
     const present = entry.result.filter(x => CharacterDictionary[x])
     return present.map(x => {
       return CharacterDictionary[x]
+    }).filter(x => {
+      // Filter duplicates here. This should probably be done somewhere else, but this if fine
+      // for now.
+      return x.traditionalChar && x.simplifiedChar && x.simplifiedChar !== x.traditionalChar
     })
   }, [text])
 
@@ -97,14 +101,14 @@ export const MainDictionary = () => {
     };
   }, [inputEl]);
 
-  // useEffect(() => {
-    // if (text !== "" && text !== word) {
-      // setLocation(`/word/${text}`)
-    // }
-    // if (text.length === 0 && word !== null) {
-      // setLocation(`/`)
-    // }
-  // }, [text, setLocation, word])
+  useEffect(() => {
+    if (text !== "" && text !== word) {
+      setLocation(`/dictionary/definition/${text}`)
+    }
+    if (text.length === 0 && word !== null) {
+      setLocation(`/dictionary/`)
+    }
+  }, [text, setLocation, word])
 
   return (
     <div>
@@ -114,6 +118,7 @@ export const MainDictionary = () => {
           currentWord={text} setCurrentWord={setText} inputRef={inputEl}
           filter={getDefinitionFilter}
           entries={entries}
+          itemToString={(x: SearchEntry) => x.subTitle}
           />
         </div>
       </div>
@@ -121,7 +126,7 @@ export const MainDictionary = () => {
       <div className="px-4 flex justify-center">
         <div className="max-w-6xl md:w-full flex flex-wrap flex-row place-content-center">
           {matches.map((match, i) =>
-            <MatchEntryView key={i} match={match}/>
+            <MatchEntryView key={match.simplifiedChar || match.definition} match={match}/>
           )}
         </div>
       </div>

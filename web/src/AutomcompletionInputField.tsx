@@ -16,6 +16,7 @@ interface AutomcompletionInputFieldPros {
   inputRef: React.RefObject<HTMLInputElement>;
   entries: SearchEntry[]
   filter: (inputValue: string | undefined) => (entry: SearchEntry) => boolean
+  itemToString: (item: SearchEntry) => string
 }
 
 export const AutomcompletionInputField = (
@@ -40,20 +41,24 @@ export const AutomcompletionInputField = (
     highlightedIndex,
     getItemProps,
     selectedItem,
-  } = useCombobox({ items, inputValue: currentWord, onInputValueChange({ inputValue }) {
-      const items = entries.filter(props.filter(inputValue)).sort((a, b) => {
-        return a.subTitle.length > b.subTitle.length ? 1 : -1
-      })
-      setItems(items);
-      setCurrentWord(inputValue?.toLowerCase() || "");
-    },
-    itemToString(item) {
-      return item && item.queryTerm ? item.queryTerm : "";
-    },
-    scrollIntoView() {},
-    onHighlightedIndexChange({ highlightedIndex: number }) {
-      rowVirtualizer.scrollToIndex(highlightedIndex);
-    },
+  } = useCombobox({
+      items,
+      inputValue: currentWord,
+      onInputValueChange({ inputValue }) {
+        const items = entries.filter(props.filter(inputValue)).sort((a, b) => {
+          return a.subTitle.length > b.subTitle.length ? 1 : -1
+        })
+        setItems(items);
+        setCurrentWord(inputValue?.toLowerCase() || "");
+      },
+      itemToString(item: SearchEntry | null) {
+        if (!item) return ''
+        return props.itemToString(item);
+      },
+      scrollIntoView() {},
+      onHighlightedIndexChange({ highlightedIndex: number }) {
+        rowVirtualizer.scrollToIndex(highlightedIndex);
+      },
   });
 
   return (
@@ -77,7 +82,6 @@ export const AutomcompletionInputField = (
           <>
             <li key="total-size" style={{height: rowVirtualizer.totalSize}} />
             {rowVirtualizer.virtualItems.map(virtualRow => {
-              console.log(items[virtualRow.index])
               return (<li
                 className={classNames(
                   highlightedIndex === virtualRow.index && 'bg-blue-300',

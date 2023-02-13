@@ -150,6 +150,7 @@ export const PhoneticDictionary = () => {
             inputRef={inputEl}
             entries={entries}
             filter={getPhoneticFilter}
+            itemToString={(x: SearchEntry) => x.title}
           />
         </div>
       </div>
