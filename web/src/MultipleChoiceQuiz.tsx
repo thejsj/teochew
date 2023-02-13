@@ -1,7 +1,7 @@
 import { shuffleArray, DictionaryEntry } from './dictionary';
 import React, { useState } from 'react';
 import { convertPemgImToIPA } from './lib/main';
-
+import { useLocation} from 'wouter'
 
 const QuizCard = (props: { entry: DictionaryEntry }) => {
   return (
@@ -72,6 +72,7 @@ const QuizOptions = (props: QuizOptionsProps) => {
 export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => {
   const dictionary = props.dictionary
   const [index, setIndex] = useState(0)
+  const [,setLocation] = useLocation()
   const [wrongAnswers, setWrongAnswers] = useState<DictionaryEntry[]>([])
 
   const incrementIndex = (incorrectDefinition: DictionaryEntry | null) => {
@@ -98,7 +99,7 @@ export const MultipleChoiceQuiz = (props: { dictionary: DictionaryEntry[] }) => 
 
         <button
           className="text-center bg-rose-200 rounded-full p-2 mt-6 w-80 mb-2 md:hover:bg-rose-300"
-          onClick={() => { window.location.reload() }}>Restart</button>
+          onClick={() => { setLocation('/redirect/multiple-choice-quiz') }}>Restart</button>
       </div>
     )
   }

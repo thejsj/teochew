@@ -1,5 +1,6 @@
 import { DictionaryEntry  } from './dictionary';
 import React, { useRef, useState, createRef, useEffect } from 'react';
+import { useLocation } from 'wouter'
 
 const QuizCard = (props: { entry: DictionaryEntry }) => {
   return (
@@ -150,21 +151,22 @@ const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
 
 export const WritingQuiz = (props: { dictionary: DictionaryEntry[] }) => {
   const [index, setIndex] = useState(0)
+  const [,setLocation] = useLocation()
   const [showLastWrongAnswer, setShowLastWrongAnswer] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState<[DictionaryEntry, string][]>([])
   const count = Math.min(20, props.dictionary.length)
 
   const incrementIndex = (incorrectDefinition: [DictionaryEntry, string] | null) => {
-    setIndex(index + 1)
     if (incorrectDefinition) {
       setWrongAnswers(wrongAnswers.concat([incorrectDefinition]))
       setShowLastWrongAnswer(true)
     } else {
+      setIndex(index + 1)
       setShowLastWrongAnswer(false)
     }
   }
 
-  if (index >= count - 1) {
+  if ((index === (count) && !showLastWrongAnswer) || index > (count)) {
     const totalCount = props.dictionary.length;
     const correctCount = props.dictionary.length - wrongAnswers.length;
     return (
@@ -175,13 +177,13 @@ export const WritingQuiz = (props: { dictionary: DictionaryEntry[] }) => {
 
         <ul>
           {wrongAnswers.map(x => {
-            return <p><span className={'font-bold'}>{x[0].word}</span> &#x2192; {x[0].definition}</p>
+            return <p>{x[1]} &#x2192; <span className={'font-bold'}>{x[0].word}</span> ({x[0].definition})</p>
           })}
         </ul>
 
         <button
           className="text-center bg-rose-200 rounded-full p-2 mt-6 w-80 mb-2 md:hover:bg-rose-300"
-          onClick={() => { window.location.reload() }}>Restart</button>
+          onClick={() => { setLocation('/redirect/writing-quiz') }}>Restart</button>
       </div>
     )
   }
@@ -198,7 +200,7 @@ export const WritingQuiz = (props: { dictionary: DictionaryEntry[] }) => {
       {showLastWrongAnswer &&
         <QuizWrongAnswer
           wrongAnswer={wrongAnswers[wrongAnswers.length - 1]}
-          nextCallback={() => setShowLastWrongAnswer(false)}
+          nextCallback={() => { setIndex(index + 1); setShowLastWrongAnswer(false)}}
           />}
 
         {!showLastWrongAnswer && <QuizInputArea incrementIndex={incrementIndex} entry={props.dictionary[index]}/>}
@@ -206,7 +208,7 @@ export const WritingQuiz = (props: { dictionary: DictionaryEntry[] }) => {
       <div className={'flex justify-center flex-row pb-2 lg:pb-6 space-x-2.5'}>
         {/*<p className={'text-xl text-emerald-500'}>&#10004;</p>
         <p className={'text-xl text-rose-600'}>&#10006;</p>*/}
-        <p className={'text-base lg:text-xl tracking-widest'}>{index + 1}/{count}</p>
+        <p className={'text-base lg:text-md mt-4 text-gray-600 tracking-widest'}>{index + 1}/{count}</p>
       </div>
     </div>
   )

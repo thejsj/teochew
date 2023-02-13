@@ -8,7 +8,7 @@ import { WritingQuiz } from './WritingQuiz'
 import { FlashCards, FlashCardSingleCard  } from './FlashCards'
 import { Menu } from '@headlessui/react'
 import { HamburgerIcon } from './Icons'
-import { Link, Route,useRoute,  useLocation } from "wouter";
+import { Link, Route,useRoute,  useLocation, Redirect } from "wouter";
 import { VocabularySelector } from './VocabularySelector';
 
 const MenuLink = (props: { href: string, children: JSX.Element | string}) => {
@@ -89,6 +89,13 @@ function App() {
         return <Route path={key} key={key}>{popMenuLinks[key].component}</Route>
       })}
       <Route path="/flash-card/:word" key={'flash-card'}><FlashCardSingleCard/></Route>
+
+      <Route path="/redirect/multiple-choice-quiz" key={'redirect/multiple-choice-quiz'}>
+        <Redirect to={'/multiple-choice-quiz'}/>
+      </Route>
+      <Route path="/redirect/writing-quiz" key={'redirect/writing-quiz'}>
+        <Redirect to={'/writing-quiz'}/>
+      </Route>
     </div>
   );
 }
