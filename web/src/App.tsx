@@ -86,7 +86,6 @@ function App() {
 
       {Object.keys(popMenuLinks).map((key) => {
         if (key === '/') return null
-
         return <Route path={key} key={key}>{popMenuLinks[key].component}</Route>
       })}
       <Route path="/flash-card/:word" key={'flash-card'}><FlashCardSingleCard/></Route>

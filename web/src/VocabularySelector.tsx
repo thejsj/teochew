@@ -1,6 +1,6 @@
 import { orderDictionaryAlphtabetically,  shuffleArray, dictionary as DEFAULT_DICTIONARY, DictionaryEntry } from './dictionary';
 import React, { useState } from 'react';
- 
+
 const allCategories : string[] = Array.from(new Set(DEFAULT_DICTIONARY.map(x => x.wordGroup)))
 const allDates : string[] = Array.from(new Set(DEFAULT_DICTIONARY.map(x => x.dateAdded)))
 

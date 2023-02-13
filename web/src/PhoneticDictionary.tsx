@@ -131,11 +131,9 @@ export const PhoneticDictionary = () => {
 
   useEffect(() => {
     if (text !== "" && text !== word) {
-      console.log('setting location', text)
       setLocation(`/word/${text}`)
     }
     if (text.length === 0 && word !== null) {
-      console.log('setting location to null', text, word)
       setLocation(`/`)
     }
   }, [text, setLocation, word])
