@@ -23,6 +23,19 @@ Object.keys(dictionary).forEach((char: string) => {
     }
 
     phoneticDictionary[romanization.pengIm].result.push(char)
+
+    if (romanization.verified) {
+      if (char && romanization.pengIm) {
+        if (!phoneticDictionary[romanization.pengIm].verified) {
+          phoneticDictionary[romanization.pengIm].verified = []
+        }
+        // TS being weird...
+        const arr = phoneticDictionary[romanization.pengIm].verified
+        if (arr) {
+          arr.push(char)
+        }
+      }
+    }
   })
 })
 

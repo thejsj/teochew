@@ -10,14 +10,40 @@ function estimateSize() {
   return 60;
 }
 
+interface HighlightTextProps {
+  text: string
+  highlight: string
+}
+
+const getHighlightedText = (text: string, highlight: string) => {
+    // Split on highlight term and include term into parts, ignore case
+    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+    return <span> { parts.map((part, i) =>
+        <span key={i} className={part.toLowerCase() === highlight.toLowerCase() ? 'bg-yellow-100': '' }>
+            { part }
+        </span>)
+    } </span>;
+}
+
+const HighlightText = (props: HighlightTextProps) => {
+  const highlight = props.highlight.split(' ')
+  // TODO: Add more words
+  const text : JSX.Element = getHighlightedText(props.text, highlight[0])
+  return (
+    <span>{text}</span>
+  )
+}
+
 interface AutomcompletionInputFieldPros {
   currentWord: string;
   setCurrentWord: (str: string) => void;
   inputRef: React.RefObject<HTMLInputElement>;
   entries: SearchEntry[]
   filter: (inputValue: string | undefined) => (entry: SearchEntry) => boolean
+  sort: (a: SearchEntry, b: SearchEntry) => number,
   itemToString: (item: SearchEntry) => string
 }
+
 
 export const AutomcompletionInputField = (
   props: AutomcompletionInputFieldPros
@@ -45,9 +71,7 @@ export const AutomcompletionInputField = (
       items,
       inputValue: currentWord,
       onInputValueChange({ inputValue }) {
-        const items = entries.filter(props.filter(inputValue)).sort((a, b) => {
-          return a.subTitle.length > b.subTitle.length ? 1 : -1
-        })
+        const items = entries.filter(props.filter(inputValue)).sort(props.sort)
         setItems(items);
         setCurrentWord(inputValue?.toLowerCase() || "");
       },
@@ -102,9 +126,9 @@ export const AutomcompletionInputField = (
                   transform: `translateY(${virtualRow.start}px)`,
                 }}
               >
-                <span>{items[virtualRow.index].title}</span>
+                <HighlightText text={items[virtualRow.index].title} highlight={currentWord}/>
                 <span className="text-sm text-gray-700">
-                  {items[virtualRow.index].subTitle}
+                  <HighlightText text={items[virtualRow.index].subTitle} highlight={currentWord}/>
                 </span>
               </li>)
             })}

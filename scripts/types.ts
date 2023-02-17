@@ -1,5 +1,6 @@
 export interface RomanizationEntry {
   pengIm: string;
+  verified?: boolean;
   symbol?: string;
   soundLink?: string;
 }
@@ -28,5 +29,7 @@ export interface PhoneticEntry {
 
 export interface LookupEntry {
   lookup: string
+  value?: string
   result: string[]
+  verified?: string[]
 }

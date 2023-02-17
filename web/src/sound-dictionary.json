@@ -1,0 +1,1302 @@
+{
+  "gao2": {
+    "lookup": "gao2",
+    "value": "/sound/syllabes/kau2.mp3",
+    "result": [
+      "狗",
+      "九"
+    ],
+    "verified": [
+      "狗",
+      "九"
+    ]
+  },
+  "ig4": {
+    "lookup": "ig4",
+    "value": "/sound/syllabes/ik4.mp3",
+    "result": [
+      "一"
+    ],
+    "verified": [
+      "一"
+    ]
+  },
+  "zêg8": {
+    "lookup": "zêg8",
+    "value": "/sound/syllabes/tsek8.mp3",
+    "result": [
+      "一"
+    ],
+    "verified": [
+      "一"
+    ]
+  },
+  "cig4": {
+    "lookup": "cig4",
+    "value": "/sound/syllabes/tshik4.mp3",
+    "result": [
+      "七"
+    ],
+    "verified": [
+      "七"
+    ]
+  },
+  "san1": {
+    "lookup": "san1",
+    "value": "/sound/syllabes/sa~1.mp3",
+    "result": [
+      "三"
+    ],
+    "verified": [
+      "三"
+    ]
+  },
+  "siang6": {
+    "lookup": "siang6",
+    "value": "/sound/syllabes/siang6.mp3",
+    "result": [
+      "上"
+    ],
+    "verified": [
+      "上"
+    ]
+  },
+  "ou1": {
+    "lookup": "ou1",
+    "value": "/sound/syllabes/ou1.mp3",
+    "result": [
+      "乌"
+    ],
+    "verified": [
+      "乌"
+    ]
+  },
+  "ze1": {
+    "lookup": "ze1",
+    "value": "/sound/syllabes/tseu1.mp3",
+    "result": [
+      "书"
+    ],
+    "verified": [
+      "书"
+    ]
+  },
+  "bhoi2": {
+    "lookup": "bhoi2",
+    "value": "/sound/syllabes/boi2.mp3",
+    "result": [
+      "买"
+    ],
+    "verified": [
+      "买"
+    ]
+  },
+  "no6": {
+    "lookup": "no6",
+    "value": "/sound/syllabes/no6.mp3",
+    "result": [
+      "二"
+    ],
+    "verified": [
+      "二"
+    ]
+  },
+  "ri6": {
+    "lookup": "ri6",
+    "value": "/sound/syllabes/ji6.mp3",
+    "result": [
+      "二"
+    ],
+    "verified": [
+      "二"
+    ]
+  },
+  "ngou6": {
+    "lookup": "ngou6",
+    "value": "/sound/syllabes/ngou6.mp3",
+    "result": [
+      "五"
+    ],
+    "verified": [
+      "五"
+    ]
+  },
+  "kia6": {
+    "lookup": "kia6",
+    "value": "/sound/syllabes/khia6.mp3",
+    "result": [
+      "企"
+    ],
+    "verified": [
+      "企"
+    ]
+  },
+  "i1": {
+    "lookup": "i1",
+    "value": "/sound/syllabes/i1.mp3",
+    "result": [
+      "伊"
+    ],
+    "verified": [
+      "伊"
+    ]
+  },
+  "dang6": {
+    "lookup": "dang6",
+    "value": "/sound/syllabes/tang6.mp3",
+    "result": [
+      "但",
+      "重"
+    ],
+    "verified": [
+      "但",
+      "重"
+    ]
+  },
+  "zoh4": {
+    "lookup": "zoh4",
+    "value": "/sound/syllabes/tsoh4.mp3",
+    "result": [
+      "作"
+    ],
+    "verified": [
+      "作"
+    ]
+  },
+  "le2": {
+    "lookup": "le2",
+    "value": "/sound/syllabes/leu2.mp3",
+    "result": [
+      "你"
+    ],
+    "verified": [
+      "你"
+    ]
+  },
+  "lai5": {
+    "lookup": "lai5",
+    "value": "/sound/syllabes/lai5.mp3",
+    "result": [
+      "来",
+      "梨"
+    ],
+    "verified": [
+      "来",
+      "梨"
+    ]
+  },
+  "zo3": {
+    "lookup": "zo3",
+    "value": "/sound/syllabes/tso3.mp3",
+    "result": [
+      "做"
+    ],
+    "verified": [
+      "做"
+    ]
+  },
+  "hian1": {
+    "lookup": "hian1",
+    "value": "/sound/syllabes/hia~1.mp3",
+    "result": [
+      "兄"
+    ],
+    "verified": [
+      "兄"
+    ]
+  },
+  "boih4": {
+    "lookup": "boih4",
+    "value": "/sound/syllabes/poih4.mp3",
+    "result": [
+      "八"
+    ],
+    "verified": [
+      "八"
+    ]
+  },
+  "lag8": {
+    "lookup": "lag8",
+    "value": "/sound/syllabes/lak8.mp3",
+    "result": [
+      "六"
+    ],
+    "verified": [
+      "六"
+    ]
+  },
+  "bung1": {
+    "lookup": "bung1",
+    "value": "/sound/syllabes/pung1.mp3",
+    "result": [
+      "分"
+    ],
+    "verified": [
+      "分"
+    ]
+  },
+  "gao3": {
+    "lookup": "gao3",
+    "value": "/sound/syllabes/kau3.mp3",
+    "result": [
+      "到"
+    ],
+    "verified": [
+      "到"
+    ]
+  },
+  "zab8": {
+    "lookup": "zab8",
+    "value": "/sound/syllabes/tsap8.mp3",
+    "result": [
+      "十"
+    ],
+    "verified": [
+      "十"
+    ]
+  },
+  "lou2": {
+    "lookup": "lou2",
+    "value": "/sound/syllabes/lou2.mp3",
+    "result": [
+      "卤"
+    ],
+    "verified": [
+      "卤"
+    ]
+  },
+  "neng6": {
+    "lookup": "neng6",
+    "value": "/sound/syllabes/neung6.mp3",
+    "result": [
+      "卵"
+    ],
+    "verified": [
+      "卵"
+    ]
+  },
+  "gao6": {
+    "lookup": "gao6",
+    "value": "/sound/syllabes/kau6.mp3",
+    "result": [
+      "厚"
+    ],
+    "verified": [
+      "厚"
+    ]
+  },
+  "ke3": {
+    "lookup": "ke3",
+    "value": "/sound/syllabes/kheu3.mp3",
+    "result": [
+      "去"
+    ],
+    "verified": [
+      "去"
+    ]
+  },
+  "hiêh8": {
+    "lookup": "hiêh8",
+    "value": "/sound/syllabes/hieh8.mp3",
+    "result": [
+      "叶"
+    ],
+    "verified": [
+      "叶"
+    ]
+  },
+  "mian5": {
+    "lookup": "mian5",
+    "value": "/sound/syllabes/mia~5.mp3",
+    "result": [
+      "名"
+    ],
+    "verified": [
+      "名"
+    ]
+  },
+  "tian1": {
+    "lookup": "tian1",
+    "value": "/sound/syllabes/thia~1.mp3",
+    "result": [
+      "听"
+    ],
+    "verified": [
+      "听"
+    ]
+  },
+  "ao2": {
+    "lookup": "ao2",
+    "value": "/sound/syllabes/au2.mp3",
+    "result": [
+      "呕"
+    ],
+    "verified": [
+      "呕"
+    ]
+  },
+  "dan3": {
+    "lookup": "dan3",
+    "value": "/sound/syllabes/ta~3.mp3",
+    "result": [
+      "呾"
+    ],
+    "verified": [
+      "呾"
+    ]
+  },
+  "ga6": {
+    "lookup": "ga6",
+    "value": "/sound/syllabes/ka6.mp3",
+    "result": [
+      "咬"
+    ],
+    "verified": [
+      "咬"
+    ]
+  },
+  "m6": {
+    "lookup": "m6",
+    "value": "/sound/syllabes/m6.mp3",
+    "result": [
+      "唔"
+    ],
+    "verified": [
+      "唔"
+    ]
+  },
+  "ciang3": {
+    "lookup": "ciang3",
+    "value": "/sound/syllabes/tshiang3.mp3",
+    "result": [
+      "唱"
+    ],
+    "verified": [
+      "唱"
+    ]
+  },
+  "si3": {
+    "lookup": "si3",
+    "value": "/sound/syllabes/si3.mp3",
+    "result": [
+      "四"
+    ],
+    "verified": [
+      "四"
+    ]
+  },
+  "in5": {
+    "lookup": "in5",
+    "value": "/sound/syllabes/i~5.mp3",
+    "result": [
+      "圆"
+    ],
+    "verified": [
+      "圆"
+    ]
+  },
+  "do6": {
+    "lookup": "do6",
+    "value": "/sound/syllabes/to6.mp3",
+    "result": [
+      "在"
+    ],
+    "verified": [
+      "在"
+    ]
+  },
+  "zo6": {
+    "lookup": "zo6",
+    "value": "/sound/syllabes/tso6.mp3",
+    "result": [
+      "坐"
+    ],
+    "verified": [
+      "坐"
+    ]
+  },
+  "dua7": {
+    "lookup": "dua7",
+    "value": "/sound/syllabes/tua7.mp3",
+    "result": [
+      "大"
+    ],
+    "verified": [
+      "大"
+    ]
+  },
+  "tao5": {
+    "lookup": "tao5",
+    "value": "/sound/syllabes/thau5.mp3",
+    "result": [
+      "头"
+    ],
+    "verified": [
+      "头"
+    ]
+  },
+  "ho2": {
+    "lookup": "ho2",
+    "value": "/sound/syllabes/ho2.mp3",
+    "result": [
+      "好"
+    ],
+    "verified": [
+      "好"
+    ]
+  },
+  "ma5": {
+    "lookup": "ma5",
+    "value": "/sound/syllabes/ma5.mp3",
+    "result": [
+      "妈"
+    ],
+    "verified": [
+      "妈"
+    ]
+  },
+  "muê6": {
+    "lookup": "muê6",
+    "value": "/sound/syllabes/mue6.mp3",
+    "result": [
+      "妹"
+    ],
+    "verified": [
+      "妹"
+    ]
+  },
+  "gou1": {
+    "lookup": "gou1",
+    "value": "/sound/syllabes/kou1.mp3",
+    "result": [
+      "姑"
+    ],
+    "verified": [
+      "姑"
+    ]
+  },
+  "i5": {
+    "lookup": "i5",
+    "value": "/sound/syllabes/i5.mp3",
+    "result": [
+      "姨"
+    ],
+    "verified": [
+      "姨"
+    ]
+  },
+  "oh8": {
+    "lookup": "oh8",
+    "value": "/sound/syllabes/oh8.mp3",
+    "result": [
+      "学"
+    ],
+    "verified": [
+      "学"
+    ]
+  },
+  "mo2": {
+    "lookup": "mo2",
+    "value": "/sound/syllabes/mo2.mp3",
+    "result": [
+      "孬"
+    ],
+    "verified": [
+      "孬"
+    ]
+  },
+  "bu3": {
+    "lookup": "bu3",
+    "value": "/sound/syllabes/pu3.mp3",
+    "result": [
+      "富"
+    ],
+    "verified": [
+      "富"
+    ]
+  },
+  "huê3": {
+    "lookup": "huê3",
+    "value": "/sound/syllabes/hue3.mp3",
+    "result": [
+      "岁"
+    ],
+    "verified": [
+      "岁"
+    ]
+  },
+  "ni5": {
+    "lookup": "ni5",
+    "value": "/sound/syllabes/ni5.mp3",
+    "result": [
+      "年"
+    ],
+    "verified": [
+      "年"
+    ]
+  },
+  "di2": {
+    "lookup": "di2",
+    "value": "/sound/syllabes/ti2.mp3",
+    "result": [
+      "底"
+    ],
+    "verified": [
+      "底"
+    ]
+  },
+  "di6": {
+    "lookup": "di6",
+    "value": "/sound/syllabes/ti6.mp3",
+    "result": [
+      "弟"
+    ],
+    "verified": [
+      "弟"
+    ]
+  },
+  "sên3": {
+    "lookup": "sên3",
+    "value": "/sound/syllabes/se~3.mp3",
+    "result": [
+      "性"
+    ],
+    "verified": [
+      "性"
+    ]
+  },
+  "gian1": {
+    "lookup": "gian1",
+    "value": "/sound/syllabes/kia~1.mp3",
+    "result": [
+      "惊"
+    ],
+    "verified": [
+      "惊"
+    ]
+  },
+  "siên6": {
+    "lookup": "siên6",
+    "value": "/sound/syllabes/sie~6.mp3",
+    "result": [
+      "想"
+    ],
+    "verified": [
+      "想"
+    ]
+  },
+  "ain3": {
+    "lookup": "ain3",
+    "value": "/sound/syllabes/ai~3.mp3",
+    "result": [
+      "爱"
+    ],
+    "verified": [
+      "爱"
+    ]
+  },
+  "ua2": {
+    "lookup": "ua2",
+    "value": "/sound/syllabes/ua2.mp3",
+    "result": [
+      "我"
+    ],
+    "verified": [
+      "我"
+    ]
+  },
+  "ciu2": {
+    "lookup": "ciu2",
+    "value": "/sound/syllabes/tshiu2.mp3",
+    "result": [
+      "手"
+    ],
+    "verified": [
+      "手"
+    ]
+  },
+  "pah4": {
+    "lookup": "pah4",
+    "value": "/sound/syllabes/phah4.mp3",
+    "result": [
+      "拍"
+    ],
+    "verified": [
+      "拍"
+    ]
+  },
+  "sing1": {
+    "lookup": "sing1",
+    "value": "/sound/syllabes/sing1.mp3",
+    "result": [
+      "新"
+    ],
+    "verified": [
+      "新"
+    ]
+  },
+  "rig8": {
+    "lookup": "rig8",
+    "value": "/sound/syllabes/jik8.mp3",
+    "result": [
+      "日"
+    ],
+    "verified": [
+      "日"
+    ]
+  },
+  "gu7": {
+    "lookup": "gu7",
+    "value": "/sound/syllabes/ku7.mp3",
+    "result": [
+      "旧"
+    ],
+    "verified": [
+      "旧"
+    ]
+  },
+  "za2": {
+    "lookup": "za2",
+    "value": "/sound/syllabes/tsa2.mp3",
+    "result": [
+      "早"
+    ],
+    "verified": [
+      "早"
+    ]
+  },
+  "si6": {
+    "lookup": "si6",
+    "value": "/sound/syllabes/si6.mp3",
+    "result": [
+      "是"
+    ],
+    "verified": [
+      "是"
+    ]
+  },
+  "zai1": {
+    "lookup": "zai1",
+    "value": "/sound/syllabes/tsai1.mp3",
+    "result": [
+      "知"
+    ],
+    "verified": [
+      "知"
+    ]
+  },
+  "u6": {
+    "lookup": "u6",
+    "value": "/sound/syllabes/u6.mp3",
+    "result": [
+      "有"
+    ],
+    "verified": [
+      "有"
+    ]
+  },
+  "bhuê7": {
+    "lookup": "bhuê7",
+    "value": "/sound/syllabes/bue7.mp3",
+    "result": [
+      "未"
+    ],
+    "verified": [
+      "未"
+    ]
+  },
+  "suah4": {
+    "lookup": "suah4",
+    "value": "/sound/syllabes/suah4.mp3",
+    "result": [
+      "杀"
+    ],
+    "verified": [
+      "杀"
+    ]
+  },
+  "ciu7": {
+    "lookup": "ciu7",
+    "value": "/sound/syllabes/tshiu7.mp3",
+    "result": [
+      "树"
+    ],
+    "verified": [
+      "树"
+    ]
+  },
+  "si2": {
+    "lookup": "si2",
+    "value": "/sound/syllabes/si2.mp3",
+    "result": [
+      "死"
+    ],
+    "verified": [
+      "死"
+    ]
+  },
+  "zui2": {
+    "lookup": "zui2",
+    "value": "/sound/syllabes/tsui2.mp3",
+    "result": [
+      "水"
+    ],
+    "verified": [
+      "水"
+    ]
+  },
+  "uah8": {
+    "lookup": "uah8",
+    "value": "/sound/syllabes/uah8.mp3",
+    "result": [
+      "活"
+    ],
+    "verified": [
+      "活"
+    ]
+  },
+  "hai2": {
+    "lookup": "hai2",
+    "value": "/sound/syllabes/hai2.mp3",
+    "result": [
+      "海"
+    ],
+    "verified": [
+      "海"
+    ]
+  },
+  "koi1": {
+    "lookup": "koi1",
+    "value": "/sound/syllabes/khoi1.mp3",
+    "result": [
+      "溪"
+    ],
+    "verified": [
+      "溪"
+    ]
+  },
+  "gug8": {
+    "lookup": "gug8",
+    "value": "/sound/syllabes/kuk8.mp3",
+    "result": [
+      "滑"
+    ],
+    "verified": [
+      "滑"
+    ]
+  },
+  "siê1": {
+    "lookup": "siê1",
+    "value": "/sound/syllabes/sie1.mp3",
+    "result": [
+      "燒"
+    ],
+    "verified": [
+      "燒"
+    ]
+  },
+  "ruah8": {
+    "lookup": "ruah8",
+    "value": "/sound/syllabes/juah8.mp3",
+    "result": [
+      "热"
+    ],
+    "verified": [
+      "热"
+    ]
+  },
+  "ze2": {
+    "lookup": "ze2",
+    "value": "/sound/syllabes/tseu2.mp3",
+    "result": [
+      "煮"
+    ],
+    "verified": [
+      "煮"
+    ]
+  },
+  "ba5": {
+    "lookup": "ba5",
+    "value": "/sound/syllabes/pa5.mp3",
+    "result": [
+      "爸"
+    ],
+    "verified": [
+      "爸"
+    ]
+  },
+  "ghê5": {
+    "lookup": "ghê5",
+    "value": "/sound/syllabes/ge5.mp3",
+    "result": [
+      "牙"
+    ],
+    "verified": [
+      "牙"
+    ]
+  },
+  "ghu5": {
+    "lookup": "ghu5",
+    "value": "/sound/syllabes/gu5.mp3",
+    "result": [
+      "牛"
+    ],
+    "verified": [
+      "牛"
+    ]
+  },
+  "kang1": {
+    "lookup": "kang1",
+    "value": "/sound/syllabes/khang1.mp3",
+    "result": [
+      "牽"
+    ],
+    "verified": [
+      "牽"
+    ]
+  },
+  "oih8": {
+    "lookup": "oih8",
+    "value": "/sound/syllabes/oih8.mp3",
+    "result": [
+      "狭"
+    ],
+    "verified": [
+      "狭"
+    ]
+  },
+  "de1": {
+    "lookup": "de1",
+    "value": "/sound/syllabes/teu1.mp3",
+    "result": [
+      "猪"
+    ],
+    "verified": [
+      "猪"
+    ]
+  },
+  "bêh8": {
+    "lookup": "bêh8",
+    "value": "/sound/syllabes/peh8.mp3",
+    "result": [
+      "白"
+    ],
+    "verified": [
+      "白"
+    ]
+  },
+  "puê5": {
+    "lookup": "puê5",
+    "value": "/sound/syllabes/phue5.mp3",
+    "result": [
+      "皮"
+    ],
+    "verified": [
+      "皮"
+    ]
+  },
+  "mag8": {
+    "lookup": "mag8",
+    "value": "/sound/syllabes/mak8.mp3",
+    "result": [
+      "目"
+    ],
+    "verified": [
+      "目"
+    ]
+  },
+  "dig8": {
+    "lookup": "dig8",
+    "value": "/sound/syllabes/tik8.mp3",
+    "result": [
+      "直"
+    ],
+    "verified": [
+      "直"
+    ]
+  },
+  "toin2": {
+    "lookup": "toin2",
+    "value": "/sound/syllabes/thoi~2.mp3",
+    "result": [
+      "看",
+      "睇"
+    ],
+    "verified": [
+      "看",
+      "睇"
+    ]
+  },
+  "zing1": {
+    "lookup": "zing1",
+    "value": "/sound/syllabes/tsing1.mp3",
+    "result": [
+      "真"
+    ],
+    "verified": [
+      "真"
+    ]
+  },
+  "diêh8": {
+    "lookup": "diêh8",
+    "value": "/sound/syllabes/tieh8.mp3",
+    "result": [
+      "着"
+    ],
+    "verified": [
+      "着"
+    ]
+  },
+  "do2": {
+    "lookup": "do2",
+    "value": "/sound/syllabes/to2.mp3",
+    "result": [
+      "短"
+    ],
+    "verified": [
+      "短"
+    ]
+  },
+  "ciê3": {
+    "lookup": "ciê3",
+    "value": "/sound/syllabes/tshie3.mp3",
+    "result": [
+      "笑"
+    ],
+    "verified": [
+      "笑"
+    ]
+  },
+  "dang2": {
+    "lookup": "dang2",
+    "value": "/sound/syllabes/tang2.mp3",
+    "result": [
+      "等"
+    ],
+    "verified": [
+      "等"
+    ]
+  },
+  "mi5": {
+    "lookup": "mi5",
+    "value": "/sound/syllabes/mi5.mp3",
+    "result": [
+      "糜"
+    ],
+    "verified": [
+      "糜"
+    ]
+  },
+  "ang5": {
+    "lookup": "ang5",
+    "value": "/sound/syllabes/ang5.mp3",
+    "result": [
+      "红"
+    ],
+    "verified": [
+      "红"
+    ]
+  },
+  "soi3": {
+    "lookup": "soi3",
+    "value": "/sound/syllabes/soi3.mp3",
+    "result": [
+      "细"
+    ],
+    "verified": [
+      "细"
+    ]
+  },
+  "lêg8": {
+    "lookup": "lêg8",
+    "value": "/sound/syllabes/lek8.mp3",
+    "result": [
+      "绿"
+    ],
+    "verified": [
+      "绿"
+    ]
+  },
+  "mang7": {
+    "lookup": "mang7",
+    "value": "/sound/syllabes/mang7.mp3",
+    "result": [
+      "缓"
+    ],
+    "verified": [
+      "缓"
+    ]
+  },
+  "ang1": {
+    "lookup": "ang1",
+    "value": "/sound/syllabes/ang1.mp3",
+    "result": [
+      "翁"
+    ],
+    "verified": [
+      "翁"
+    ]
+  },
+  "hin6": {
+    "lookup": "hin6",
+    "value": "/sound/syllabes/hi~6.mp3",
+    "result": [
+      "耳"
+    ],
+    "verified": [
+      "耳"
+    ]
+  },
+  "nêg8": {
+    "lookup": "nêg8",
+    "value": "/sound/syllabes/nek8.mp3",
+    "result": [
+      "肉"
+    ],
+    "verified": [
+      "肉"
+    ]
+  },
+  "tui2": {
+    "lookup": "tui2",
+    "value": "/sound/syllabes/thui2.mp3",
+    "result": [
+      "腿"
+    ],
+    "verified": [
+      "腿"
+    ]
+  },
+  "gu6": {
+    "lookup": "gu6",
+    "value": "/sound/syllabes/ku6.mp3",
+    "result": [
+      "舅"
+    ],
+    "verified": [
+      "舅"
+    ]
+  },
+  "zih8": {
+    "lookup": "zih8",
+    "value": "/sound/syllabes/tsih8.mp3",
+    "result": [
+      "舌"
+    ],
+    "verified": [
+      "舌"
+    ]
+  },
+  "dê5": {
+    "lookup": "dê5",
+    "value": "/sound/syllabes/te5.mp3",
+    "result": [
+      "茶"
+    ],
+    "verified": [
+      "茶"
+    ]
+  },
+  "boh8": {
+    "lookup": "boh8",
+    "value": "/sound/syllabes/poh8.mp3",
+    "result": [
+      "薄"
+    ],
+    "verified": [
+      "薄"
+    ]
+  },
+  "huêh4": {
+    "lookup": "huêh4",
+    "value": "/sound/syllabes/hueh4.mp3",
+    "result": [
+      "血"
+    ],
+    "verified": [
+      "血"
+    ]
+  },
+  "goi1": {
+    "lookup": "goi1",
+    "value": "/sound/syllabes/koi1.mp3",
+    "result": [
+      "街",
+      "鸡"
+    ],
+    "verified": [
+      "街",
+      "鸡"
+    ]
+  },
+  "uê7": {
+    "lookup": "uê7",
+    "value": "/sound/syllabes/ue7.mp3",
+    "result": [
+      "话"
+    ],
+    "verified": [
+      "话"
+    ]
+  },
+  "lou7": {
+    "lookup": "lou7",
+    "value": "/sound/syllabes/lou7.mp3",
+    "result": [
+      "路"
+    ],
+    "verified": [
+      "路"
+    ]
+  },
+  "heng6": {
+    "lookup": "heng6",
+    "value": "/sound/syllabes/heung6.mp3",
+    "result": [
+      "远"
+    ],
+    "verified": [
+      "远"
+    ]
+  },
+  "ci5": {
+    "lookup": "ci5",
+    "value": "/sound/syllabes/tshi5.mp3",
+    "result": [
+      "迟"
+    ],
+    "verified": [
+      "迟"
+    ]
+  },
+  "zin5": {
+    "lookup": "zin5",
+    "value": "/sound/syllabes/tsi~5.mp3",
+    "result": [
+      "钱"
+    ],
+    "verified": [
+      "钱"
+    ]
+  },
+  "ngia2": {
+    "lookup": "ngia2",
+    "value": "/sound/syllabes/ngia2.mp3",
+    "result": [
+      "雅"
+    ],
+    "verified": [
+      "雅"
+    ]
+  },
+  "hou6": {
+    "lookup": "hou6",
+    "value": "/sound/syllabes/hou6.mp3",
+    "result": [
+      "雨"
+    ],
+    "verified": [
+      "雨"
+    ]
+  },
+  "lêng5": {
+    "lookup": "lêng5",
+    "value": "/sound/syllabes/leng5.mp3",
+    "result": [
+      "零"
+    ],
+    "verified": [
+      "零"
+    ]
+  },
+  "am6": {
+    "lookup": "am6",
+    "value": "/sound/syllabes/am6.mp3",
+    "result": [
+      "颔"
+    ],
+    "verified": [
+      "颔"
+    ]
+  },
+  "buê1": {
+    "lookup": "buê1",
+    "value": "/sound/syllabes/pue1.mp3",
+    "result": [
+      "飞"
+    ],
+    "verified": [
+      "飞"
+    ]
+  },
+  "ziah8": {
+    "lookup": "ziah8",
+    "value": "/sound/syllabes/tsiah8.mp3",
+    "result": [
+      "食"
+    ],
+    "verified": [
+      "食"
+    ]
+  },
+  "gug4": {
+    "lookup": "gug4",
+    "value": "/sound/syllabes/kuk4.mp3",
+    "result": [
+      "骨"
+    ],
+    "verified": [
+      "骨"
+    ]
+  },
+  "he5": {
+    "lookup": "he5",
+    "value": "/sound/syllabes/heu5.mp3",
+    "result": [
+      "鱼"
+    ],
+    "verified": [
+      "鱼"
+    ]
+  },
+  "ah4": {
+    "lookup": "ah4",
+    "value": "/sound/syllabes/ah4.mp3",
+    "result": [
+      "鸭"
+    ],
+    "verified": [
+      "鸭"
+    ]
+  },
+  "min7": {
+    "lookup": "min7",
+    "value": "/sound/syllabes/mi~7.mp3",
+    "result": [
+      "麵"
+    ],
+    "verified": [
+      "麵"
+    ]
+  },
+  "ng5": {
+    "lookup": "ng5",
+    "value": "/sound/syllabes/ng5.mp3",
+    "result": [
+      "黄"
+    ],
+    "verified": [
+      "黄"
+    ]
+  },
+  "pin7": {
+    "lookup": "pin7",
+    "value": "/sound/syllabes/phi~7.mp3",
+    "result": [
+      "鼻"
+    ],
+    "verified": [
+      "鼻"
+    ]
+  }
+}

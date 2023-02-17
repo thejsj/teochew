@@ -2,7 +2,9 @@ import React, { useRef, useState, useMemo, useEffect } from 'react';
 import { AutomcompletionInputField } from './AutomcompletionInputField'
 import { convertPemgImToIPA } from './lib/main'
 
-import { PhoneticDictionary as phoneticDict, SearchEntry, CharacterEntry , CharacterDictionary, RomaniationEntry} from './types'
+import { PhoneticDictionary as phoneticDict, SearchEntry, CharacterEntry , CharacterDictionary } from './types'
+
+import { MatchEntryView  } from './MatchView'
 
 import { useLocation } from "wouter";
 
@@ -22,41 +24,6 @@ function getPhoneticFilter(inputValue: string | undefined) {
       entry.subTitle?.toLowerCase().includes(inputValue)
     );
   };
-}
-
-interface MatchEntryViewProps {
-  match: CharacterEntry
-}
-
-const MatchEntryView = (props: MatchEntryViewProps) => {
-  const { match } = props;
-
-  return (
-    <div className="bg-slate-50 border-2 border-slate-300 mb-8 w-full p-4 rounded-md md:p-10 md:mx-8 block md:basis-5/12 ">
-      <div className={'md:flex md:flex-column md:align-top'}>
-        <div className="w-12 mr-4">
-          <p className="text-4xl pt-2">{match.simplifiedChar}</p>
-          <p className="text-xl mt-4 text-slate-400">{match.traditionalChar}</p>
-        </div>
-
-        <div className="grow">
-          <p className="italic text-xl mb-4">{match.definition}</p>
-          <div>
-            {match.romanizations.map((romanization:RomaniationEntry) => {
-             return (
-              <div>
-              <p className="text-sm">{romanization.pengIm}</p>
-              <audio controls>
-                <source src={`https://www.mogher.com/${romanization.soundLink}`} type="audio/mpeg"/>
-              </audio>
-              </div>
-              )
-            })}
-          </div>
-        </div>
-      </div>
-    </div>
-  )
 }
 
 interface IPADisplayProps {
@@ -149,6 +116,9 @@ export const PhoneticDictionary = () => {
             entries={entries}
             filter={getPhoneticFilter}
             itemToString={(x: SearchEntry) => x.title}
+          sort={(a, b) => {
+            return a.title.length > b.title.length ? 1 : -1
+          }}
           />
         </div>
       </div>

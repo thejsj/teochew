@@ -19,6 +19,7 @@ export const CharacterDictionary = romanizations as unknown as Record<
 
 export interface RomaniationEntry {
   pengIm: string;
+  verified?: boolean;
   symbol: string;
   soundLink?: string;
 }

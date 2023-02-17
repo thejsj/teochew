@@ -48,8 +48,8 @@
       "蛤"
     ]
   },
-  "one; a, an; alone": {
-    "lookup": "one; a, an; alone",
+  "first; one; a, an; alone": {
+    "lookup": "first; one; a, an; alone",
     "result": [
       "一"
     ]
@@ -120,16 +120,21 @@
       "丈"
     ]
   },
+  "third; three": {
+    "lookup": "third; three",
+    "result": [
+      "三"
+    ]
+  },
   "three": {
     "lookup": "three",
     "result": [
-      "三",
       "叁",
       "弎"
     ]
   },
-  "top; superior, highest; go up, send up": {
-    "lookup": "top; superior, highest; go up, send up",
+  "most; top; superior, highest; go up, send up": {
+    "lookup": "most; top; superior, highest; go up, send up",
     "result": [
       "上"
     ]
@@ -867,8 +872,8 @@
       "事"
     ]
   },
-  "two; twice": {
-    "lookup": "two; twice",
+  "second; two; twice": {
+    "lookup": "second; two; twice",
     "result": [
       "二"
     ]
@@ -1534,8 +1539,8 @@
       "伉"
     ]
   },
-  "third person pronoun; he, she, this, that": {
-    "lookup": "third person pronoun; he, she, this, that",
+  "he/she/it; third person pronoun; he, she, this, that": {
+    "lookup": "he/she/it; third person pronoun; he, she, this, that",
     "result": [
       "伊"
     ]
@@ -1597,10 +1602,15 @@
       "夥"
     ]
   },
+  "i'm able to; assemble, meet together; meeting": {
+    "lookup": "i'm able to; assemble, meet together; meeting",
+    "result": [
+      "会"
+    ]
+  },
   "assemble, meet together; meeting": {
     "lookup": "assemble, meet together; meeting",
     "result": [
-      "会",
       "會"
     ]
   },
@@ -1961,8 +1971,8 @@
       "佟"
     ]
   },
-  "you, second person pronoun": {
-    "lookup": "you, second person pronoun",
+  "you (singular); you, second person pronoun": {
+    "lookup": "you (singular); you, second person pronoun",
     "result": [
       "你"
     ]
@@ -2962,8 +2972,8 @@
       "偘"
     ]
   },
-  "work, make; act": {
-    "lookup": "work, make; act",
+  "do; work, make; act": {
+    "lookup": "do; work, make; act",
     "result": [
       "做"
     ]
@@ -3638,11 +3648,10 @@
       "元"
     ]
   },
-  "elder brother": {
-    "lookup": "elder brother",
+  "older brother; elder brother": {
+    "lookup": "older brother; elder brother",
     "result": [
-      "兄",
-      "哥"
+      "兄"
     ]
   },
   "fill, be full, supply": {
@@ -4591,8 +4600,8 @@
       "刅"
     ]
   },
-  "divide; small unit of time etc.": {
-    "lookup": "divide; small unit of time etc.",
+  "give, split; divide; small unit of time etc.": {
+    "lookup": "give, split; divide; small unit of time etc.",
     "result": [
       "分"
     ]
@@ -5957,10 +5966,15 @@
       "卣"
     ]
   },
+  "hates/dislikes; saline soil; natural salt, rock": {
+    "lookup": "hates/dislikes; saline soil; natural salt, rock",
+    "result": [
+      "卤"
+    ]
+  },
   "saline soil; natural salt, rock": {
     "lookup": "saline soil; natural salt, rock",
     "result": [
-      "卤",
       "滷",
       "鹵"
     ]
@@ -7897,6 +7911,12 @@
       "哤"
     ]
   },
+  "elder brother": {
+    "lookup": "elder brother",
+    "result": [
+      "哥"
+    ]
+  },
   "oh? really? is that so?": {
     "lookup": "oh? really? is that so?",
     "result": [
@@ -8062,8 +8082,8 @@
       "唓"
     ]
   },
-  "◎ hold in mouth; bite": {
-    "lookup": "◎ hold in mouth; bite",
+  "not; ◎ hold in mouth; bite": {
+    "lookup": "not; ◎ hold in mouth; bite",
     "result": [
       "唔"
     ]
@@ -11866,8 +11886,8 @@
       "婦"
     ]
   },
-  "mother; mother, mama": {
-    "lookup": "mother; mother, mama",
+  "mother; mom; mother, mama": {
+    "lookup": "mother; mom; mother, mama",
     "result": [
       "妈"
     ]
@@ -12081,14 +12101,14 @@
       "姍"
     ]
   },
-  "elder sister, young lady": {
-    "lookup": "elder sister, young lady",
+  "older sister; elder sister, young lady": {
+    "lookup": "older sister; elder sister, young lady",
     "result": [
       "姐"
     ]
   },
-  "father's sister; husband's mother": {
-    "lookup": "father's sister; husband's mother",
+  "aunt (dad's side); father's sister; husband's mother": {
+    "lookup": "aunt (dad's side); father's sister; husband's mother",
     "result": [
       "姑"
     ]
@@ -12160,8 +12180,8 @@
       "姥"
     ]
   },
-  "mother/wife's sister; concubine": {
-    "lookup": "mother/wife's sister; concubine",
+  "aunt (mom's side); mother/wife's sister; concubine": {
+    "lookup": "aunt (mom's side); mother/wife's sister; concubine",
     "result": [
       "姨"
     ]
@@ -14107,10 +14127,15 @@
       "岀"
     ]
   },
+  "age, years; year; age; harvest": {
+    "lookup": "age, years; year; age; harvest",
+    "result": [
+      "岁"
+    ]
+  },
   "year; age; harvest": {
     "lookup": "year; age; harvest",
     "result": [
-      "岁",
       "歲",
       "嵗",
       "歳"
@@ -14691,7 +14716,6 @@
     "result": [
       "嵠",
       "渓",
-      "溪",
       "磎"
     ]
   },
@@ -15421,11 +15445,10 @@
       "平"
     ]
   },
-  "year; new-years; person's age": {
-    "lookup": "year; new-years; person's age",
+  "Year; year; new-years; person's age": {
+    "lookup": "Year; year; new-years; person's age",
     "result": [
-      "年",
-      "秊"
+      "年"
     ]
   },
   "even level. to raise in both hands": {
@@ -15983,8 +16006,8 @@
       "弝"
     ]
   },
-  "young brother; junior; i, me": {
-    "lookup": "young brother; junior; i, me",
+  "younger brother; young brother; junior; i, me": {
+    "lookup": "younger brother; young brother; junior; i, me",
     "result": [
       "弟"
     ]
@@ -16969,8 +16992,8 @@
       "怦"
     ]
   },
-  "nature, character, sex": {
-    "lookup": "nature, character, sex",
+  "last name; nature, character, sex": {
+    "lookup": "last name; nature, character, sex",
     "result": [
       "性"
     ]
@@ -17568,10 +17591,15 @@
       "惇"
     ]
   },
+  "fear; frighten, surprise, startle": {
+    "lookup": "fear; frighten, surprise, startle",
+    "result": [
+      "惊"
+    ]
+  },
   "frighten, surprise, startle": {
     "lookup": "frighten, surprise, startle",
     "result": [
-      "惊",
       "驚"
     ]
   },
@@ -17904,10 +17932,15 @@
       "愚"
     ]
   },
+  "love, want; love, be fond of, like": {
+    "lookup": "love, want; love, be fond of, like",
+    "result": [
+      "爱"
+    ]
+  },
   "love, be fond of, like": {
     "lookup": "love, be fond of, like",
     "result": [
-      "爱",
       "愛"
     ]
   },
@@ -18535,8 +18568,8 @@
       "成"
     ]
   },
-  "our, us, i, me, my, we": {
-    "lookup": "our, us, i, me, my, we",
+  "I; our, us, i, me, my, we": {
+    "lookup": "I; our, us, i, me, my, we",
     "result": [
       "我"
     ]
@@ -19375,8 +19408,8 @@
       "拌"
     ]
   },
-  "clap, tap, beat; beat or rhythm": {
-    "lookup": "clap, tap, beat; beat or rhythm",
+  "hit; clap, tap, beat; beat or rhythm": {
+    "lookup": "hit; clap, tap, beat; beat or rhythm",
     "result": [
       "拍"
     ]
@@ -23140,8 +23173,8 @@
       "月"
     ]
   },
-  "have, own, possess; exist": {
-    "lookup": "have, own, possess; exist",
+  "to have; have, own, possess; exist": {
+    "lookup": "to have; have, own, possess; exist",
     "result": [
       "有"
     ]
@@ -29263,6 +29296,12 @@
       "溧"
     ]
   },
+  "river; mountain stream, creek": {
+    "lookup": "river; mountain stream, creek",
+    "result": [
+      "溪"
+    ]
+  },
   "lukewarm, warm; tepid, mild": {
     "lookup": "lukewarm, warm; tepid, mild",
     "result": [
@@ -29374,8 +29413,8 @@
       "滐"
     ]
   },
-  "slip, slide; slippery, polished": {
-    "lookup": "slip, slide; slippery, polished",
+  "smooth; slip, slide; slippery, polished": {
+    "lookup": "smooth; slip, slide; slippery, polished",
     "result": [
       "滑"
     ]
@@ -30626,8 +30665,13 @@
     "lookup": "burn; bake; heat; roast",
     "result": [
       "烧",
-      "燒",
       "焼"
+    ]
+  },
+  "warm; burn; bake; heat; roast": {
+    "lookup": "warm; burn; bake; heat; roast",
+    "result": [
+      "燒"
     ]
   },
   "bright, glorious, splendid, flame": {
@@ -31377,8 +31421,8 @@
       "爺"
     ]
   },
-  "father; father, papa": {
-    "lookup": "father; father, papa",
+  "father; dad; father, papa": {
+    "lookup": "father; dad; father, papa",
     "result": [
       "爸"
     ]
@@ -31514,8 +31558,8 @@
       "牙"
     ]
   },
-  "cow, ox, bull; KangXi radical93": {
-    "lookup": "cow, ox, bull; KangXi radical93",
+  "beef, cow; cow, ox, bull; KangXi radical93": {
+    "lookup": "beef, cow; cow, ox, bull; KangXi radical93",
     "result": [
       "牛"
     ]
@@ -31589,7 +31633,12 @@
   "drag, pull, lead by hand": {
     "lookup": "drag, pull, lead by hand",
     "result": [
-      "牵",
+      "牵"
+    ]
+  },
+  "hold; drag, pull, lead by hand": {
+    "lookup": "hold; drag, pull, lead by hand",
+    "result": [
       "牽"
     ]
   },
@@ -32148,10 +32197,15 @@
       "猩"
     ]
   },
+  "pig, pork; pig, hog, wild boar": {
+    "lookup": "pig, pork; pig, hog, wild boar",
+    "result": [
+      "猪"
+    ]
+  },
   "pig, hog, wild boar": {
     "lookup": "pig, hog, wild boar",
     "result": [
-      "猪",
       "豬"
     ]
   },
@@ -35213,8 +35267,8 @@
       "眊"
     ]
   },
-  "look, see; examine, scrutinize": {
-    "lookup": "look, see; examine, scrutinize",
+  "to see; look, see; examine, scrutinize": {
+    "lookup": "to see; look, see; examine, scrutinize",
     "result": [
       "看"
     ]
@@ -35267,7 +35321,12 @@
   "real, actual, true, genuine": {
     "lookup": "real, actual, true, genuine",
     "result": [
-      "眞",
+      "眞"
+    ]
+  },
+  "very, real; real, actual, true, genuine": {
+    "lookup": "very, real; real, actual, true, genuine",
+    "result": [
       "真"
     ]
   },
@@ -35400,8 +35459,8 @@
       "眾"
     ]
   },
-  "make move, take action": {
-    "lookup": "make move, take action",
+  "correct; make move, take action": {
+    "lookup": "correct; make move, take action",
     "result": [
       "着"
     ]
@@ -35424,8 +35483,8 @@
       "睅"
     ]
   },
-  "look at, glance at; stare at": {
-    "lookup": "look at, glance at; stare at",
+  "see; look at, glance at; stare at": {
+    "lookup": "see; look at, glance at; stare at",
     "result": [
       "睇"
     ]
@@ -37203,6 +37262,12 @@
     "lookup": "grasp, hold; bundle; authority",
     "result": [
       "秉"
+    ]
+  },
+  "year; new-years; person's age": {
+    "lookup": "year; new-years; person's age",
+    "result": [
+      "秊"
     ]
   },
   "autumn, fall; year": {
@@ -39579,10 +39644,15 @@
       "糙"
     ]
   },
+  "rotten; rice gruel, congee; mashed": {
+    "lookup": "rotten; rice gruel, congee; mashed",
+    "result": [
+      "糜"
+    ]
+  },
   "rice gruel, congee; mashed": {
     "lookup": "rice gruel, congee; mashed",
     "result": [
-      "糜",
       "蘪"
     ]
   },
@@ -39905,10 +39975,15 @@
       "纍"
     ]
   },
+  "small; fine, tiny; slender, thin": {
+    "lookup": "small; fine, tiny; slender, thin",
+    "result": [
+      "细"
+    ]
+  },
   "fine, tiny; slender, thin": {
     "lookup": "fine, tiny; slender, thin",
     "result": [
-      "细",
       "細"
     ]
   },
@@ -41776,8 +41851,8 @@
       "翀"
     ]
   },
-  "old man; father, father-in-law": {
-    "lookup": "old man; father, father-in-law",
+  "husband; old man; father, father-in-law": {
+    "lookup": "husband; old man; father, father-in-law",
     "result": [
       "翁"
     ]
@@ -43637,8 +43712,8 @@
       "舄"
     ]
   },
-  "mother's brother, uncle": {
-    "lookup": "mother's brother, uncle",
+  "uncle (mom's side); mother's brother, uncle": {
+    "lookup": "uncle (mom's side); mother's brother, uncle",
     "result": [
       "舅"
     ]
@@ -58274,8 +58349,8 @@
       "雄"
     ]
   },
-  "elegant, graceful, refined": {
-    "lookup": "elegant, graceful, refined",
+  "pretty; elegant, graceful, refined": {
+    "lookup": "pretty; elegant, graceful, refined",
     "result": [
       "雅"
     ]
@@ -59394,10 +59469,15 @@
       "頵"
     ]
   },
+  "neck; chin, jowl; give nod": {
+    "lookup": "neck; chin, jowl; give nod",
+    "result": [
+      "颔"
+    ]
+  },
   "chin, jowl; give nod": {
     "lookup": "chin, jowl; give nod",
     "result": [
-      "颔",
       "頷"
     ]
   },
@@ -63937,8 +64017,8 @@
       "目涩"
     ]
   },
-  "why": {
-    "lookup": "why",
+  "how, why; why": {
+    "lookup": "how, why; why",
     "result": [
       "做呢"
     ]

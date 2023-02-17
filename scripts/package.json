@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fetch-dictionary": "ts-node fetch-dictionary.ts",
+    "fetch-dictionary": "ts-node fetch-dictionary.ts && npm run main",
     "scrape": "ts-node scrape-chinese-chars.ts",
-    "generate-main": "ts-node generate-main-dictionary.ts",
-    "generate-phonetic": "ts-node generate-phonetic-dictionary.ts",
-    "generate-sound": "ts-node generate-sound-dictionary.ts"
+    "main": "ts-node generate-main-dictionary.ts && npm run phonetic && npm run definitions && npm run sound",
+    "phonetic": "ts-node generate-phonetic-dictionary.ts",
+    "sound": "ts-node generate-sound-dictionary.ts",
+    "definitions": "ts-node generate-definition-lookup.ts"
   },
   "author": "",
   "license": "ISC",

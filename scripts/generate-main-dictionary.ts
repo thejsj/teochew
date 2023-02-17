@@ -24,10 +24,27 @@ additions.forEach((entry: EntryCustom) => {
     // definitions tend to be a bit more complete than the ones I have.
     if (!romanizationPresent) {
       dictionary[simplified].romanizations.push({
-        "pengIm": entry.word,
+        pengIm: entry.word,
+        verified: true,
       })
       dictionary[simplified].definition = `${entry.definition}; ${dictionary[simplified].definition}`
+    } else {
+      romanizationPresent.verified = true
     }
+
+    const definitions = entry.definition.match(/[A-z-]*/g)
+    const currentDefinition = dictionary[simplified]?.definition
+    if (definitions !== null && currentDefinition) {
+      const filteredDefinitions = definitions.filter(x => x.length > 0)
+      const definitionsPresent = filteredDefinitions.every(word => {
+        return currentDefinition.includes(word)
+      })
+      if (!definitionsPresent) {
+        dictionary[simplified].definition = `${entry.definition}; ${dictionary[simplified].definition}`
+      }
+    }
+
+
     return
   }
 

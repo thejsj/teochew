@@ -137,7 +137,8 @@
       {
         "pengIm": "gao2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kau2.mp3"
+        "soundLink": "/sound/syllabes/kau2.mp3",
+        "verified": true
       }
     ]
   },
@@ -294,7 +295,7 @@
   "一": {
     "simplifiedChar": "一",
     "traditionalChar": "壹",
-    "definition": "one; a, an; alone",
+    "definition": "first; one; a, an; alone",
     "romanizations": [
       {
         "pengIm": "ieu1",
@@ -304,12 +305,14 @@
       {
         "pengIm": "ig4",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ik4.mp3"
+        "soundLink": "/sound/syllabes/ik4.mp3",
+        "verified": true
       },
       {
         "pengIm": "zêg8",
         "symbol": "训",
-        "soundLink": "/sound/syllabes/tsek8.mp3"
+        "soundLink": "/sound/syllabes/tsek8.mp3",
+        "verified": true
       }
     ]
   },
@@ -352,7 +355,8 @@
       {
         "pengIm": "cig4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tshik4.mp3"
+        "soundLink": "/sound/syllabes/tshik4.mp3",
+        "verified": true
       }
     ]
   },
@@ -425,12 +429,13 @@
   "三": {
     "simplifiedChar": "三",
     "traditionalChar": "叁",
-    "definition": "three",
+    "definition": "third; three",
     "romanizations": [
       {
         "pengIm": "san1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/sa~1.mp3"
+        "soundLink": "/sound/syllabes/sa~1.mp3",
+        "verified": true
       },
       {
         "pengIm": "sam1",
@@ -468,7 +473,7 @@
   },
   "上": {
     "simplifiedChar": "上",
-    "definition": "top; superior, highest; go up, send up",
+    "definition": "most; top; superior, highest; go up, send up",
     "romanizations": [
       {
         "pengIm": "ciên6",
@@ -478,7 +483,8 @@
       {
         "pengIm": "siang6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/siang6.mp3"
+        "soundLink": "/sound/syllabes/siang6.mp3",
+        "verified": true
       },
       {
         "pengIm": "ziên6",
@@ -1510,7 +1516,8 @@
       {
         "pengIm": "ou1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ou1.mp3"
+        "soundLink": "/sound/syllabes/ou1.mp3",
+        "verified": true
       },
       {
         "pengIm": "u1",
@@ -1757,7 +1764,8 @@
       {
         "pengIm": "gao2",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/kau2.mp3"
+        "soundLink": "/sound/syllabes/kau2.mp3",
+        "verified": true
       },
       {
         "pengIm": "giu2",
@@ -1894,7 +1902,8 @@
       {
         "pengIm": "ze1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tseu1.mp3"
+        "soundLink": "/sound/syllabes/tseu1.mp3",
+        "verified": true
       }
     ]
   },
@@ -1969,7 +1978,8 @@
       {
         "pengIm": "bhoi2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/boi2.mp3"
+        "soundLink": "/sound/syllabes/boi2.mp3",
+        "verified": true
       }
     ]
   },
@@ -2273,17 +2283,19 @@
   "二": {
     "simplifiedChar": "二",
     "traditionalChar": "贰",
-    "definition": "two; twice",
+    "definition": "second; two; twice",
     "romanizations": [
       {
         "pengIm": "no6",
         "symbol": "训",
-        "soundLink": "/sound/syllabes/no6.mp3"
+        "soundLink": "/sound/syllabes/no6.mp3",
+        "verified": true
       },
       {
         "pengIm": "ri6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ji6.mp3"
+        "soundLink": "/sound/syllabes/ji6.mp3",
+        "verified": true
       },
       {
         "pengIm": "ri7",
@@ -2458,7 +2470,8 @@
       {
         "pengIm": "ngou6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ngou6.mp3"
+        "soundLink": "/sound/syllabes/ngou6.mp3",
+        "verified": true
       },
       {
         "pengIm": "u2",
@@ -3852,7 +3865,8 @@
       {
         "pengIm": "kia6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/khia6.mp3"
+        "soundLink": "/sound/syllabes/khia6.mp3",
+        "verified": true
       },
       {
         "pengIm": "gi6",
@@ -3916,12 +3930,13 @@
   },
   "伊": {
     "simplifiedChar": "伊",
-    "definition": "third person pronoun; he, she, this, that",
+    "definition": "he/she/it; third person pronoun; he, she, this, that",
     "romanizations": [
       {
         "pengIm": "i1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/i1.mp3"
+        "soundLink": "/sound/syllabes/i1.mp3",
+        "verified": true
       }
     ]
   },
@@ -4115,7 +4130,7 @@
   "会": {
     "simplifiedChar": "会",
     "traditionalChar": "會",
-    "definition": "assemble, meet together; meeting",
+    "definition": "i'm able to; assemble, meet together; meeting",
     "romanizations": [
       {
         "pengIm": "huê6",
@@ -4129,7 +4144,8 @@
       },
       {
         "pengIm": "oi6",
-        "symbol": "训"
+        "symbol": "训",
+        "verified": true
       }
     ]
   },
@@ -4690,7 +4706,8 @@
       {
         "pengIm": "dang6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tang6.mp3"
+        "soundLink": "/sound/syllabes/tang6.mp3",
+        "verified": true
       }
     ]
   },
@@ -4910,7 +4927,8 @@
       {
         "pengIm": "zoh4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tsoh4.mp3"
+        "soundLink": "/sound/syllabes/tsoh4.mp3",
+        "verified": true
       },
       {
         "pengIm": "zag4",
@@ -4955,12 +4973,13 @@
   "你": {
     "simplifiedChar": "你",
     "traditionalChar": "妳",
-    "definition": "you, second person pronoun",
+    "definition": "you (singular); you, second person pronoun",
     "romanizations": [
       {
         "pengIm": "le2",
         "symbol": "训",
-        "soundLink": "/sound/syllabes/leu2.mp3"
+        "soundLink": "/sound/syllabes/leu2.mp3",
+        "verified": true
       }
     ]
   },
@@ -5127,7 +5146,8 @@
     "definition": "with, and; (Cant.) intensive particle",
     "romanizations": [
       {
-        "pengIm": "gah8"
+        "pengIm": "gah8",
+        "verified": true
       }
     ]
   },
@@ -5363,7 +5383,8 @@
       {
         "pengIm": "lai5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/lai5.mp3"
+        "soundLink": "/sound/syllabes/lai5.mp3",
+        "verified": true
       },
       {
         "pengIm": "lai7",
@@ -7352,12 +7373,13 @@
   },
   "做": {
     "simplifiedChar": "做",
-    "definition": "work, make; act",
+    "definition": "do; work, make; act",
     "romanizations": [
       {
         "pengIm": "zo3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tso3.mp3"
+        "soundLink": "/sound/syllabes/tso3.mp3",
+        "verified": true
       }
     ]
   },
@@ -8962,12 +8984,13 @@
   },
   "兄": {
     "simplifiedChar": "兄",
-    "definition": "elder brother",
+    "definition": "older brother; elder brother",
     "romanizations": [
       {
         "pengIm": "hian1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/hia~1.mp3"
+        "soundLink": "/sound/syllabes/hia~1.mp3",
+        "verified": true
       }
     ]
   },
@@ -9314,7 +9337,8 @@
       {
         "pengIm": "boih4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/poih4.mp3"
+        "soundLink": "/sound/syllabes/poih4.mp3",
+        "verified": true
       },
       {
         "pengIm": "bag4",
@@ -9338,7 +9362,8 @@
         "soundLink": "/sound/syllabes/pak4.mp3"
       },
       {
-        "pengIm": "pag8"
+        "pengIm": "pag8",
+        "verified": true
       }
     ]
   },
@@ -9366,7 +9391,8 @@
       {
         "pengIm": "lag8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/lak8.mp3"
+        "soundLink": "/sound/syllabes/lak8.mp3",
+        "verified": true
       },
       {
         "pengIm": "liu5",
@@ -11098,12 +11124,13 @@
   },
   "分": {
     "simplifiedChar": "分",
-    "definition": "divide; small unit of time etc.",
+    "definition": "give, split; divide; small unit of time etc.",
     "romanizations": [
       {
         "pengIm": "bung1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/pung1.mp3"
+        "soundLink": "/sound/syllabes/pung1.mp3",
+        "verified": true
       },
       {
         "pengIm": "hung1",
@@ -11725,7 +11752,8 @@
       {
         "pengIm": "gao3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kau3.mp3"
+        "soundLink": "/sound/syllabes/kau3.mp3",
+        "verified": true
       }
     ]
   },
@@ -14212,7 +14240,8 @@
       {
         "pengIm": "zab8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tsap8.mp3"
+        "soundLink": "/sound/syllabes/tsap8.mp3",
+        "verified": true
       }
     ]
   },
@@ -14738,7 +14767,7 @@
   "卤": {
     "simplifiedChar": "卤",
     "traditionalChar": "滷",
-    "definition": "saline soil; natural salt, rock",
+    "definition": "hates/dislikes; saline soil; natural salt, rock",
     "romanizations": [
       {
         "pengIm": "lou6",
@@ -14748,7 +14777,8 @@
       {
         "pengIm": "lou2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/lou2.mp3"
+        "soundLink": "/sound/syllabes/lou2.mp3",
+        "verified": true
       }
     ]
   },
@@ -14975,7 +15005,8 @@
       {
         "pengIm": "neng6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/neung6.mp3"
+        "soundLink": "/sound/syllabes/neung6.mp3",
+        "verified": true
       },
       {
         "pengIm": "lang6",
@@ -15137,7 +15168,8 @@
         "soundLink": "/sound/syllabes/eh4.mp3"
       },
       {
-        "pengIm": "oh4"
+        "pengIm": "oh4",
+        "verified": true
       }
     ]
   },
@@ -15428,7 +15460,8 @@
       {
         "pengIm": "gao6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kau6.mp3"
+        "soundLink": "/sound/syllabes/kau6.mp3",
+        "verified": true
       }
     ]
   },
@@ -15696,7 +15729,8 @@
       {
         "pengIm": "ke3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kheu3.mp3"
+        "soundLink": "/sound/syllabes/kheu3.mp3",
+        "verified": true
       }
     ]
   },
@@ -16011,7 +16045,8 @@
         "soundLink": "/sound/syllabes/tsek4.mp3"
       },
       {
-        "pengIm": "zêg5"
+        "pengIm": "zêg5",
+        "verified": true
       }
     ]
   },
@@ -16460,7 +16495,8 @@
       {
         "pengIm": "hiêh8",
         "symbol": "训",
-        "soundLink": "/sound/syllabes/hieh8.mp3"
+        "soundLink": "/sound/syllabes/hieh8.mp3",
+        "verified": true
       },
       {
         "pengIm": "ieb8",
@@ -16828,7 +16864,8 @@
       {
         "pengIm": "mian5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/mia~5.mp3"
+        "soundLink": "/sound/syllabes/mia~5.mp3",
+        "verified": true
       },
       {
         "pengIm": "mêng5",
@@ -17292,7 +17329,8 @@
       {
         "pengIm": "tian1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/thia~1.mp3"
+        "soundLink": "/sound/syllabes/thia~1.mp3",
+        "verified": true
       },
       {
         "pengIm": "têng3",
@@ -17755,7 +17793,8 @@
       {
         "pengIm": "ao2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/au2.mp3"
+        "soundLink": "/sound/syllabes/au2.mp3",
+        "verified": true
       }
     ]
   },
@@ -18103,7 +18142,8 @@
         "soundLink": "/sound/syllabes/bi7.mp3"
       },
       {
-        "pengIm": "bhi5"
+        "pengIm": "bhi5",
+        "verified": true
       }
     ]
   },
@@ -18169,7 +18209,8 @@
         "soundLink": "/sound/syllabes/phui2.mp3"
       },
       {
-        "pengIm": "pui3"
+        "pengIm": "pui3",
+        "verified": true
       }
     ]
   },
@@ -18260,7 +18301,8 @@
       {
         "pengIm": "dan3",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ta~3.mp3"
+        "soundLink": "/sound/syllabes/ta~3.mp3",
+        "verified": true
       }
     ]
   },
@@ -18746,7 +18788,8 @@
       {
         "pengIm": "ga6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ka6.mp3"
+        "soundLink": "/sound/syllabes/ka6.mp3",
+        "verified": true
       }
     ]
   },
@@ -18821,7 +18864,8 @@
         "soundLink": "/sound/syllabes/tsa1.mp3"
       },
       {
-        "pengIm": "nang2"
+        "pengIm": "nang2",
+        "verified": true
       }
     ]
   },
@@ -19887,12 +19931,13 @@
   },
   "唔": {
     "simplifiedChar": "唔",
-    "definition": "◎ hold in mouth; bite",
+    "definition": "not; ◎ hold in mouth; bite",
     "romanizations": [
       {
         "pengIm": "m6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/m6.mp3"
+        "soundLink": "/sound/syllabes/m6.mp3",
+        "verified": true
       }
     ]
   },
@@ -20162,7 +20207,8 @@
       {
         "pengIm": "ciang3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tshiang3.mp3"
+        "soundLink": "/sound/syllabes/tshiang3.mp3",
+        "verified": true
       }
     ]
   },
@@ -22456,7 +22502,8 @@
         "soundLink": "/sound/syllabes/tshui3.mp3"
       },
       {
-        "pengIm": "cui7"
+        "pengIm": "cui7",
+        "verified": true
       }
     ]
   },
@@ -23497,7 +23544,8 @@
       {
         "pengIm": "si3",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/si3.mp3"
+        "soundLink": "/sound/syllabes/si3.mp3",
+        "verified": true
       },
       {
         "pengIm": "se3",
@@ -24015,7 +24063,8 @@
       {
         "pengIm": "in5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/i~5.mp3"
+        "soundLink": "/sound/syllabes/i~5.mp3",
+        "verified": true
       }
     ]
   },
@@ -24236,7 +24285,8 @@
       {
         "pengIm": "do6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/to6.mp3"
+        "soundLink": "/sound/syllabes/to6.mp3",
+        "verified": true
       },
       {
         "pengIm": "zai6",
@@ -24697,7 +24747,8 @@
       {
         "pengIm": "zo6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tso6.mp3"
+        "soundLink": "/sound/syllabes/tso6.mp3",
+        "verified": true
       }
     ]
   },
@@ -28388,7 +28439,8 @@
       },
       {
         "pengIm": "ug8",
-        "symbol": "白"
+        "symbol": "白",
+        "verified": true
       }
     ]
   },
@@ -28413,7 +28465,8 @@
         "soundLink": "/sound/syllabes/to1.mp3"
       },
       {
-        "pengIm": "ge1"
+        "pengIm": "ge1",
+        "verified": true
       }
     ]
   },
@@ -28510,7 +28563,8 @@
       {
         "pengIm": "dua7",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tua7.mp3"
+        "soundLink": "/sound/syllabes/tua7.mp3",
+        "verified": true
       },
       {
         "pengIm": "dai6",
@@ -28658,7 +28712,8 @@
       {
         "pengIm": "tao5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/thau5.mp3"
+        "soundLink": "/sound/syllabes/thau5.mp3",
+        "verified": true
       }
     ]
   },
@@ -29395,7 +29450,8 @@
       {
         "pengIm": "ho2",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ho2.mp3"
+        "soundLink": "/sound/syllabes/ho2.mp3",
+        "verified": true
       },
       {
         "pengIm": "haon3",
@@ -29539,7 +29595,7 @@
   "妈": {
     "simplifiedChar": "妈",
     "traditionalChar": "媽",
-    "definition": "mother; mother, mama",
+    "definition": "mother; mom; mother, mama",
     "romanizations": [
       {
         "pengIm": "ma1",
@@ -29549,7 +29605,8 @@
       {
         "pengIm": "ma5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ma5.mp3"
+        "soundLink": "/sound/syllabes/ma5.mp3",
+        "verified": true
       },
       {
         "pengIm": "ma2",
@@ -29557,7 +29614,8 @@
         "soundLink": "/sound/syllabes/ma2.mp3"
       },
       {
-        "pengIm": "ai1"
+        "pengIm": "ai1",
+        "verified": true
       }
     ]
   },
@@ -30022,7 +30080,8 @@
       {
         "pengIm": "muê6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/mue6.mp3"
+        "soundLink": "/sound/syllabes/mue6.mp3",
+        "verified": true
       }
     ]
   },
@@ -30201,11 +30260,12 @@
   },
   "姐": {
     "simplifiedChar": "姐",
-    "definition": "elder sister, young lady",
+    "definition": "older sister; elder sister, young lady",
     "romanizations": [
       {
         "pengIm": "zê2",
-        "symbol": "文"
+        "symbol": "文",
+        "verified": true
       },
       {
         "pengIm": "zia2",
@@ -30216,12 +30276,13 @@
   },
   "姑": {
     "simplifiedChar": "姑",
-    "definition": "father's sister; husband's mother",
+    "definition": "aunt (dad's side); father's sister; husband's mother",
     "romanizations": [
       {
         "pengIm": "gou1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kou1.mp3"
+        "soundLink": "/sound/syllabes/kou1.mp3",
+        "verified": true
       }
     ]
   },
@@ -30393,12 +30454,13 @@
   },
   "姨": {
     "simplifiedChar": "姨",
-    "definition": "mother/wife's sister; concubine",
+    "definition": "aunt (mom's side); mother/wife's sister; concubine",
     "romanizations": [
       {
         "pengIm": "i5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/i5.mp3"
+        "soundLink": "/sound/syllabes/i5.mp3",
+        "verified": true
       }
     ]
   },
@@ -33173,7 +33235,8 @@
       {
         "pengIm": "oh8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/oh8.mp3"
+        "soundLink": "/sound/syllabes/oh8.mp3",
+        "verified": true
       }
     ]
   },
@@ -33250,7 +33313,8 @@
       {
         "pengIm": "mo2",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/mo2.mp3"
+        "soundLink": "/sound/syllabes/mo2.mp3",
+        "verified": true
       },
       {
         "pengIm": "nao1",
@@ -34214,7 +34278,8 @@
       {
         "pengIm": "bu3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/pu3.mp3"
+        "soundLink": "/sound/syllabes/pu3.mp3",
+        "verified": true
       }
     ]
   },
@@ -34259,7 +34324,8 @@
         "soundLink": "/sound/syllabes/kua~5.mp3"
       },
       {
-        "pengIm": "ngang5"
+        "pengIm": "ngang5",
+        "verified": true
       }
     ]
   },
@@ -34815,7 +34881,8 @@
         "soundLink": "/sound/syllabes/tsiem1.mp3"
       },
       {
-        "pengIm": "ziam1"
+        "pengIm": "ziam1",
+        "verified": true
       }
     ]
   },
@@ -35673,7 +35740,7 @@
   "岁": {
     "simplifiedChar": "岁",
     "traditionalChar": "歲",
-    "definition": "year; age; harvest",
+    "definition": "age, years; year; age; harvest",
     "romanizations": [
       {
         "pengIm": "suê3",
@@ -35683,7 +35750,8 @@
       {
         "pengIm": "huê3",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/hue3.mp3"
+        "soundLink": "/sound/syllabes/hue3.mp3",
+        "verified": true
       }
     ]
   },
@@ -39725,12 +39793,13 @@
   },
   "年": {
     "simplifiedChar": "年",
-    "definition": "year; new-years; person's age",
+    "definition": "Year; year; new-years; person's age",
     "romanizations": [
       {
         "pengIm": "ni5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ni5.mp3"
+        "soundLink": "/sound/syllabes/ni5.mp3",
+        "verified": true
       }
     ]
   },
@@ -40173,7 +40242,8 @@
       {
         "pengIm": "di2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ti2.mp3"
+        "soundLink": "/sound/syllabes/ti2.mp3",
+        "verified": true
       },
       {
         "pengIm": "di7",
@@ -41274,12 +41344,13 @@
   },
   "弟": {
     "simplifiedChar": "弟",
-    "definition": "young brother; junior; i, me",
+    "definition": "younger brother; young brother; junior; i, me",
     "romanizations": [
       {
         "pengIm": "di6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ti6.mp3"
+        "soundLink": "/sound/syllabes/ti6.mp3",
+        "verified": true
       }
     ]
   },
@@ -43779,12 +43850,13 @@
   },
   "性": {
     "simplifiedChar": "性",
-    "definition": "nature, character, sex",
+    "definition": "last name; nature, character, sex",
     "romanizations": [
       {
         "pengIm": "sên3",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/se~3.mp3"
+        "soundLink": "/sound/syllabes/se~3.mp3",
+        "verified": true
       }
     ]
   },
@@ -45433,12 +45505,13 @@
   "惊": {
     "simplifiedChar": "惊",
     "traditionalChar": "驚",
-    "definition": "frighten, surprise, startle",
+    "definition": "fear; frighten, surprise, startle",
     "romanizations": [
       {
         "pengIm": "gian1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/kia~1.mp3"
+        "soundLink": "/sound/syllabes/kia~1.mp3",
+        "verified": true
       },
       {
         "pengIm": "gêng1",
@@ -45898,7 +45971,8 @@
       {
         "pengIm": "siên6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/sie~6.mp3"
+        "soundLink": "/sound/syllabes/sie~6.mp3",
+        "verified": true
       },
       {
         "pengIm": "siang2",
@@ -46214,12 +46288,13 @@
   "爱": {
     "simplifiedChar": "爱",
     "traditionalChar": "愛",
-    "definition": "love, be fond of, like",
+    "definition": "love, want; love, be fond of, like",
     "romanizations": [
       {
         "pengIm": "ain3",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ai~3.mp3"
+        "soundLink": "/sound/syllabes/ai~3.mp3",
+        "verified": true
       }
     ]
   },
@@ -47827,12 +47902,13 @@
   },
   "我": {
     "simplifiedChar": "我",
-    "definition": "our, us, i, me, my, we",
+    "definition": "I; our, us, i, me, my, we",
     "romanizations": [
       {
         "pengIm": "ua2",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ua2.mp3"
+        "soundLink": "/sound/syllabes/ua2.mp3",
+        "verified": true
       },
       {
         "pengIm": "ngo2",
@@ -48359,7 +48435,8 @@
       {
         "pengIm": "ciu2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tshiu2.mp3"
+        "soundLink": "/sound/syllabes/tshiu2.mp3",
+        "verified": true
       }
     ]
   },
@@ -49865,12 +49942,13 @@
   },
   "拍": {
     "simplifiedChar": "拍",
-    "definition": "clap, tap, beat; beat or rhythm",
+    "definition": "hit; clap, tap, beat; beat or rhythm",
     "romanizations": [
       {
         "pengIm": "pah4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/phah4.mp3"
+        "soundLink": "/sound/syllabes/phah4.mp3",
+        "verified": true
       }
     ]
   },
@@ -50610,7 +50688,8 @@
         "symbol": "白"
       },
       {
-        "pengIm": "kiêg8"
+        "pengIm": "kiêg8",
+        "verified": true
       }
     ]
   },
@@ -54826,7 +54905,8 @@
         "soundLink": "/sound/syllabes/khim5.mp3"
       },
       {
-        "pengIm": "ngim6"
+        "pengIm": "ngim6",
+        "verified": true
       }
     ]
   },
@@ -56480,7 +56560,8 @@
       {
         "pengIm": "sing1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/sing1.mp3"
+        "soundLink": "/sound/syllabes/sing1.mp3",
+        "verified": true
       }
     ]
   },
@@ -56917,7 +56998,8 @@
       {
         "pengIm": "rig8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/jik8.mp3"
+        "soundLink": "/sound/syllabes/jik8.mp3",
+        "verified": true
       }
     ]
   },
@@ -56943,7 +57025,8 @@
     "romanizations": [
       {
         "pengIm": "gu7",
-        "soundLink": "/sound/syllabes/ku7.mp3"
+        "soundLink": "/sound/syllabes/ku7.mp3",
+        "verified": true
       }
     ]
   },
@@ -56976,7 +57059,8 @@
       {
         "pengIm": "za2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tsa2.mp3"
+        "soundLink": "/sound/syllabes/tsa2.mp3",
+        "verified": true
       }
     ]
   },
@@ -57661,7 +57745,8 @@
       {
         "pengIm": "si6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/si6.mp3"
+        "soundLink": "/sound/syllabes/si6.mp3",
+        "verified": true
       }
     ]
   },
@@ -58431,7 +58516,8 @@
       {
         "pengIm": "zai1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tsai1.mp3"
+        "soundLink": "/sound/syllabes/tsai1.mp3",
+        "verified": true
       },
       {
         "pengIm": "di1",
@@ -59452,12 +59538,13 @@
   },
   "有": {
     "simplifiedChar": "有",
-    "definition": "have, own, possess; exist",
+    "definition": "to have; have, own, possess; exist",
     "romanizations": [
       {
         "pengIm": "u6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/u6.mp3"
+        "soundLink": "/sound/syllabes/u6.mp3",
+        "verified": true
       },
       {
         "pengIm": "iu2",
@@ -59844,7 +59931,8 @@
       {
         "pengIm": "bhuê7",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/bue7.mp3"
+        "soundLink": "/sound/syllabes/bue7.mp3",
+        "verified": true
       }
     ]
   },
@@ -60062,7 +60150,8 @@
       {
         "pengIm": "suah4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/suah4.mp3"
+        "soundLink": "/sound/syllabes/suah4.mp3",
+        "verified": true
       }
     ]
   },
@@ -62288,7 +62377,8 @@
       {
         "pengIm": "ciu7",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tshiu7.mp3"
+        "soundLink": "/sound/syllabes/tshiu7.mp3",
+        "verified": true
       },
       {
         "pengIm": "su6",
@@ -63685,7 +63775,8 @@
       {
         "pengIm": "lai5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/lai5.mp3"
+        "soundLink": "/sound/syllabes/lai5.mp3",
+        "verified": true
       }
     ]
   },
@@ -68597,7 +68688,8 @@
       {
         "pengIm": "si2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/si2.mp3"
+        "soundLink": "/sound/syllabes/si2.mp3",
+        "verified": true
       }
     ]
   },
@@ -69291,7 +69383,8 @@
         "soundLink": "/sound/syllabes/bou2.mp3"
       },
       {
-        "pengIm": "ma2"
+        "pengIm": "ma2",
+        "verified": true
       }
     ]
   },
@@ -70229,7 +70322,8 @@
       {
         "pengIm": "zui2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tsui2.mp3"
+        "soundLink": "/sound/syllabes/tsui2.mp3",
+        "verified": true
       }
     ]
   },
@@ -70684,7 +70778,8 @@
     "romanizations": [
       {
         "pengIm": "teng1",
-        "symbol": "文"
+        "symbol": "文",
+        "verified": true
       },
       {
         "pengIm": "siang1",
@@ -72602,7 +72697,8 @@
         "soundLink": "/sound/syllabes/sieng2.mp3"
       },
       {
-        "pengIm": "soin2"
+        "pengIm": "soin2",
+        "verified": true
       }
     ]
   },
@@ -72922,7 +73018,8 @@
       {
         "pengIm": "uah8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/uah8.mp3"
+        "soundLink": "/sound/syllabes/uah8.mp3",
+        "verified": true
       }
     ]
   },
@@ -73227,7 +73324,8 @@
         "soundLink": "/sound/syllabes/tsi3.mp3"
       },
       {
-        "pengIm": "zoi7"
+        "pengIm": "zoi7",
+        "verified": true
       }
     ]
   },
@@ -73730,7 +73828,8 @@
       {
         "pengIm": "hai2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/hai2.mp3"
+        "soundLink": "/sound/syllabes/hai2.mp3",
+        "verified": true
       }
     ]
   },
@@ -76411,12 +76510,13 @@
   "溪": {
     "simplifiedChar": "溪",
     "traditionalChar": "嵠",
-    "definition": "mountain stream, creek",
+    "definition": "river; mountain stream, creek",
     "romanizations": [
       {
         "pengIm": "koi1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/khoi1.mp3"
+        "soundLink": "/sound/syllabes/khoi1.mp3",
+        "verified": true
       }
     ]
   },
@@ -76750,12 +76850,13 @@
   },
   "滑": {
     "simplifiedChar": "滑",
-    "definition": "slip, slide; slippery, polished",
+    "definition": "smooth; slip, slide; slippery, polished",
     "romanizations": [
       {
         "pengIm": "gug8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kuk8.mp3"
+        "soundLink": "/sound/syllabes/kuk8.mp3",
+        "verified": true
       }
     ]
   },
@@ -77810,7 +77911,8 @@
     "definition": "dry; null",
     "romanizations": [
       {
-        "pengIm": "dan1"
+        "pengIm": "dan1",
+        "verified": true
       }
     ]
   },
@@ -78475,7 +78577,8 @@
         "soundLink": "/sound/syllabes/tham5.mp3"
       },
       {
-        "pengIm": "dam5"
+        "pengIm": "dam5",
+        "verified": true
       }
     ]
   },
@@ -80651,12 +80754,13 @@
   "燒": {
     "simplifiedChar": "烧",
     "traditionalChar": "燒",
-    "definition": "burn; bake; heat; roast",
+    "definition": "warm; burn; bake; heat; roast",
     "romanizations": [
       {
         "pengIm": "siê1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/sie1.mp3"
+        "soundLink": "/sound/syllabes/sie1.mp3",
+        "verified": true
       }
     ]
   },
@@ -80782,7 +80886,8 @@
       {
         "pengIm": "ruah8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/juah8.mp3"
+        "soundLink": "/sound/syllabes/juah8.mp3",
+        "verified": true
       }
     ]
   },
@@ -81504,7 +81609,8 @@
       {
         "pengIm": "ze2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tseu2.mp3"
+        "soundLink": "/sound/syllabes/tseu2.mp3",
+        "verified": true
       }
     ]
   },
@@ -83008,7 +83114,7 @@
   },
   "爸": {
     "simplifiedChar": "爸",
-    "definition": "father; father, papa",
+    "definition": "father; dad; father, papa",
     "romanizations": [
       {
         "pengIm": "ba1",
@@ -83018,10 +83124,12 @@
       {
         "pengIm": "ba5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/pa5.mp3"
+        "soundLink": "/sound/syllabes/pa5.mp3",
+        "verified": true
       },
       {
-        "pengIm": "bê6"
+        "pengIm": "bê6",
+        "verified": true
       }
     ]
   },
@@ -83267,7 +83375,8 @@
       {
         "pengIm": "ghê5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ge5.mp3"
+        "soundLink": "/sound/syllabes/ge5.mp3",
+        "verified": true
       }
     ]
   },
@@ -83278,12 +83387,13 @@
   },
   "牛": {
     "simplifiedChar": "牛",
-    "definition": "cow, ox, bull; KangXi radical93",
+    "definition": "beef, cow; cow, ox, bull; KangXi radical93",
     "romanizations": [
       {
         "pengIm": "ghu5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/gu5.mp3"
+        "soundLink": "/sound/syllabes/gu5.mp3",
+        "verified": true
       }
     ]
   },
@@ -83487,12 +83597,13 @@
   "牽": {
     "simplifiedChar": "牵",
     "traditionalChar": "牽",
-    "definition": "drag, pull, lead by hand",
+    "definition": "hold; drag, pull, lead by hand",
     "romanizations": [
       {
         "pengIm": "kang1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/khang1.mp3"
+        "soundLink": "/sound/syllabes/khang1.mp3",
+        "verified": true
       }
     ]
   },
@@ -84525,7 +84636,8 @@
       {
         "pengIm": "oih8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/oih8.mp3"
+        "soundLink": "/sound/syllabes/oih8.mp3",
+        "verified": true
       }
     ]
   },
@@ -85121,12 +85233,13 @@
   "猪": {
     "simplifiedChar": "猪",
     "traditionalChar": "豬",
-    "definition": "pig, hog, wild boar",
+    "definition": "pig, pork; pig, hog, wild boar",
     "romanizations": [
       {
         "pengIm": "de1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/teu1.mp3"
+        "soundLink": "/sound/syllabes/teu1.mp3",
+        "verified": true
       }
     ]
   },
@@ -91920,7 +92033,8 @@
       {
         "pengIm": "bêh8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/peh8.mp3"
+        "soundLink": "/sound/syllabes/peh8.mp3",
+        "verified": true
       }
     ]
   },
@@ -92307,7 +92421,8 @@
       {
         "pengIm": "puê5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/phue5.mp3"
+        "soundLink": "/sound/syllabes/phue5.mp3",
+        "verified": true
       }
     ]
   },
@@ -92620,7 +92735,8 @@
         "soundLink": "/sound/syllabes/iem5.mp3"
       },
       {
-        "pengIm": "iam5"
+        "pengIm": "iam5",
+        "verified": true
       }
     ]
   },
@@ -92942,7 +93058,8 @@
       {
         "pengIm": "mag8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/mak8.mp3"
+        "soundLink": "/sound/syllabes/mak8.mp3",
+        "verified": true
       }
     ]
   },
@@ -93006,7 +93123,8 @@
       {
         "pengIm": "dig8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tik8.mp3"
+        "soundLink": "/sound/syllabes/tik8.mp3",
+        "verified": true
       }
     ]
   },
@@ -93208,12 +93326,13 @@
   },
   "看": {
     "simplifiedChar": "看",
-    "definition": "look, see; examine, scrutinize",
+    "definition": "to see; look, see; examine, scrutinize",
     "romanizations": [
       {
         "pengIm": "toin2",
         "symbol": "训",
-        "soundLink": "/sound/syllabes/thoi~2.mp3"
+        "soundLink": "/sound/syllabes/thoi~2.mp3",
+        "verified": true
       },
       {
         "pengIm": "kang3",
@@ -93361,12 +93480,13 @@
   },
   "真": {
     "simplifiedChar": "真",
-    "definition": "real, actual, true, genuine",
+    "definition": "very, real; real, actual, true, genuine",
     "romanizations": [
       {
         "pengIm": "zing1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tsing1.mp3"
+        "soundLink": "/sound/syllabes/tsing1.mp3",
+        "verified": true
       }
     ]
   },
@@ -93670,12 +93790,13 @@
   },
   "着": {
     "simplifiedChar": "着",
-    "definition": "make move, take action",
+    "definition": "correct; make move, take action",
     "romanizations": [
       {
         "pengIm": "diêh8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tieh8.mp3"
+        "soundLink": "/sound/syllabes/tieh8.mp3",
+        "verified": true
       },
       {
         "pengIm": "diêh4",
@@ -93733,7 +93854,7 @@
   },
   "睇": {
     "simplifiedChar": "睇",
-    "definition": "look at, glance at; stare at",
+    "definition": "see; look at, glance at; stare at",
     "romanizations": [
       {
         "pengIm": "ti3",
@@ -93743,7 +93864,8 @@
       {
         "pengIm": "toin2",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/thoi~2.mp3"
+        "soundLink": "/sound/syllabes/thoi~2.mp3",
+        "verified": true
       }
     ]
   },
@@ -94924,7 +95046,8 @@
       {
         "pengIm": "do2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/to2.mp3"
+        "soundLink": "/sound/syllabes/to2.mp3",
+        "verified": true
       }
     ]
   },
@@ -96757,7 +96880,8 @@
         "soundLink": "/sound/syllabes/kiem2.mp3"
       },
       {
-        "pengIm": "giam5"
+        "pengIm": "giam5",
+        "verified": true
       }
     ]
   },
@@ -101531,7 +101655,8 @@
       {
         "pengIm": "ciê3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tshie3.mp3"
+        "soundLink": "/sound/syllabes/tshie3.mp3",
+        "verified": true
       }
     ]
   },
@@ -102014,7 +102139,8 @@
       {
         "pengIm": "dang2",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tang2.mp3"
+        "soundLink": "/sound/syllabes/tang2.mp3",
+        "verified": true
       },
       {
         "pengIm": "têng6",
@@ -103098,7 +103224,8 @@
         "soundLink": "/sound/syllabes/tieh4.mp3"
       },
       {
-        "pengIm": "de7"
+        "pengIm": "de7",
+        "verified": true
       }
     ]
   },
@@ -105268,7 +105395,7 @@
   "糜": {
     "simplifiedChar": "糜",
     "traditionalChar": "蘪",
-    "definition": "rice gruel, congee; mashed",
+    "definition": "rotten; rice gruel, congee; mashed",
     "romanizations": [
       {
         "pengIm": "muê5",
@@ -105278,7 +105405,8 @@
       {
         "pengIm": "mi5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/mi5.mp3"
+        "soundLink": "/sound/syllabes/mi5.mp3",
+        "verified": true
       }
     ]
   },
@@ -105650,7 +105778,8 @@
       {
         "pengIm": "ang5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ang5.mp3"
+        "soundLink": "/sound/syllabes/ang5.mp3",
+        "verified": true
       },
       {
         "pengIm": "hong5",
@@ -106256,12 +106385,13 @@
   "细": {
     "simplifiedChar": "细",
     "traditionalChar": "細",
-    "definition": "fine, tiny; slender, thin",
+    "definition": "small; fine, tiny; slender, thin",
     "romanizations": [
       {
         "pengIm": "soi3",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/soi3.mp3"
+        "soundLink": "/sound/syllabes/soi3.mp3",
+        "verified": true
       }
     ]
   },
@@ -108119,7 +108249,8 @@
       {
         "pengIm": "lêg8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/lek8.mp3"
+        "soundLink": "/sound/syllabes/lek8.mp3",
+        "verified": true
       }
     ]
   },
@@ -108491,7 +108622,8 @@
       {
         "pengIm": "mang7",
         "symbol": "训",
-        "soundLink": "/sound/syllabes/mang7.mp3"
+        "soundLink": "/sound/syllabes/mang7.mp3",
+        "verified": true
       },
       {
         "pengIm": "huêng2",
@@ -111797,7 +111929,7 @@
   },
   "翁": {
     "simplifiedChar": "翁",
-    "definition": "old man; father, father-in-law",
+    "definition": "husband; old man; father, father-in-law",
     "romanizations": [
       {
         "pengIm": "ong1",
@@ -111807,7 +111939,8 @@
       {
         "pengIm": "ang1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ang1.mp3"
+        "soundLink": "/sound/syllabes/ang1.mp3",
+        "verified": true
       },
       {
         "pengIm": "êng1",
@@ -112331,7 +112464,8 @@
     "romanizations": [
       {
         "pengIm": "lao6",
-        "symbol": "文"
+        "symbol": "文",
+        "verified": true
       },
       {
         "pengIm": "lao2",
@@ -112441,7 +112575,8 @@
     "romanizations": [
       {
         "pengIm": "seng2",
-        "symbol": "文"
+        "symbol": "文",
+        "verified": true
       }
     ]
   },
@@ -112764,7 +112899,8 @@
       {
         "pengIm": "hin6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/hi~6.mp3"
+        "soundLink": "/sound/syllabes/hi~6.mp3",
+        "verified": true
       },
       {
         "pengIm": "re2",
@@ -113450,7 +113586,8 @@
       {
         "pengIm": "nêg8",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/nek8.mp3"
+        "soundLink": "/sound/syllabes/nek8.mp3",
+        "verified": true
       }
     ]
   },
@@ -113636,7 +113773,8 @@
         "soundLink": "/sound/syllabes/tou6.mp3"
       },
       {
-        "pengIm": "dhou2"
+        "pengIm": "dhou2",
+        "verified": true
       }
     ]
   },
@@ -115988,7 +116126,8 @@
       {
         "pengIm": "tui2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/thui2.mp3"
+        "soundLink": "/sound/syllabes/thui2.mp3",
+        "verified": true
       }
     ]
   },
@@ -116953,12 +117092,13 @@
   },
   "舅": {
     "simplifiedChar": "舅",
-    "definition": "mother's brother, uncle",
+    "definition": "uncle (mom's side); mother's brother, uncle",
     "romanizations": [
       {
         "pengIm": "gu6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ku6.mp3"
+        "soundLink": "/sound/syllabes/ku6.mp3",
+        "verified": true
       }
     ]
   },
@@ -116998,7 +117138,8 @@
       {
         "pengIm": "zih8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tsih8.mp3"
+        "soundLink": "/sound/syllabes/tsih8.mp3",
+        "verified": true
       }
     ]
   },
@@ -119714,7 +119855,8 @@
       {
         "pengIm": "dê5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/te5.mp3"
+        "soundLink": "/sound/syllabes/te5.mp3",
+        "verified": true
       }
     ]
   },
@@ -124406,7 +124548,8 @@
       {
         "pengIm": "boh8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/poh8.mp3"
+        "soundLink": "/sound/syllabes/poh8.mp3",
+        "verified": true
       },
       {
         "pengIm": "bêg4",
@@ -129516,7 +129659,8 @@
       {
         "pengIm": "huêh4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/hueh4.mp3"
+        "soundLink": "/sound/syllabes/hueh4.mp3",
+        "verified": true
       }
     ]
   },
@@ -129631,7 +129775,8 @@
         "soundLink": "/sound/syllabes/heng6.mp3"
       },
       {
-        "pengIm": "gian1"
+        "pengIm": "gian1",
+        "verified": true
       }
     ]
   },
@@ -129717,7 +129862,8 @@
       {
         "pengIm": "goi1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/koi1.mp3"
+        "soundLink": "/sound/syllabes/koi1.mp3",
+        "verified": true
       }
     ]
   },
@@ -130103,7 +130249,8 @@
         "soundLink": "/sound/syllabes/mi6.mp3"
       },
       {
-        "pengIm": "bhoi"
+        "pengIm": "bhoi",
+        "verified": true
       }
     ]
   },
@@ -134534,7 +134681,8 @@
       {
         "pengIm": "uê7",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ue7.mp3"
+        "soundLink": "/sound/syllabes/ue7.mp3",
+        "verified": true
       }
     ]
   },
@@ -141882,7 +142030,8 @@
         "soundLink": "/sound/syllabes/kau1.mp3"
       },
       {
-        "pengIm": "ka1"
+        "pengIm": "ka1",
+        "verified": true
       }
     ]
   },
@@ -141974,7 +142123,8 @@
       {
         "pengIm": "lou7",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/lou7.mp3"
+        "soundLink": "/sound/syllabes/lou7.mp3",
+        "verified": true
       }
     ]
   },
@@ -146055,7 +146205,8 @@
         "symbol": "文"
       },
       {
-        "pengIm": "gêng6"
+        "pengIm": "gêng6",
+        "verified": true
       }
     ]
   },
@@ -146219,7 +146370,8 @@
       {
         "pengIm": "heng6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/heung6.mp3"
+        "soundLink": "/sound/syllabes/heung6.mp3",
+        "verified": true
       }
     ]
   },
@@ -146296,7 +146448,8 @@
       {
         "pengIm": "ci5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/tshi5.mp3"
+        "soundLink": "/sound/syllabes/tshi5.mp3",
+        "verified": true
       }
     ]
   },
@@ -150357,7 +150510,8 @@
       {
         "pengIm": "dang6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tang6.mp3"
+        "soundLink": "/sound/syllabes/tang6.mp3",
+        "verified": true
       },
       {
         "pengIm": "dong6",
@@ -154375,7 +154529,8 @@
       {
         "pengIm": "zin5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tsi~5.mp3"
+        "soundLink": "/sound/syllabes/tsi~5.mp3",
+        "verified": true
       }
     ]
   },
@@ -158299,7 +158454,8 @@
       },
       {
         "pengIm": "deng5",
-        "symbol": "白"
+        "symbol": "白",
+        "verified": true
       },
       {
         "pengIm": "ziang2",
@@ -159960,7 +160116,8 @@
         "soundLink": "/sound/syllabes/ung2.mp3"
       },
       {
-        "pengIm": "uang2nang2"
+        "pengIm": "uang2nang2",
+        "verified": true
       }
     ]
   },
@@ -161282,12 +161439,13 @@
   },
   "雅": {
     "simplifiedChar": "雅",
-    "definition": "elegant, graceful, refined",
+    "definition": "pretty; elegant, graceful, refined",
     "romanizations": [
       {
         "pengIm": "ngia2",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/ngia2.mp3"
+        "soundLink": "/sound/syllabes/ngia2.mp3",
+        "verified": true
       }
     ]
   },
@@ -161483,7 +161641,8 @@
       {
         "pengIm": "goi1",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/koi1.mp3"
+        "soundLink": "/sound/syllabes/koi1.mp3",
+        "verified": true
       }
     ]
   },
@@ -161548,7 +161707,8 @@
       {
         "pengIm": "hou6",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/hou6.mp3"
+        "soundLink": "/sound/syllabes/hou6.mp3",
+        "verified": true
       },
       {
         "pengIm": "u2",
@@ -161637,7 +161797,8 @@
       {
         "pengIm": "lêng5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/leng5.mp3"
+        "soundLink": "/sound/syllabes/leng5.mp3",
+        "verified": true
       },
       {
         "pengIm": "lang5",
@@ -164399,7 +164560,7 @@
   "颔": {
     "simplifiedChar": "颔",
     "traditionalChar": "頷",
-    "definition": "chin, jowl; give nod",
+    "definition": "neck; chin, jowl; give nod",
     "romanizations": [
       {
         "pengIm": "ham5",
@@ -164409,7 +164570,8 @@
       {
         "pengIm": "am6",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/am6.mp3"
+        "soundLink": "/sound/syllabes/am6.mp3",
+        "verified": true
       }
     ]
   },
@@ -165584,7 +165746,8 @@
       {
         "pengIm": "buê1",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/pue1.mp3"
+        "soundLink": "/sound/syllabes/pue1.mp3",
+        "verified": true
       },
       {
         "pengIm": "hui1",
@@ -165622,7 +165785,8 @@
       {
         "pengIm": "ziah8",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/tsiah8.mp3"
+        "soundLink": "/sound/syllabes/tsiah8.mp3",
+        "verified": true
       },
       {
         "pengIm": "sig8",
@@ -165846,7 +166010,8 @@
         "soundLink": "/sound/syllabes/hueng6.mp3"
       },
       {
-        "pengIm": "beng7"
+        "pengIm": "beng7",
+        "verified": true
       }
     ]
   },
@@ -169443,7 +169608,8 @@
       {
         "pengIm": "gug4",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/kuk4.mp3"
+        "soundLink": "/sound/syllabes/kuk4.mp3",
+        "verified": true
       }
     ]
   },
@@ -170779,7 +170945,8 @@
       {
         "pengIm": "he5",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/heu5.mp3"
+        "soundLink": "/sound/syllabes/heu5.mp3",
+        "verified": true
       }
     ]
   },
@@ -173832,7 +173999,8 @@
         "soundLink": "/sound/syllabes/tsieu2.mp3"
       },
       {
-        "pengIm": "ziao2"
+        "pengIm": "ziao2",
+        "verified": true
       }
     ]
   },
@@ -174412,7 +174580,8 @@
       {
         "pengIm": "ah4",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ah4.mp3"
+        "soundLink": "/sound/syllabes/ah4.mp3",
+        "verified": true
       }
     ]
   },
@@ -177161,7 +177330,8 @@
       {
         "pengIm": "min7",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/mi~7.mp3"
+        "soundLink": "/sound/syllabes/mi~7.mp3",
+        "verified": true
       }
     ]
   },
@@ -177306,7 +177476,8 @@
       {
         "pengIm": "ng5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/ng5.mp3"
+        "soundLink": "/sound/syllabes/ng5.mp3",
+        "verified": true
       }
     ]
   },
@@ -178231,7 +178402,8 @@
       {
         "pengIm": "pin7",
         "symbol": "文",
-        "soundLink": "/sound/syllabes/phi~7.mp3"
+        "soundLink": "/sound/syllabes/phi~7.mp3",
+        "verified": true
       }
     ]
   },
@@ -179125,7 +179297,8 @@
         "symbol": ""
       },
       {
-        "pengIm": "dhou2iau3"
+        "pengIm": "dhou2iau3",
+        "verified": true
       }
     ]
   },
@@ -179216,7 +179389,8 @@
         "symbol": ""
       },
       {
-        "pengIm": "ma1ki5"
+        "pengIm": "ma1ki5",
+        "verified": true
       }
     ]
   },
@@ -179322,11 +179496,12 @@
   "做呢": {
     "simplifiedChar": "做呢",
     "traditionalChar": "",
-    "definition": "why",
+    "definition": "how, why; why",
     "romanizations": [
       {
         "pengIm": "zo3(2)ni5",
-        "symbol": ""
+        "symbol": "",
+        "verified": true
       }
     ]
   },
