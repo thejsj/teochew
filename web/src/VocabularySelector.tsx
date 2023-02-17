@@ -61,30 +61,28 @@ export const VocabularySelector = (props: VocabularySelectorProps) => {
     return <props.nextCompoent dictionary={orderDictionaryAlphtabetically(dictionary)}/>
   }
 
-  return <div className={'flex flex-col justify-center items-center m-2 py-6'}>
-    <div className={'pb-6'}>
-    <h3 className={'mb-2'}>Categories</h3>
-    {categories.map((entry, i) => {
-      return <Button key={entry[0]} i={i} text={entry[0]} onClick={(value: boolean) => {
-        const newCategories = [...categories]
-        const ii = newCategories.findIndex(x => x[0] === entry[0])
-        newCategories[ii][1] = value
-        setCategories(newCategories)
-      }}/>
-    })}
-    </div>
-    <div>
-    <h3 className={'mb-2'}>Dates</h3>
-    {dates.map((entry, i) => {
-      return <Button key={entry[0]} i={i} text={entry[0]} onClick={(value: boolean) => {
-        const newDates = [...dates]
-        const i = newDates.findIndex(x => x[0] === entry[0])
-        newDates[i][1] = value
-        setDates(newDates)
-      }}/>
-    })}
-    </div>
+  return (<div className={'flex flex-col justify-center items-center m-2 py-6'}>
+    <div className={'pb-6 w-full md:w-96 px-8 md:px-0'}>
+      <h3 className={'mb-2'}>Categories</h3>
+      {categories.map((entry, i) => {
+        return <Button key={entry[0]} i={i} text={entry[0]} onClick={(value: boolean) => {
+          const newCategories = [...categories]
+          const ii = newCategories.findIndex(x => x[0] === entry[0])
+          newCategories[ii][1] = value
+          setCategories(newCategories)
+        }}/>
+      })}
+      <h3 className={'mb-2'}>Dates</h3>
+      {dates.map((entry, i) => {
+        return <Button key={entry[0]} i={i} text={entry[0]} onClick={(value: boolean) => {
+          const newDates = [...dates]
+          const i = newDates.findIndex(x => x[0] === entry[0])
+          newDates[i][1] = value
+          setDates(newDates)
+        }}/>
+      })}
 
     <button onClick={handleOnClick} className={`mt-6 text-xl text-center border-2 border-rose-300 bg-rose-100 rounded-md p-4 w-full md:w-96 mb-2 md:hover:bg-rose-300 flex gap-2 align-left`}>Start</button>
-  </div>
+    </div>
+  </div>)
 }

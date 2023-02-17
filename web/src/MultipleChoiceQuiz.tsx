@@ -34,8 +34,8 @@ const QuizOptions = (props: QuizOptionsProps) => {
   const shuffleIndex = Math.abs(Math.floor(Math.random() * allEntries.length) - 4)
   const shuffledOptions = shuffleArray(allEntries.slice(shuffleIndex, shuffleIndex + 4))
   const additionalOptions = shuffledOptions.slice(0, 4).map(x => x.definition)
-  const options : string[] = shuffleArray([props.entry.definition]
-      .concat(additionalOptions))
+  const unsortedOptions : string[] = [props.entry.definition]
+      .concat(additionalOptions)
       .reduce((arr: string[], option: string) => {
         // Exclude all entries that already exist
         // Only handles 1 repeated entry
@@ -45,6 +45,7 @@ const QuizOptions = (props: QuizOptionsProps) => {
         return arr
       }, [])
       .splice(0, 4)
+  const options = shuffleArray(unsortedOptions)
 
   const handleOnClick = (option: string, event: React.MouseEvent<HTMLButtonElement>) => {
     if (props.entry.definition === option) {

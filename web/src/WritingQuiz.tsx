@@ -78,11 +78,16 @@ const QuizInputArea = (props: QuizOptionsProps) => {
   }
 
   return (
-    <div>
+  <div className={'w-screen'}>
+    <div className={'max-w-fit overflow-x-scroll mx-auto'}>
     <div className="flex flex-row justify-center mt-8 space-x-y.5 items-center gap-2">
       {word.split('').map((letter, index) => {
-        return <input
-          className={'text-base text-center w-10 border-2 border-rose-300 px-1 py-4 mb-2 gap-2 rounded-4'}
+        console.log(letter)
+        const classes = input[index] === '-' ? `border-red-400` : `border-zinc-400 bg-zinc-100`
+        return <div>
+
+        <input
+          className={`text-base text-center w-10 border-2 px-1 py-4 mb-2 gap-2 rounded-lg ${classes}`}
           ref={inputRefsArray[index]}
           key={index} type="text"
           onChange={(event) => {}}
@@ -90,7 +95,9 @@ const QuizInputArea = (props: QuizOptionsProps) => {
           value={input[index] || ''}
           onClick={handleInputClick.bind(null, letter, index)}
           />
+          </div>
       })}
+    </div>
     </div>
     <div className="flex flex-row justify-center mt-4">
       <button
@@ -115,9 +122,9 @@ const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
   return (<div>
     <div className="flex flex-row justify-center mb-4 space-x-y.5 items-center gap-2">
       {word.split('').map((letter, index) => {
-        const isWrongClass = word[index].replace('ê', 'e') !== answer[index].replace('ê', 'e') ? 'bg-green-100' : ''
+        const isWrongClass = word[index].replace('ê', 'e') !== answer[index].replace('ê', 'e') ? 'bg-green-100 border-green-300' : 'border-zinc-300'
         return <input
-          className={`${isWrongClass} text-base text-center w-10 border-2 border-rose-300 px-1 py-4 mb-2 gap-2 rounded-4`}
+          className={`${isWrongClass} text-base text-center w-10 border-2 px-1 py-4 mb-2 gap-2 rounded-lg`}
           key={index} type="text"
           readOnly={true}
           value={letter}
@@ -127,9 +134,9 @@ const QuizWrongAnswer = (props: QuizWrongAnswerProps) => {
 
     <div className="flex flex-row justify-center mb-4 space-x-y.5 items-center gap-2">
       {answer.split('').map((letter, index) => {
-        const isWrongClass = word[index].replace('ê', 'e') !== answer[index].replace('ê', 'e') ? 'bg-rose-100' : ''
+        const isWrongClass = word[index].replace('ê', 'e') !== answer[index].replace('ê', 'e') ? 'bg-rose-100 border-red-300' : 'border-zinc-300'
         return <input
-          className={`${isWrongClass} text-base text-center w-10 border-2 border-rose-300 px-1 py-4 mb-2 gap-2 rounded-4`}
+          className={`${isWrongClass} text-base text-center w-10 border-2 px-1 py-4 mb-2 gap-2 rounded-lg`}
           key={index} type="text"
           readOnly={true}
           value={letter}
