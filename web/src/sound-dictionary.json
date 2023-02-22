@@ -225,6 +225,16 @@
       "六"
     ]
   },
+  "mên5": {
+    "lookup": "mên5",
+    "value": "/sound/syllabes/me~5.mp3",
+    "result": [
+      "冥"
+    ],
+    "verified": [
+      "冥"
+    ]
+  },
   "bung1": {
     "lookup": "bung1",
     "value": "/sound/syllabes/pung1.mp3",

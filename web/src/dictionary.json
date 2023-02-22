@@ -473,7 +473,7 @@
   },
   "上": {
     "simplifiedChar": "上",
-    "definition": "most; top; superior, highest; go up, send up",
+    "definition": "last; most; top; superior, highest; go up, send up",
     "romanizations": [
       {
         "pengIm": "ciên6",
@@ -499,6 +499,10 @@
         "pengIm": "siang5",
         "symbol": "文",
         "soundLink": "/sound/syllabes/siang5.mp3"
+      },
+      {
+        "pengIm": "zion7",
+        "verified": true
       }
     ]
   },
@@ -10117,7 +10121,8 @@
       {
         "pengIm": "mên5",
         "symbol": "白",
-        "soundLink": "/sound/syllabes/me~5.mp3"
+        "soundLink": "/sound/syllabes/me~5.mp3",
+        "verified": true
       }
     ]
   },
@@ -130249,7 +130254,7 @@
         "soundLink": "/sound/syllabes/mi6.mp3"
       },
       {
-        "pengIm": "bhoi",
+        "pengIm": "bhoi7",
         "verified": true
       }
     ]
@@ -179427,6 +179432,17 @@
       }
     ]
   },
+  "侬/人": {
+    "simplifiedChar": "侬/人",
+    "traditionalChar": "儂/人",
+    "definition": "person",
+    "romanizations": [
+      {
+        "pengIm": "nang5",
+        "symbol": ""
+      }
+    ]
+  },
   "伊侬": {
     "simplifiedChar": "伊侬",
     "traditionalChar": "伊儂",
@@ -179482,29 +179498,6 @@
       }
     ]
   },
-  "目涩": {
-    "simplifiedChar": "目涩",
-    "traditionalChar": "目澀",
-    "definition": "sleepy",
-    "romanizations": [
-      {
-        "pengIm": "mag8(4)siab4",
-        "symbol": ""
-      }
-    ]
-  },
-  "做呢": {
-    "simplifiedChar": "做呢",
-    "traditionalChar": "",
-    "definition": "how, why; why",
-    "romanizations": [
-      {
-        "pengIm": "zo3(2)ni5",
-        "symbol": "",
-        "verified": true
-      }
-    ]
-  },
   "只塊": {
     "simplifiedChar": "只塊",
     "traditionalChar": "",
@@ -179523,6 +179516,17 @@
     "romanizations": [
       {
         "pengIm": "he2(6)ko3",
+        "symbol": ""
+      }
+    ]
+  },
+  "目涩": {
+    "simplifiedChar": "目涩",
+    "traditionalChar": "目澀",
+    "definition": "sleepy",
+    "romanizations": [
+      {
+        "pengIm": "mag8(4)siab4",
         "symbol": ""
       }
     ]
@@ -179560,17 +179564,6 @@
       }
     ]
   },
-  "物件": {
-    "simplifiedChar": "物件",
-    "traditionalChar": "",
-    "definition": "something",
-    "romanizations": [
-      {
-        "pengIm": "muêh8(4)gian6",
-        "symbol": ""
-      }
-    ]
-  },
   "在底塊": {
     "simplifiedChar": "在底塊",
     "traditionalChar": "",
@@ -179593,9 +179586,9 @@
       }
     ]
   },
-  "哋个": {
-    "simplifiedChar": "哋个",
-    "traditionalChar": "哋個",
+  "哋個": {
+    "simplifiedChar": "哋個",
+    "traditionalChar": "",
     "definition": "which one",
     "romanizations": [
       {
@@ -179604,9 +179597,9 @@
       }
     ]
   },
-  "乜个": {
-    "simplifiedChar": "乜个",
-    "traditionalChar": "乜個",
+  "乜個": {
+    "simplifiedChar": "乜個",
+    "traditionalChar": "",
     "definition": "what thing / anything",
     "romanizations": [
       {
@@ -179632,7 +179625,7 @@
     "definition": "where",
     "romanizations": [
       {
-        "pengIm": "di7go3",
+        "pengIm": "di7ko3",
         "symbol": ""
       }
     ]
@@ -179644,6 +179637,17 @@
     "romanizations": [
       {
         "pengIm": "diang1si5",
+        "symbol": ""
+      }
+    ]
+  },
+  "做呢": {
+    "simplifiedChar": "做呢",
+    "traditionalChar": "",
+    "definition": "how, why",
+    "romanizations": [
+      {
+        "pengIm": "zo3(2)ni5",
         "symbol": ""
       }
     ]
@@ -179692,6 +179696,17 @@
       }
     ]
   },
+  "物件": {
+    "simplifiedChar": "物件",
+    "traditionalChar": "",
+    "definition": "something",
+    "romanizations": [
+      {
+        "pengIm": "muêh8(4)gian6",
+        "symbol": ""
+      }
+    ]
+  },
   "全部": {
     "simplifiedChar": "全部",
     "traditionalChar": "",
@@ -179732,17 +179747,6 @@
     "romanizations": [
       {
         "pengIm": "da1bou1",
-        "symbol": ""
-      }
-    ]
-  },
-  "侬/人": {
-    "simplifiedChar": "侬/人",
-    "traditionalChar": "儂/人",
-    "definition": "person",
-    "romanizations": [
-      {
-        "pengIm": "nang5",
         "symbol": ""
       }
     ]
@@ -179974,6 +179978,39 @@
     "romanizations": [
       {
         "pengIm": "diang6si6",
+        "symbol": ""
+      }
+    ]
+  },
+  "國語": {
+    "simplifiedChar": "國語",
+    "traditionalChar": "",
+    "definition": "Mandarin",
+    "romanizations": [
+      {
+        "pengIm": "gog4ghe2",
+        "symbol": ""
+      }
+    ]
+  },
+  "在生": {
+    "simplifiedChar": "在生",
+    "traditionalChar": "",
+    "definition": "how is?",
+    "romanizations": [
+      {
+        "pengIm": "zai6sên1",
+        "symbol": ""
+      }
+    ]
+  },
+  "覺得": {
+    "simplifiedChar": "覺得",
+    "traditionalChar": "",
+    "definition": "feel, think",
+    "romanizations": [
+      {
+        "pengIm": "gag4dig4",
         "symbol": ""
       }
     ]

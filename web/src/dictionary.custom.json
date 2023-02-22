@@ -136,14 +136,6 @@
     "dateAdded": "12/24/2023"
   },
   {
-    "word": "gao3",
-    "definition": "arrive",
-    "simplified": "到",
-    "traditional": "",
-    "wordGroup": "Verbs",
-    "dateAdded": "12/24/2023"
-  },
-  {
     "word": "si3",
     "definition": "four",
     "simplified": "四",
@@ -240,19 +232,19 @@
     "dateAdded": "12/24/2023"
   },
   {
-    "word": "nang2",
-    "definition": "we",
-    "simplified": "咱",
-    "traditional": "喒",
-    "wordGroup": "Pronouns",
-    "dateAdded": "12/24/2023"
-  },
-  {
     "word": "ho2",
     "definition": "good",
     "simplified": "好",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
+    "dateAdded": "12/24/2023"
+  },
+  {
+    "word": "gao3",
+    "definition": "arrive",
+    "simplified": "到",
+    "traditional": "",
+    "wordGroup": "Verbs",
     "dateAdded": "12/24/2023"
   },
   {
@@ -664,6 +656,22 @@
     "dateAdded": "1/7/2023"
   },
   {
+    "word": "nang5",
+    "definition": "person",
+    "simplified": "侬/人",
+    "traditional": "儂/人",
+    "wordGroup": "People",
+    "dateAdded": "1/29/23"
+  },
+  {
+    "word": "nang2",
+    "definition": "we",
+    "simplified": "咱",
+    "traditional": "喒",
+    "wordGroup": "Pronouns",
+    "dateAdded": "12/24/2023"
+  },
+  {
     "word": "i1",
     "definition": "he/she/it",
     "simplified": "伊",
@@ -744,6 +752,22 @@
     "dateAdded": "1/7/2023"
   },
   {
+    "word": "zi2ko3",
+    "definition": "here",
+    "simplified": "只塊",
+    "traditional": "",
+    "wordGroup": "Location",
+    "dateAdded": "#REF!"
+  },
+  {
+    "word": "he2(6)ko3",
+    "definition": "there",
+    "simplified": "许塊",
+    "traditional": "許塊",
+    "wordGroup": "Location",
+    "dateAdded": "#REF!"
+  },
+  {
     "word": "mag8(4)siab4",
     "definition": "sleepy",
     "simplified": "目涩",
@@ -752,36 +776,12 @@
     "dateAdded": "1/7/2023"
   },
   {
-    "word": "zo3(2)ni5",
-    "definition": "why",
-    "simplified": "做呢",
-    "traditional": "",
-    "wordGroup": "Questions",
-    "dateAdded": "1/7/2023"
-  },
-  {
     "word": "bhi5",
     "definition": "flavor",
     "simplified": "味",
     "traditional": "",
     "wordGroup": "Food",
-    "dateAdded": "1/7/2023"
-  },
-  {
-    "word": "zi2ko3",
-    "definition": "here",
-    "simplified": "只塊",
-    "traditional": "",
-    "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
-  },
-  {
-    "word": "he2(6)ko3",
-    "definition": "there",
-    "simplified": "许塊",
-    "traditional": "許塊",
-    "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "dang2",
@@ -789,7 +789,7 @@
     "simplified": "等",
     "traditional": "",
     "wordGroup": "Time",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "ghua7kao2",
@@ -797,7 +797,7 @@
     "simplified": "外口",
     "traditional": "",
     "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "cu3(2)lai6",
@@ -805,7 +805,7 @@
     "simplified": "厝內",
     "traditional": "",
     "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "do6",
@@ -813,7 +813,7 @@
     "simplified": "在",
     "traditional": "",
     "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "mung5ka1kao2",
@@ -821,7 +821,7 @@
     "simplified": "門脚口",
     "traditional": "門腳口",
     "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "bhoi2",
@@ -829,23 +829,7 @@
     "simplified": "买",
     "traditional": "買",
     "wordGroup": "Verbs",
-    "dateAdded": "1/7/2023"
-  },
-  {
-    "word": "muêh8(4)gian6",
-    "definition": "something",
-    "simplified": "物件",
-    "traditional": "",
-    "wordGroup": "Questions",
-    "dateAdded": "1/7/2023"
-  },
-  {
-    "word": "ge1",
-    "definition": "more",
-    "simplified": "多",
-    "traditional": "",
-    "wordGroup": "Basic Adjetives",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "do6di2ko3",
@@ -853,7 +837,7 @@
     "simplified": "在底塊",
     "traditional": "",
     "wordGroup": "Expressisons",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "di2",
@@ -861,7 +845,7 @@
     "simplified": "底",
     "traditional": "",
     "wordGroup": "Location",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "ze2",
@@ -869,7 +853,7 @@
     "simplified": "煮",
     "traditional": "煑",
     "wordGroup": "Food",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "ua2",
@@ -877,7 +861,7 @@
     "simplified": "我",
     "traditional": "",
     "wordGroup": "Pronouns",
-    "dateAdded": "1/7/2023"
+    "dateAdded": "#REF!"
   },
   {
     "word": "bu3",
@@ -970,16 +954,16 @@
   {
     "word": "di7gai5",
     "definition": "which one",
-    "simplified": "哋个",
-    "traditional": "哋個",
+    "simplified": "哋個",
+    "traditional": "",
     "wordGroup": "Questions",
     "dateAdded": "1/17/23"
   },
   {
     "word": "mih4(8)gai5",
     "definition": "what thing / anything",
-    "simplified": "乜个",
-    "traditional": "乜個",
+    "simplified": "乜個",
+    "traditional": "",
     "wordGroup": "Questions",
     "dateAdded": "1/17/23"
   },
@@ -992,7 +976,7 @@
     "dateAdded": "1/17/23"
   },
   {
-    "word": "di7go3",
+    "word": "di7ko3",
     "definition": "where",
     "simplified": "哋块",
     "traditional": "哋塊",
@@ -1080,6 +1064,22 @@
     "dateAdded": "1/29/23"
   },
   {
+    "word": "muêh8(4)gian6",
+    "definition": "something",
+    "simplified": "物件",
+    "traditional": "",
+    "wordGroup": "Questions",
+    "dateAdded": "#REF!"
+  },
+  {
+    "word": "ge1",
+    "definition": "more",
+    "simplified": "多",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "#REF!"
+  },
+  {
     "word": "chuang5bou6",
     "definition": "all",
     "simplified": "全部",
@@ -1117,6 +1117,14 @@
     "simplified": "厚",
     "traditional": "",
     "wordGroup": "Basic Adjetives",
+    "dateAdded": "1/29/23"
+  },
+  {
+    "word": "gao2",
+    "definition": "dog",
+    "simplified": "狗",
+    "traditional": "",
+    "wordGroup": "Nature",
     "dateAdded": "1/29/23"
   },
   {
@@ -1164,14 +1172,6 @@
     "definition": "man",
     "simplified": "查埔",
     "traditional": "",
-    "wordGroup": "People",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "nang5",
-    "definition": "person",
-    "simplified": "侬/人",
-    "traditional": "儂/人",
     "wordGroup": "People",
     "dateAdded": "1/29/23"
   },
@@ -1236,14 +1236,6 @@
     "definition": "bird",
     "simplified": "鸟",
     "traditional": "鳥",
-    "wordGroup": "Nature",
-    "dateAdded": "1/29/23"
-  },
-  {
-    "word": "gao2",
-    "definition": "dog",
-    "simplified": "狗",
-    "traditional": "",
     "wordGroup": "Nature",
     "dateAdded": "1/29/23"
   },
@@ -1752,9 +1744,9 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "mên5gua7",
+    "word": "mên5",
     "definition": "night",
-    "simplified": "",
+    "simplified": "冥",
     "traditional": "",
     "wordGroup": "Time",
     "dateAdded": "1/29/23"
@@ -1888,6 +1880,14 @@
     "dateAdded": "1/29/23"
   },
   {
+    "word": "oh4",
+    "definition": "difficult",
+    "simplified": "戹",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/5/2023"
+  },
+  {
     "word": "gêng6",
     "definition": "near",
     "simplified": "近",
@@ -1984,7 +1984,7 @@
     "dateAdded": "1/29/23"
   },
   {
-    "word": "bhoi",
+    "word": "bhoi7",
     "definition": "not",
     "simplified": "袂",
     "traditional": "",
@@ -2000,11 +2000,35 @@
     "dateAdded": "2/5/2023"
   },
   {
-    "word": "oh4",
-    "definition": "difficult",
-    "simplified": "戹",
+    "word": "zion7",
+    "definition": "last",
+    "simplified": "上",
     "traditional": "",
-    "wordGroup": "Basic Adjetives",
+    "wordGroup": "Adverbs",
+    "dateAdded": "2/5/2023"
+  },
+  {
+    "word": "gog4ghe2",
+    "definition": "Mandarin",
+    "simplified": "國語",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/5/2023"
+  },
+  {
+    "word": "zai6sên1",
+    "definition": "how is?",
+    "simplified": "在生",
+    "traditional": "",
+    "wordGroup": "Questions",
+    "dateAdded": "2/5/2023"
+  },
+  {
+    "word": "gag4dig4",
+    "definition": "feel, think",
+    "simplified": "覺得",
+    "traditional": "",
+    "wordGroup": "Verbs",
     "dateAdded": "2/5/2023"
   }
 ]

@@ -133,8 +133,8 @@
       "弎"
     ]
   },
-  "most; top; superior, highest; go up, send up": {
-    "lookup": "most; top; superior, highest; go up, send up",
+  "last; most; top; superior, highest; go up, send up": {
+    "lookup": "last; most; top; superior, highest; go up, send up",
     "result": [
       "上"
     ]
@@ -64011,18 +64011,6 @@
       "许撮物"
     ]
   },
-  "sleepy": {
-    "lookup": "sleepy",
-    "result": [
-      "目涩"
-    ]
-  },
-  "how, why; why": {
-    "lookup": "how, why; why",
-    "result": [
-      "做呢"
-    ]
-  },
   "here": {
     "lookup": "here",
     "result": [
@@ -64033,6 +64021,12 @@
     "lookup": "there",
     "result": [
       "许塊"
+    ]
+  },
+  "sleepy": {
+    "lookup": "sleepy",
+    "result": [
+      "目涩"
     ]
   },
   "outside": {
@@ -64053,12 +64047,6 @@
       "門脚口"
     ]
   },
-  "something": {
-    "lookup": "something",
-    "result": [
-      "物件"
-    ]
-  },
   "where are you?": {
     "lookup": "where are you?",
     "result": [
@@ -64074,13 +64062,13 @@
   "which one": {
     "lookup": "which one",
     "result": [
-      "哋个"
+      "哋個"
     ]
   },
   "what thing / anything": {
     "lookup": "what thing / anything",
     "result": [
-      "乜个"
+      "乜個"
     ]
   },
   "what happened": {
@@ -64099,6 +64087,12 @@
     "lookup": "when",
     "result": [
       "珍时"
+    ]
+  },
+  "how, why": {
+    "lookup": "how, why",
+    "result": [
+      "做呢"
     ]
   },
   "how many, how much": {
@@ -64123,6 +64117,12 @@
     "lookup": "Good health!",
     "result": [
       "身体健康"
+    ]
+  },
+  "something": {
+    "lookup": "something",
+    "result": [
+      "物件"
     ]
   },
   "other": {
@@ -64219,6 +64219,24 @@
     "lookup": "tv",
     "result": [
       "电视"
+    ]
+  },
+  "Mandarin": {
+    "lookup": "Mandarin",
+    "result": [
+      "國語"
+    ]
+  },
+  "how is?": {
+    "lookup": "how is?",
+    "result": [
+      "在生"
+    ]
+  },
+  "feel, think": {
+    "lookup": "feel, think",
+    "result": [
+      "覺得"
     ]
   }
 }

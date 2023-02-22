@@ -503,6 +503,15 @@
       "详"
     ]
   },
+  "zion7": {
+    "lookup": "zion7",
+    "result": [
+      "上"
+    ],
+    "verified": [
+      "上"
+    ]
+  },
   "ê6": {
     "lookup": "ê6",
     "result": [
@@ -6045,6 +6054,9 @@
       "暝",
       "盲",
       "芒"
+    ],
+    "verified": [
+      "冥"
     ]
   },
   "bang5": {
@@ -7992,7 +8004,11 @@
   "bhoi7": {
     "lookup": "bhoi7",
     "result": [
-      "卖"
+      "卖",
+      "袂"
+    ],
+    "verified": [
+      "袂"
     ]
   },
   "lam5": {
@@ -19592,15 +19608,6 @@
       "表"
     ]
   },
-  "bhoi": {
-    "lookup": "bhoi",
-    "result": [
-      "袂"
-    ],
-    "verified": [
-      "袂"
-    ]
-  },
   "bhuêh8": {
     "lookup": "bhuêh8",
     "result": [
@@ -20640,21 +20647,6 @@
       "许撮物"
     ]
   },
-  "mag8(4)siab4": {
-    "lookup": "mag8(4)siab4",
-    "result": [
-      "目涩"
-    ]
-  },
-  "zo3(2)ni5": {
-    "lookup": "zo3(2)ni5",
-    "result": [
-      "做呢"
-    ],
-    "verified": [
-      "做呢"
-    ]
-  },
   "zi2ko3": {
     "lookup": "zi2ko3",
     "result": [
@@ -20665,6 +20657,12 @@
     "lookup": "he2(6)ko3",
     "result": [
       "许塊"
+    ]
+  },
+  "mag8(4)siab4": {
+    "lookup": "mag8(4)siab4",
+    "result": [
+      "目涩"
     ]
   },
   "ghua7kao2": {
@@ -20685,12 +20683,6 @@
       "門脚口"
     ]
   },
-  "muêh8(4)gian6": {
-    "lookup": "muêh8(4)gian6",
-    "result": [
-      "物件"
-    ]
-  },
   "do6di2ko3": {
     "lookup": "do6di2ko3",
     "result": [
@@ -20706,13 +20698,13 @@
   "di7gai5": {
     "lookup": "di7gai5",
     "result": [
-      "哋个"
+      "哋個"
     ]
   },
   "mih4(8)gai5": {
     "lookup": "mih4(8)gai5",
     "result": [
-      "乜个"
+      "乜個"
     ]
   },
   "mih4(8)se7": {
@@ -20721,8 +20713,8 @@
       "乜事"
     ]
   },
-  "di7go3": {
-    "lookup": "di7go3",
+  "di7ko3": {
+    "lookup": "di7ko3",
     "result": [
       "哋块"
     ]
@@ -20731,6 +20723,12 @@
     "lookup": "diang1si5",
     "result": [
       "珍时"
+    ]
+  },
+  "zo3(2)ni5": {
+    "lookup": "zo3(2)ni5",
+    "result": [
+      "做呢"
     ]
   },
   "riêh8(4)zoi7": {
@@ -20755,6 +20753,12 @@
     "lookup": "sing1ti2gian7kang1",
     "result": [
       "身体健康"
+    ]
+  },
+  "muêh8(4)gian6": {
+    "lookup": "muêh8(4)gian6",
+    "result": [
+      "物件"
     ]
   },
   "chuang5bou6": {
@@ -20899,6 +20903,24 @@
     "lookup": "diang6si6",
     "result": [
       "电视"
+    ]
+  },
+  "gog4ghe2": {
+    "lookup": "gog4ghe2",
+    "result": [
+      "國語"
+    ]
+  },
+  "zai6sên1": {
+    "lookup": "zai6sên1",
+    "result": [
+      "在生"
+    ]
+  },
+  "gag4dig4": {
+    "lookup": "gag4dig4",
+    "result": [
+      "覺得"
     ]
   }
 }
