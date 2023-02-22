@@ -3,9 +3,31 @@ import React, { useState } from 'react';
 import { convertPemgImToIPA } from './lib/main';
 import { Link, useLocation } from "wouter";
 import { encode, decode } from 'punycode';
+import { PhoneticDictionary as phoneticDict, CharacterEntry, CharacterDictionary } from './types'
 
 import { ChevronLeft, ChevronRight } from './Icons'
 
+const getHomopohnes = (entry: DictionaryEntry) : [string, CharacterEntry][] => {
+  const syllables = entry.pengIm.split(/\d/g).filter(x => x.length > 0)
+  if (syllables.length === 1) {
+    const syl = syllables[0]
+    const result = [...Array(8).keys()].reduce((memo: [string, CharacterEntry][], val) => {
+      const tone = val + 1
+      const pengIm = `${syl}${tone}`
+      const homophones : [string, CharacterEntry][] | null = phoneticDict[pengIm]?.verified?.map((x : string) => {
+        return [pengIm, CharacterDictionary[x]]
+      })
+      if (homophones) {
+        return [...memo, ...homophones]
+      }
+      return memo
+    }, [])
+    return result.filter(x => x[1].simplifiedChar !== entry.simplified)
+  }
+  return phoneticDict[entry.pengIm]?.verified?.filter(x => x !== entry.simplified).map((x : string) => {
+    return [entry.pengIm, CharacterDictionary[x]]
+  }) || []
+}
 
 export interface FlashCardsProps {
   entry: DictionaryEntry,
@@ -14,10 +36,11 @@ export interface FlashCardsProps {
 }
 
 const FlashCard = (props: FlashCardsProps) => {
-  return (
+    const homophones = getHomopohnes(props.entry)
+    return (
 
     <div className="w-4/5 lg:w-3/5 lg:py-8 lg:pb-16 rounded-md">
-      <div className={'flex flex-col items-center h-full border-2'}>
+      <div className={'flex flex-col items-center border-2'}>
 
         <div className={'flex flex-col items-center  grow px-12 py-6 overflow-hidden'}>
           <div className={'flex justify-center flex-row h-6 mb-8'}>
@@ -44,12 +67,25 @@ const FlashCard = (props: FlashCardsProps) => {
         </div>
       )}
      </div>
+
+    {homophones.length > 0 &&
+      <div className={'mt-2 text-md border-b-2'}>
+      {homophones.length > 0 && homophones.map((homophone) => {
+        return (<div className={'border-2 border-b-0 w-full flex-row py-4'}>
+          <span className={'border-r-2 p-4'}>{homophone[1].simplifiedChar}</span>
+          <span className={'border-r-2 p-4'}>{homophone[0]}</span>
+          <span className={'grow p-4'}>{homophone[1].definition}</span>
+        </div>)
+      })}
+      </div>
+    }
+
      {props.entry.simplified && props.entry.simplified !== "" && (
       <div className={'mt-2 text-sm align-right'}>
-       <Link href={`/flash-card/${encode(props.entry.simplified)}`}>
-        <a className={'text-rose-600'} target={'_blank'} rel="noreferrer" href={`/flash-card/${encode(props.entry.simplified)}`}>Share</a>
-       </Link>
-       </div>
+        <Link href={`/flash-card/${encode(props.entry.simplified)}`}>
+          <a className={'text-rose-600'} target={'_blank'} rel="noreferrer" href={`/flash-card/${encode(props.entry.simplified)}`}>Share</a>
+         </Link>
+      </div>
      )}
     </div>
   )

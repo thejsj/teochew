@@ -39,6 +39,7 @@ export const Romanization = romanizations as unknown as Record<
 export interface LookupEntry {
   lookup: string;
   result: string[];
+  verified: string[];
 }
 
 export interface SearchEntry {
