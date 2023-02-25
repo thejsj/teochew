@@ -55,6 +55,7 @@ additions.forEach((entry: EntryCustom) => {
     "romanizations": [
       {
         "pengIm": entry.word,
+        "verified": true,
         "symbol": ""
       }
     ]

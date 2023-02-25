@@ -2176,6 +2176,9 @@
       "母",
       "牡",
       "𡚸"
+    ],
+    "verified": [
+      "𡚸"
     ]
   },
   "hiang2": {
@@ -2309,6 +2312,9 @@
       "人",
       "侬",
       "齉",
+      "侬/人"
+    ],
+    "verified": [
       "侬/人"
     ]
   },
@@ -20575,11 +20581,17 @@
     "lookup": "cong1mêng5",
     "result": [
       "聪明"
+    ],
+    "verified": [
+      "聪明"
     ]
   },
   "zia2(6)zong1": {
     "lookup": "zia2(6)zong1",
     "result": [
+      "只阵"
+    ],
+    "verified": [
       "只阵"
     ]
   },
@@ -20587,11 +20599,17 @@
     "lookup": "ga1li5",
     "result": [
       "咖喱"
+    ],
+    "verified": [
+      "咖喱"
     ]
   },
   "hag8hao6": {
     "lookup": "hag8hao6",
     "result": [
+      "学校"
+    ],
+    "verified": [
       "学校"
     ]
   },
@@ -20599,11 +20617,17 @@
     "lookup": "pêng5ui2",
     "result": [
       "朋友"
+    ],
+    "verified": [
+      "朋友"
     ]
   },
   "zeg8coin1": {
     "lookup": "zeg8coin1",
     "result": [
+      "一千"
+    ],
+    "verified": [
       "一千"
     ]
   },
@@ -20611,11 +20635,17 @@
     "lookup": "hi2huan1",
     "result": [
       "喜欢"
+    ],
+    "verified": [
+      "喜欢"
     ]
   },
   "dhou2gho7": {
     "lookup": "dhou2gho7",
     "result": [
+      "肚饿"
+    ],
+    "verified": [
       "肚饿"
     ]
   },
@@ -20632,11 +20662,17 @@
     "lookup": "dai6gê1",
     "result": [
       "大家"
+    ],
+    "verified": [
+      "大家"
     ]
   },
   "ciê3mi1gai5": {
     "lookup": "ciê3mi1gai5",
     "result": [
+      "笑乜个"
+    ],
+    "verified": [
       "笑乜个"
     ]
   },
@@ -20644,11 +20680,17 @@
     "lookup": "zing1hi2huan1",
     "result": [
       "真喜欢"
+    ],
+    "verified": [
+      "真喜欢"
     ]
   },
   "zêg8bêh4": {
     "lookup": "zêg8bêh4",
     "result": [
+      "一百"
+    ],
+    "verified": [
       "一百"
     ]
   },
@@ -20656,11 +20698,17 @@
     "lookup": "ping5guê2",
     "result": [
       "蘋果"
+    ],
+    "verified": [
+      "蘋果"
     ]
   },
   "za2rig8": {
     "lookup": "za2rig8",
     "result": [
+      "昨日"
+    ],
+    "verified": [
       "昨日"
     ]
   },
@@ -20668,11 +20716,17 @@
     "lookup": "gim1rig8",
     "result": [
       "今 日"
+    ],
+    "verified": [
+      "今 日"
     ]
   },
   "ma1rig8": {
     "lookup": "ma1rig8",
     "result": [
+      "明日"
+    ],
+    "verified": [
       "明日"
     ]
   },
@@ -20689,11 +20743,17 @@
     "lookup": "dang2zêg8ê7\n",
     "result": [
       "等 一下"
+    ],
+    "verified": [
+      "等 一下"
     ]
   },
   "zêng1diem2\n\n": {
     "lookup": "zêng1diem2\n\n",
     "result": [
+      "钟点"
+    ],
+    "verified": [
       "钟点"
     ]
   },
@@ -20701,11 +20761,17 @@
     "lookup": "leu2(6)nang7",
     "result": [
       "汝侬"
+    ],
+    "verified": [
+      "汝侬"
     ]
   },
   "i1nang7": {
     "lookup": "i1nang7",
     "result": [
+      "伊侬"
+    ],
+    "verified": [
       "伊侬"
     ]
   },
@@ -20713,11 +20779,17 @@
     "lookup": "zi2gai5",
     "result": [
       "只個"
+    ],
+    "verified": [
+      "只個"
     ]
   },
   "he2gai5": {
     "lookup": "he2gai5",
     "result": [
+      "许個"
+    ],
+    "verified": [
       "许個"
     ]
   },
@@ -20725,11 +20797,17 @@
     "lookup": "zi2coh4muêh8",
     "result": [
       "只撮物"
+    ],
+    "verified": [
+      "只撮物"
     ]
   },
   "he2coh4muêh8": {
     "lookup": "he2coh4muêh8",
     "result": [
+      "许撮物"
+    ],
+    "verified": [
       "许撮物"
     ]
   },
@@ -20737,11 +20815,17 @@
     "lookup": "zi2ko3",
     "result": [
       "只塊"
+    ],
+    "verified": [
+      "只塊"
     ]
   },
   "he2(6)ko3": {
     "lookup": "he2(6)ko3",
     "result": [
+      "许塊"
+    ],
+    "verified": [
       "许塊"
     ]
   },
@@ -20749,11 +20833,17 @@
     "lookup": "mag8(4)siab4",
     "result": [
       "目涩"
+    ],
+    "verified": [
+      "目涩"
     ]
   },
   "ghua7kao2": {
     "lookup": "ghua7kao2",
     "result": [
+      "外口"
+    ],
+    "verified": [
       "外口"
     ]
   },
@@ -20761,11 +20851,17 @@
     "lookup": "cu3(2)lai6",
     "result": [
       "厝內"
+    ],
+    "verified": [
+      "厝內"
     ]
   },
   "mung5ka1kao2": {
     "lookup": "mung5ka1kao2",
     "result": [
+      "門脚口"
+    ],
+    "verified": [
       "門脚口"
     ]
   },
@@ -20773,11 +20869,17 @@
     "lookup": "do6di2ko3",
     "result": [
       "在底塊"
+    ],
+    "verified": [
+      "在底塊"
     ]
   },
   "di7diang1": {
     "lookup": "di7diang1",
     "result": [
+      "哋㐱"
+    ],
+    "verified": [
       "哋㐱"
     ]
   },
@@ -20785,11 +20887,17 @@
     "lookup": "di7gai5",
     "result": [
       "哋個"
+    ],
+    "verified": [
+      "哋個"
     ]
   },
   "mih4(8)gai5": {
     "lookup": "mih4(8)gai5",
     "result": [
+      "乜個"
+    ],
+    "verified": [
       "乜個"
     ]
   },
@@ -20797,11 +20905,17 @@
     "lookup": "mih4(8)se7",
     "result": [
       "乜事"
+    ],
+    "verified": [
+      "乜事"
     ]
   },
   "di7ko3": {
     "lookup": "di7ko3",
     "result": [
+      "哋块"
+    ],
+    "verified": [
       "哋块"
     ]
   },
@@ -20809,11 +20923,17 @@
     "lookup": "diang1si5",
     "result": [
       "珍时"
+    ],
+    "verified": [
+      "珍时"
     ]
   },
   "zo3(2)ni5": {
     "lookup": "zo3(2)ni5",
     "result": [
+      "做呢"
+    ],
+    "verified": [
       "做呢"
     ]
   },
@@ -20821,11 +20941,17 @@
     "lookup": "riêh8(4)zoi7",
     "result": [
       "若济"
+    ],
+    "verified": [
+      "若济"
     ]
   },
   "gim1ni5": {
     "lookup": "gim1ni5",
     "result": [
+      "今年"
+    ],
+    "verified": [
       "今年"
     ]
   },
@@ -20833,11 +20959,17 @@
     "lookup": "sing1ni5kuai3lag8",
     "result": [
       "新年快乐"
+    ],
+    "verified": [
+      "新年快乐"
     ]
   },
   "sing1ti2gian7kang1": {
     "lookup": "sing1ti2gian7kang1",
     "result": [
+      "身体健康"
+    ],
+    "verified": [
       "身体健康"
     ]
   },
@@ -20845,11 +20977,17 @@
     "lookup": "muêh8(4)gian6",
     "result": [
       "物件"
+    ],
+    "verified": [
+      "物件"
     ]
   },
   "chuang5bou6": {
     "lookup": "chuang5bou6",
     "result": [
+      "全部"
+    ],
+    "verified": [
       "全部"
     ]
   },
@@ -20857,11 +20995,17 @@
     "lookup": "bag8gai5",
     "result": [
       "别个"
+    ],
+    "verified": [
+      "别个"
     ]
   },
   "ze1niê5": {
     "lookup": "ze1niê5",
     "result": [
+      "诸娘"
+    ],
+    "verified": [
       "诸娘"
     ]
   },
@@ -20869,11 +21013,17 @@
     "lookup": "da1bou1",
     "result": [
       "查埔"
+    ],
+    "verified": [
+      "查埔"
     ]
   },
   "nou1gian2": {
     "lookup": "nou1gian2",
     "result": [
+      "孥囝"
+    ],
+    "verified": [
       "孥囝"
     ]
   },
@@ -20881,11 +21031,17 @@
     "lookup": "da1bou1nang5",
     "result": [
       "丈夫人"
+    ],
+    "verified": [
+      "丈夫人"
     ]
   },
   "tao5mo1": {
     "lookup": "tao5mo1",
     "result": [
+      "头毛"
+    ],
+    "verified": [
       "头毛"
     ]
   },
@@ -20893,11 +21049,17 @@
     "lookup": "ka1tao5u1",
     "result": [
       "脚头窝"
+    ],
+    "verified": [
+      "脚头窝"
     ]
   },
   "ga1ziah4": {
     "lookup": "ga1ziah4",
     "result": [
+      "胛脊"
+    ],
+    "verified": [
       "胛脊"
     ]
   },
@@ -20905,11 +21067,17 @@
     "lookup": "sim1zang6",
     "result": [
       "心脏"
+    ],
+    "verified": [
+      "心脏"
     ]
   },
   "siê1pah4": {
     "lookup": "siê1pah4",
     "result": [
+      "相拍"
+    ],
+    "verified": [
       "相拍"
     ]
   },
@@ -20917,11 +21085,17 @@
     "lookup": "bung1kui1",
     "result": [
       "分开"
+    ],
+    "verified": [
+      "分开"
     ]
   },
   "tai3iang5": {
     "lookup": "tai3iang5",
     "result": [
+      "太阳"
+    ],
+    "verified": [
       "太阳"
     ]
   },
@@ -20929,11 +21103,17 @@
     "lookup": "rig8tao5",
     "result": [
       "日头"
+    ],
+    "verified": [
+      "日头"
     ]
   },
   "ghuêh8niên5": {
     "lookup": "ghuêh8niên5",
     "result": [
+      "月亮"
+    ],
+    "verified": [
       "月亮"
     ]
   },
@@ -20941,11 +21121,17 @@
     "lookup": "ci1ghi5",
     "result": [
       "凄疑"
+    ],
+    "verified": [
+      "凄疑"
     ]
   },
   "zian3ciu2": {
     "lookup": "zian3ciu2",
     "result": [
+      "正手爿"
+    ],
+    "verified": [
       "正手爿"
     ]
   },
@@ -20953,11 +21139,17 @@
     "lookup": "do3ciu2",
     "result": [
       "倒手爿"
+    ],
+    "verified": [
+      "倒手爿"
     ]
   },
   "do6 lai6": {
     "lookup": "do6 lai6",
     "result": [
+      "在⋯⋯内"
+    ],
+    "verified": [
       "在⋯⋯内"
     ]
   },
@@ -20965,11 +21157,17 @@
     "lookup": "na1si7",
     "result": [
       "哪是"
+    ],
+    "verified": [
+      "哪是"
     ]
   },
   "ru2guên2": {
     "lookup": "ru2guên2",
     "result": [
+      "如果"
+    ],
+    "verified": [
       "如果"
     ]
   },
@@ -20977,11 +21175,17 @@
     "lookup": "ing1ui7",
     "result": [
       "因为"
+    ],
+    "verified": [
+      "因为"
     ]
   },
   "zoi7sia7": {
     "lookup": "zoi7sia7",
     "result": [
+      "济谢"
+    ],
+    "verified": [
       "济谢"
     ]
   },
@@ -20989,11 +21193,17 @@
     "lookup": "diang6si6",
     "result": [
       "电视"
+    ],
+    "verified": [
+      "电视"
     ]
   },
   "gog4ghe2": {
     "lookup": "gog4ghe2",
     "result": [
+      "國語"
+    ],
+    "verified": [
       "國語"
     ]
   },
@@ -21001,11 +21211,17 @@
     "lookup": "zai6sên1",
     "result": [
       "在生"
+    ],
+    "verified": [
+      "在生"
     ]
   },
   "gag4dig4": {
     "lookup": "gag4dig4",
     "result": [
+      "覺得"
+    ],
+    "verified": [
       "覺得"
     ]
   },
@@ -21013,11 +21229,17 @@
     "lookup": "sêk8mak8",
     "result": [
       "識目"
+    ],
+    "verified": [
+      "識目"
     ]
   },
   "kêh8ki3": {
     "lookup": "kêh8ki3",
     "result": [
+      "客氣"
+    ],
+    "verified": [
       "客氣"
     ]
   },
@@ -21025,11 +21247,17 @@
     "lookup": "su1iao3",
     "result": [
       "需要"
+    ],
+    "verified": [
+      "需要"
     ]
   },
   "sing1sên1": {
     "lookup": "sing1sên1",
     "result": [
+      "先生"
+    ],
+    "verified": [
       "先生"
     ]
   },
@@ -21037,11 +21265,17 @@
     "lookup": "deng1ziang5",
     "result": [
       "當然"
+    ],
+    "verified": [
+      "當然"
     ]
   },
   "dian7ceng5": {
     "lookup": "dian7ceng5",
     "result": [
+      "定床"
+    ],
+    "verified": [
       "定床"
     ]
   },
@@ -21049,11 +21283,17 @@
     "lookup": "sai1be6",
     "result": [
       "師父"
+    ],
+    "verified": [
+      "師父"
     ]
   },
   "zao2ceng5": {
     "lookup": "zao2ceng5",
     "result": [
+      "走床"
+    ],
+    "verified": [
       "走床"
     ]
   },
@@ -21061,11 +21301,17 @@
     "lookup": "gain6ziah8",
     "result": [
       "揀食"
+    ],
+    "verified": [
+      "揀食"
     ]
   },
   "luh8": {
     "lookup": "luh8",
     "result": [
+      "*"
+    ],
+    "verified": [
       "*"
     ]
   },
@@ -21073,11 +21319,17 @@
     "lookup": "lou7gin5",
     "result": [
       "路舷"
+    ],
+    "verified": [
+      "路舷"
     ]
   },
   "tik8to5": {
     "lookup": "tik8to5",
     "result": [
+      "逷迌"
+    ],
+    "verified": [
       "逷迌"
     ]
   },
@@ -21085,11 +21337,17 @@
     "lookup": "li5kui1",
     "result": [
       "離開"
+    ],
+    "verified": [
+      "離開"
     ]
   },
   "zêk4lou7pêng7ang1": {
     "lookup": "zêk4lou7pêng7ang1",
     "result": [
+      "蜀路平安"
+    ],
+    "verified": [
       "蜀路平安"
     ]
   },
@@ -21097,11 +21355,17 @@
     "lookup": "diam7diam7",
     "result": [
       "恬恬"
+    ],
+    "verified": [
+      "恬恬"
     ]
   },
   "rig8righ8": {
     "lookup": "rig8righ8",
     "result": [
+      "日日"
+    ],
+    "verified": [
       "日日"
     ]
   },
@@ -21109,11 +21373,17 @@
     "lookup": "ki1hu6",
     "result": [
       "欺負"
+    ],
+    "verified": [
+      "欺負"
     ]
   },
   "ziah8cou3": {
     "lookup": "ziah8cou3",
     "result": [
+      "食醋"
+    ],
+    "verified": [
       "食醋"
     ]
   },
@@ -21121,11 +21391,17 @@
     "lookup": "siên3riang6",
     "result": [
       "相讓"
+    ],
+    "verified": [
+      "相讓"
     ]
   },
   "rang7ek8": {
     "lookup": "rang7ek8",
     "result": [
+      "*浴"
+    ],
+    "verified": [
       "*浴"
     ]
   },
@@ -21133,11 +21409,17 @@
     "lookup": "uak4nam5",
     "result": [
       "越南"
+    ],
+    "verified": [
+      "越南"
     ]
   },
   "dong1gog4": {
     "lookup": "dong1gog4",
     "result": [
+      "中國"
+    ],
+    "verified": [
       "中國"
     ]
   },
@@ -21145,11 +21427,17 @@
     "lookup": "mui2gog4",
     "result": [
       "美國"
+    ],
+    "verified": [
+      "美國"
     ]
   },
   "êng1bhung5": {
     "lookup": "êng1bhung5",
     "result": [
+      "英文"
+    ],
+    "verified": [
       "英文"
     ]
   },
@@ -21157,11 +21445,17 @@
     "lookup": "gê1têng5",
     "result": [
       "家庭"
+    ],
+    "verified": [
+      "家庭"
     ]
   },
   "gi1dig4": {
     "lookup": "gi1dig4",
     "result": [
+      "記得"
+    ],
+    "verified": [
       "記得"
     ]
   },
@@ -21169,11 +21463,17 @@
     "lookup": "za1bhou2",
     "result": [
       "查某"
+    ],
+    "verified": [
+      "查某"
     ]
   },
   "dang1si1": {
     "lookup": "dang1si1",
     "result": [
+      "東司"
+    ],
+    "verified": [
       "東司"
     ]
   },
@@ -21181,11 +21481,17 @@
     "lookup": "ho2bhuê7?",
     "result": [
       "好未"
+    ],
+    "verified": [
+      "好未"
     ]
   },
   "le2nang2ho2bhuê7": {
     "lookup": "le2nang2ho2bhuê7",
     "result": [
+      "𠵆好呀未"
+    ],
+    "verified": [
       "𠵆好呀未"
     ]
   },
@@ -21193,11 +21499,17 @@
     "lookup": "ko6leng5",
     "result": [
       "可能"
+    ],
+    "verified": [
+      "可能"
     ]
   },
   "chang1guang2": {
     "lookup": "chang1guang2",
     "result": [
+      "餐館"
+    ],
+    "verified": [
       "餐館"
     ]
   },
@@ -21205,11 +21517,17 @@
     "lookup": "ang1hê1",
     "result": [
       "安呵"
+    ],
+    "verified": [
+      "安呵"
     ]
   },
   "song6kuai3": {
     "lookup": "song6kuai3",
     "result": [
+      "爽快"
+    ],
+    "verified": [
       "爽快"
     ]
   },
@@ -21217,11 +21535,17 @@
     "lookup": "dan2sik8",
     "result": [
       "呾實"
+    ],
+    "verified": [
+      "呾實"
     ]
   },
   "gu1bi5": {
     "lookup": "gu1bi5",
     "result": [
+      "咖啡"
+    ],
+    "verified": [
       "咖啡"
     ]
   },
@@ -21229,11 +21553,17 @@
     "lookup": "sia6ri7",
     "result": [
       "寫字"
+    ],
+    "verified": [
+      "寫字"
     ]
   },
   "hi1mo7": {
     "lookup": "hi1mo7",
     "result": [
+      "希望"
+    ],
+    "verified": [
       "希望"
     ]
   }
