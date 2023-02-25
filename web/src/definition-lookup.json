@@ -1744,8 +1744,8 @@
       "伲"
     ]
   },
-  "companion, comrade, partner; accompany": {
-    "lookup": "companion, comrade, partner; accompany",
+  "accompnay; companion, comrade, partner; accompany": {
+    "lookup": "accompnay; companion, comrade, partner; accompany",
     "result": [
       "伴"
     ]
@@ -3797,8 +3797,8 @@
       "兣"
     ]
   },
-  "enter, come in(to), join": {
-    "lookup": "enter, come in(to), join",
+  "go inside; enter, come in(to), join": {
+    "lookup": "go inside; enter, come in(to), join",
     "result": [
       "入"
     ]
@@ -4533,8 +4533,8 @@
       "凹"
     ]
   },
-  "go out, send out; stand; produce": {
-    "lookup": "go out, send out; stand; produce",
+  "exit, go out; go out, send out; stand; produce": {
+    "lookup": "exit, go out; go out, send out; stand; produce",
     "result": [
       "出"
     ]
@@ -5180,8 +5180,8 @@
       "劙"
     ]
   },
-  "power, capability, influence": {
-    "lookup": "power, capability, influence",
+  "diligent; power, capability, influence": {
+    "lookup": "diligent; power, capability, influence",
     "result": [
       "力"
     ]
@@ -8303,8 +8303,8 @@
       "啉"
     ]
   },
-  "◎ exclamatory particle": {
-    "lookup": "◎ exclamatory particle",
+  "Or; ◎ exclamatory particle": {
+    "lookup": "Or; ◎ exclamatory particle",
     "result": [
       "啊"
     ]
@@ -9675,10 +9675,15 @@
       "肆"
     ]
   },
+  "child, son; one's daughter; to filch; to secrete": {
+    "lookup": "child, son; one's daughter; to filch; to secrete",
+    "result": [
+      "囝"
+    ]
+  },
   "one's daughter; to filch; to secrete": {
     "lookup": "one's daughter; to filch; to secrete",
     "result": [
-      "囝",
       "囡"
     ]
   },
@@ -13190,8 +13195,7 @@
   "flesh; meat; KangXi radical 130": {
     "lookup": "flesh; meat; KangXi radical 130",
     "result": [
-      "宍",
-      "肉"
+      "宍"
     ]
   },
   "wide, spacious, great, vast": {
@@ -16122,7 +16126,12 @@
   "strong, powerful, energetic": {
     "lookup": "strong, powerful, energetic",
     "result": [
-      "强",
+      "强"
+    ]
+  },
+  "skilled; strong, powerful, energetic": {
+    "lookup": "skilled; strong, powerful, energetic",
+    "result": [
       "強"
     ]
   },
@@ -17706,8 +17715,8 @@
       "惣"
     ]
   },
-  "think of, remember, miss": {
-    "lookup": "think of, remember, miss",
+  "always; think of, remember, miss": {
+    "lookup": "always; think of, remember, miss",
     "result": [
       "惦"
     ]
@@ -26990,7 +26999,12 @@
   "steam, vapor; KangXi radical 84": {
     "lookup": "steam, vapor; KangXi radical 84",
     "result": [
-      "气",
+      "气"
+    ]
+  },
+  "mad; steam, vapor; KangXi radical 84": {
+    "lookup": "mad; steam, vapor; KangXi radical 84",
+    "result": [
       "氣"
     ]
   },
@@ -31606,8 +31620,8 @@
       "牧"
     ]
   },
-  "thing, substance, creature": {
-    "lookup": "thing, substance, creature",
+  "do; thing, substance, creature": {
+    "lookup": "do; thing, substance, creature",
     "result": [
       "物"
     ]
@@ -33583,8 +33597,8 @@
       "甦"
     ]
   },
-  "use, employ, apply, operate; use": {
-    "lookup": "use, employ, apply, operate; use",
+  "To use; use, employ, apply, operate; use": {
+    "lookup": "To use; use, employ, apply, operate; use",
     "result": [
       "用"
     ]
@@ -35092,7 +35106,12 @@
   "tray, plate, dish; examine": {
     "lookup": "tray, plate, dish; examine",
     "result": [
-      "盘",
+      "盘"
+    ]
+  },
+  "plate; tray, plate, dish; examine": {
+    "lookup": "plate; tray, plate, dish; examine",
+    "result": [
       "盤"
     ]
   },
@@ -36438,7 +36457,6 @@
     "lookup": "alkaline, alkali, lye, salt",
     "result": [
       "硷",
-      "鹹",
       "鹸",
       "鹼"
     ]
@@ -36578,6 +36596,12 @@
     "lookup": "salty; alkaline, alkali, lye, salt",
     "result": [
       "碱"
+    ]
+  },
+  "entree; alkaline, alkali, lye, salt": {
+    "lookup": "entree; alkaline, alkali, lye, salt",
+    "result": [
+      "鹹"
     ]
   },
   "◎ carbon": {
@@ -42390,6 +42414,12 @@
     "lookup": "to commence; to found; to devise. at first. to originate. to strike",
     "result": [
       "肈"
+    ]
+  },
+  "meat; flesh; meat; KangXi radical 130": {
+    "lookup": "meat; flesh; meat; KangXi radical 130",
+    "result": [
+      "肉"
     ]
   },
   "ribs; chest": {
@@ -52863,8 +52893,7 @@
     "lookup": "shift, move, turn",
     "result": [
       "転",
-      "转",
-      "轉"
+      "转"
     ]
   },
   "lattice work on front and sides": {
@@ -53241,6 +53270,12 @@
       "轈"
     ]
   },
+  "return; shift, move, turn": {
+    "lookup": "return; shift, move, turn",
+    "result": [
+      "轉"
+    ]
+  },
   "wagon ruts, wheel tracks": {
     "lookup": "wagon ruts, wheel tracks",
     "result": [
@@ -53508,7 +53543,12 @@
   "pass, pass through, go across": {
     "lookup": "pass, pass through, go across",
     "result": [
-      "过",
+      "过"
+    ]
+  },
+  "close, not open (resturant); pass, pass through, go across": {
+    "lookup": "close, not open (resturant); pass, pass through, go across",
+    "result": [
       "過"
     ]
   },
@@ -59828,8 +59868,7 @@
   "eat, dine; meal; food": {
     "lookup": "eat, dine; meal; food",
     "result": [
-      "飱",
-      "餐"
+      "飱"
     ]
   },
   "host banquet; banquet": {
@@ -59911,7 +59950,12 @@
   "eat heartily; eat one's fill": {
     "lookup": "eat heartily; eat one's fill",
     "result": [
-      "饱",
+      "饱"
+    ]
+  },
+  "full (from eating); eat heartily; eat one's fill": {
+    "lookup": "full (from eating); eat heartily; eat one's fill",
+    "result": [
       "飽"
     ]
   },
@@ -59967,6 +60011,12 @@
     "result": [
       "餍",
       "饜"
+    ]
+  },
+  "cuisine, food; eat, dine; meal; food": {
+    "lookup": "cuisine, food; eat, dine; meal; food",
+    "result": [
+      "餐"
     ]
   },
   "ferrule": {
@@ -60733,8 +60783,8 @@
       "鹜"
     ]
   },
-  "to swindle; to cheat": {
-    "lookup": "to swindle; to cheat",
+  "trick, deceive; to swindle; to cheat": {
+    "lookup": "trick, deceive; to swindle; to cheat",
     "result": [
       "騗"
     ]
@@ -64134,7 +64184,8 @@
   "woman": {
     "lookup": "woman",
     "result": [
-      "诸娘"
+      "诸娘",
+      "查某"
     ]
   },
   "child, son": {
@@ -64237,6 +64288,223 @@
     "lookup": "feel, think",
     "result": [
       "覺得"
+    ]
+  },
+  "clever": {
+    "lookup": "clever",
+    "result": [
+      "識目"
+    ]
+  },
+  "polite": {
+    "lookup": "polite",
+    "result": [
+      "客氣"
+    ]
+  },
+  "need, require": {
+    "lookup": "need, require",
+    "result": [
+      "需要",
+      "當然"
+    ]
+  },
+  "teacher": {
+    "lookup": "teacher",
+    "result": [
+      "先生"
+    ]
+  },
+  "reserver a table": {
+    "lookup": "reserver a table",
+    "result": [
+      "定床"
+    ]
+  },
+  "cook, chef": {
+    "lookup": "cook, chef",
+    "result": [
+      "師父"
+    ]
+  },
+  "waiter": {
+    "lookup": "waiter",
+    "result": [
+      "走床"
+    ]
+  },
+  "picky eater": {
+    "lookup": "picky eater",
+    "result": [
+      "揀食"
+    ]
+  },
+  "drink": {
+    "lookup": "drink",
+    "result": [
+      "*"
+    ]
+  },
+  "sidewalk": {
+    "lookup": "sidewalk",
+    "result": [
+      "路舷"
+    ]
+  },
+  "traveling having fun": {
+    "lookup": "traveling having fun",
+    "result": [
+      "逷迌"
+    ]
+  },
+  "leave": {
+    "lookup": "leave",
+    "result": [
+      "離開"
+    ]
+  },
+  "have a safe trip": {
+    "lookup": "have a safe trip",
+    "result": [
+      "蜀路平安"
+    ]
+  },
+  "always": {
+    "lookup": "always",
+    "result": [
+      "恬恬"
+    ]
+  },
+  "everyday": {
+    "lookup": "everyday",
+    "result": [
+      "日日"
+    ]
+  },
+  "bully": {
+    "lookup": "bully",
+    "result": [
+      "欺負"
+    ]
+  },
+  "jealous": {
+    "lookup": "jealous",
+    "result": [
+      "食醋"
+    ]
+  },
+  "argue": {
+    "lookup": "argue",
+    "result": [
+      "相讓"
+    ]
+  },
+  "shower": {
+    "lookup": "shower",
+    "result": [
+      "*浴"
+    ]
+  },
+  "Vietnam": {
+    "lookup": "Vietnam",
+    "result": [
+      "越南"
+    ]
+  },
+  "China": {
+    "lookup": "China",
+    "result": [
+      "中國"
+    ]
+  },
+  "Untied States": {
+    "lookup": "Untied States",
+    "result": [
+      "美國"
+    ]
+  },
+  "English": {
+    "lookup": "English",
+    "result": [
+      "英文"
+    ]
+  },
+  "family": {
+    "lookup": "family",
+    "result": [
+      "家庭"
+    ]
+  },
+  "Remember": {
+    "lookup": "Remember",
+    "result": [
+      "記得"
+    ]
+  },
+  "restroom": {
+    "lookup": "restroom",
+    "result": [
+      "東司"
+    ]
+  },
+  "Are you done?": {
+    "lookup": "Are you done?",
+    "result": [
+      "好未"
+    ]
+  },
+  "Are you ready?": {
+    "lookup": "Are you ready?",
+    "result": [
+      "𠵆好呀未"
+    ]
+  },
+  "Possibly": {
+    "lookup": "Possibly",
+    "result": [
+      "可能"
+    ]
+  },
+  "Restaurant": {
+    "lookup": "Restaurant",
+    "result": [
+      "餐館"
+    ]
+  },
+  "Like this, this why": {
+    "lookup": "Like this, this why",
+    "result": [
+      "安呵"
+    ]
+  },
+  "carefree": {
+    "lookup": "carefree",
+    "result": [
+      "爽快"
+    ]
+  },
+  "honestly, truth": {
+    "lookup": "honestly, truth",
+    "result": [
+      "呾實"
+    ]
+  },
+  "coffee": {
+    "lookup": "coffee",
+    "result": [
+      "咖啡"
+    ]
+  },
+  "To write": {
+    "lookup": "To write",
+    "result": [
+      "寫字"
+    ]
+  },
+  "To hope": {
+    "lookup": "To hope",
+    "result": [
+      "希望"
     ]
   }
 }

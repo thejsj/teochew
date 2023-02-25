@@ -1264,7 +1264,7 @@
     "dateAdded": "1/29/2023"
   },
   {
-    "word": "nêg8",
+    "word": "bhah4",
     "definition": "meat",
     "simplified": "肉",
     "traditional": "",
@@ -2030,5 +2030,485 @@
     "traditional": "",
     "wordGroup": "Verbs",
     "dateAdded": "2/5/2023"
+  },
+  {
+    "word": "gian2",
+    "definition": "child, son",
+    "simplified": "囝",
+    "traditional": "",
+    "wordGroup": "People",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "sêk8mak8",
+    "definition": "clever",
+    "simplified": "識目",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "kiang3",
+    "definition": "skilled",
+    "simplified": "強",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "kêh8ki3",
+    "definition": "polite",
+    "simplified": "客氣",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "lak8",
+    "definition": "diligent",
+    "simplified": "力",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "su1iao3",
+    "definition": "need, require",
+    "simplified": "需要",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "sing1sên1",
+    "definition": "teacher",
+    "simplified": "先生",
+    "traditional": "",
+    "wordGroup": "People",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "deng1ziang5",
+    "definition": "need, require",
+    "simplified": "當然",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "buan7",
+    "definition": "plate",
+    "simplified": "盤",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "dian7ceng5",
+    "definition": "reserver a table",
+    "simplified": "定床",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "sai1be6",
+    "definition": "cook, chef",
+    "simplified": "師父",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "zao2ceng5",
+    "definition": "waiter",
+    "simplified": "走床",
+    "traditional": "走堂",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "giam5",
+    "definition": "entree",
+    "simplified": "鹹",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "cang1",
+    "definition": "cuisine, food",
+    "simplified": "餐",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "gain6ziah8",
+    "definition": "picky eater",
+    "simplified": "揀食",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ba2",
+    "definition": "full (from eating)",
+    "simplified": "飽",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "luh8",
+    "definition": "drink",
+    "simplified": "*",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "lou7gin5",
+    "definition": "sidewalk",
+    "simplified": "路舷",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "cia1",
+    "definition": "car",
+    "simplified": "車",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "puan6",
+    "definition": "accompnay",
+    "simplified": "伴",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "tik8to5",
+    "definition": "traveling having fun",
+    "simplified": "逷迌",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "cuk4",
+    "definition": "exit, go out",
+    "simplified": "出",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "zip8",
+    "definition": "go inside",
+    "simplified": "入",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "deng2",
+    "definition": "return",
+    "simplified": "轉",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "li5kui1",
+    "definition": "leave",
+    "simplified": "離開",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "zêk4lou7pêng7ang1",
+    "definition": "have a safe trip",
+    "simplified": "蜀路平安",
+    "traditional": "",
+    "wordGroup": "Expressisons",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "cai3",
+    "definition": "vegetables",
+    "simplified": "菜",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "diam7diam7",
+    "definition": "always",
+    "simplified": "恬恬",
+    "traditional": "",
+    "wordGroup": "Time",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "rig8righ8",
+    "definition": "everyday",
+    "simplified": "日日",
+    "traditional": "",
+    "wordGroup": "Time",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ki1hu6",
+    "definition": "bully",
+    "simplified": "欺負",
+    "traditional": "",
+    "wordGroup": "",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ziah8cou3",
+    "definition": "jealous",
+    "simplified": "食醋",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "siên3riang6",
+    "definition": "argue",
+    "simplified": "相讓",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "piang3",
+    "definition": "trick, deceive",
+    "simplified": "騗",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ki3",
+    "definition": "mad",
+    "simplified": "氣",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "rang7ek8",
+    "definition": "shower",
+    "simplified": "*浴",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "uak4nam5",
+    "definition": "Vietnam",
+    "simplified": "越南",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "dong1gog4",
+    "definition": "China",
+    "simplified": "中國",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "mui2gog4",
+    "definition": "Untied States",
+    "simplified": "美國",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "êng1bhung5",
+    "definition": "English",
+    "simplified": "英文",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "gue2",
+    "definition": "close, not open (resturant)",
+    "simplified": "過",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "kui1",
+    "definition": "open",
+    "simplified": "開",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "gê1têng5",
+    "definition": "family",
+    "simplified": "家庭",
+    "traditional": "",
+    "wordGroup": "People",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "gi1dig4",
+    "definition": "Remember",
+    "simplified": "記得",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "diam7",
+    "definition": "always",
+    "simplified": "惦",
+    "traditional": "",
+    "wordGroup": "Time",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "za1bhou2",
+    "definition": "woman",
+    "simplified": "查某",
+    "traditional": "",
+    "wordGroup": "People",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "dang1si1",
+    "definition": "restroom",
+    "simplified": "東司",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ho2bhuê7?",
+    "definition": "Are you done?",
+    "simplified": "好未",
+    "traditional": "",
+    "wordGroup": "Expressisons",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "le2nang2ho2bhuê7",
+    "definition": "Are you ready?",
+    "simplified": "𠵆好呀未",
+    "traditional": "",
+    "wordGroup": "Expressisons",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ko6leng5",
+    "definition": "Possibly",
+    "simplified": "可能",
+    "traditional": "",
+    "wordGroup": "Adverbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "chang1guang2",
+    "definition": "Restaurant",
+    "simplified": "餐館",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "a1si2",
+    "definition": "Or",
+    "simplified": "啊",
+    "traditional": "",
+    "wordGroup": "Adverbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "ang1hê1",
+    "definition": "Like this, this why",
+    "simplified": "安呵",
+    "traditional": "",
+    "wordGroup": "Questions",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "song6kuai3",
+    "definition": "carefree",
+    "simplified": "爽快",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "dan2sik8",
+    "definition": "honestly, truth",
+    "simplified": "呾實",
+    "traditional": "",
+    "wordGroup": "Basic Nouns",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "bui5",
+    "definition": "fat",
+    "simplified": "肥",
+    "traditional": "",
+    "wordGroup": "Basic Adjetives",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "gu1bi5",
+    "definition": "coffee",
+    "simplified": "咖啡",
+    "traditional": "",
+    "wordGroup": "Food",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "muêh8",
+    "definition": "do",
+    "simplified": "物",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "êng7",
+    "definition": "To use",
+    "simplified": "用",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "sia6ri7",
+    "definition": "To write",
+    "simplified": "寫字",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
+  },
+  {
+    "word": "hi1mo7",
+    "definition": "To hope",
+    "simplified": "希望",
+    "traditional": "",
+    "wordGroup": "Verbs",
+    "dateAdded": "2/25/2023"
   }
 ]

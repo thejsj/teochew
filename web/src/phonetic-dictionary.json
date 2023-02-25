@@ -2530,6 +2530,9 @@
       "锵",
       "餐",
       "鸧"
+    ],
+    "verified": [
+      "餐"
     ]
   },
   "ceng1": {
@@ -3217,6 +3220,9 @@
   "puan6": {
     "lookup": "puan6",
     "result": [
+      "伴"
+    ],
+    "verified": [
       "伴"
     ]
   },
@@ -5740,6 +5746,15 @@
       "入"
     ]
   },
+  "zip8": {
+    "lookup": "zip8",
+    "result": [
+      "入"
+    ],
+    "verified": [
+      "入"
+    ]
+  },
   "boih4": {
     "lookup": "boih4",
     "result": [
@@ -6503,6 +6518,15 @@
     "result": [
       "出",
       "黟"
+    ]
+  },
+  "cuk4": {
+    "lookup": "cuk4",
+    "result": [
+      "出"
+    ],
+    "verified": [
+      "出"
     ]
   },
   "kêg4": {
@@ -7358,6 +7382,15 @@
       "糜"
     ]
   },
+  "lak8": {
+    "lookup": "lak8",
+    "result": [
+      "力"
+    ],
+    "verified": [
+      "力"
+    ]
+  },
   "keng3": {
     "lookup": "keng3",
     "result": [
@@ -7879,9 +7912,6 @@
       "溺",
       "肉",
       "衄"
-    ],
-    "verified": [
-      "肉"
     ]
   },
   "siab8": {
@@ -10240,6 +10270,15 @@
     "result": [
       "啊",
       "袄"
+    ]
+  },
+  "a1si2": {
+    "lookup": "a1si2",
+    "result": [
+      "啊"
+    ],
+    "verified": [
+      "啊"
     ]
   },
   "mung7": {
@@ -14696,6 +14735,15 @@
       "惜"
     ]
   },
+  "diam7": {
+    "lookup": "diam7",
+    "result": [
+      "惦"
+    ],
+    "verified": [
+      "惦"
+    ]
+  },
   "cam2": {
     "lookup": "cam2",
     "result": [
@@ -17300,6 +17348,9 @@
     "result": [
       "淝",
       "肥"
+    ],
+    "verified": [
+      "肥"
     ]
   },
   "im5": {
@@ -17760,6 +17811,9 @@
     "lookup": "muêh8",
     "result": [
       "物"
+    ],
+    "verified": [
+      "物"
     ]
   },
   "sên1": {
@@ -17929,6 +17983,9 @@
   "êng7": {
     "lookup": "êng7",
     "result": [
+      "用"
+    ],
+    "verified": [
       "用"
     ]
   },
@@ -18180,6 +18237,10 @@
       "盘",
       "蹯"
     ]
+  },
+  "buan7": {
+    "lookup": "buan7",
+    "result": []
   },
   "sian7": {
     "lookup": "sian7",
@@ -19109,6 +19170,15 @@
       "闻"
     ]
   },
+  "bhah4": {
+    "lookup": "bhah4",
+    "result": [
+      "肉"
+    ],
+    "verified": [
+      "肉"
+    ]
+  },
   "dou2": {
     "lookup": "dou2",
     "result": [
@@ -19396,6 +19466,9 @@
   "cai3": {
     "lookup": "cai3",
     "result": [
+      "菜"
+    ],
+    "verified": [
       "菜"
     ]
   },
@@ -19911,6 +19984,10 @@
       "鞭"
     ]
   },
+  "gue2": {
+    "lookup": "gue2",
+    "result": []
+  },
   "hoin5": {
     "lookup": "hoin5",
     "result": [
@@ -20369,6 +20446,15 @@
     "lookup": "mê7",
     "result": [
       "骂"
+    ]
+  },
+  "piang3": {
+    "lookup": "piang3",
+    "result": [
+      "騗"
+    ],
+    "verified": [
+      "騗"
     ]
   },
   "ngiem7": {
@@ -20921,6 +21007,234 @@
     "lookup": "gag4dig4",
     "result": [
       "覺得"
+    ]
+  },
+  "sêk8mak8": {
+    "lookup": "sêk8mak8",
+    "result": [
+      "識目"
+    ]
+  },
+  "kêh8ki3": {
+    "lookup": "kêh8ki3",
+    "result": [
+      "客氣"
+    ]
+  },
+  "su1iao3": {
+    "lookup": "su1iao3",
+    "result": [
+      "需要"
+    ]
+  },
+  "sing1sên1": {
+    "lookup": "sing1sên1",
+    "result": [
+      "先生"
+    ]
+  },
+  "deng1ziang5": {
+    "lookup": "deng1ziang5",
+    "result": [
+      "當然"
+    ]
+  },
+  "dian7ceng5": {
+    "lookup": "dian7ceng5",
+    "result": [
+      "定床"
+    ]
+  },
+  "sai1be6": {
+    "lookup": "sai1be6",
+    "result": [
+      "師父"
+    ]
+  },
+  "zao2ceng5": {
+    "lookup": "zao2ceng5",
+    "result": [
+      "走床"
+    ]
+  },
+  "gain6ziah8": {
+    "lookup": "gain6ziah8",
+    "result": [
+      "揀食"
+    ]
+  },
+  "luh8": {
+    "lookup": "luh8",
+    "result": [
+      "*"
+    ]
+  },
+  "lou7gin5": {
+    "lookup": "lou7gin5",
+    "result": [
+      "路舷"
+    ]
+  },
+  "tik8to5": {
+    "lookup": "tik8to5",
+    "result": [
+      "逷迌"
+    ]
+  },
+  "li5kui1": {
+    "lookup": "li5kui1",
+    "result": [
+      "離開"
+    ]
+  },
+  "zêk4lou7pêng7ang1": {
+    "lookup": "zêk4lou7pêng7ang1",
+    "result": [
+      "蜀路平安"
+    ]
+  },
+  "diam7diam7": {
+    "lookup": "diam7diam7",
+    "result": [
+      "恬恬"
+    ]
+  },
+  "rig8righ8": {
+    "lookup": "rig8righ8",
+    "result": [
+      "日日"
+    ]
+  },
+  "ki1hu6": {
+    "lookup": "ki1hu6",
+    "result": [
+      "欺負"
+    ]
+  },
+  "ziah8cou3": {
+    "lookup": "ziah8cou3",
+    "result": [
+      "食醋"
+    ]
+  },
+  "siên3riang6": {
+    "lookup": "siên3riang6",
+    "result": [
+      "相讓"
+    ]
+  },
+  "rang7ek8": {
+    "lookup": "rang7ek8",
+    "result": [
+      "*浴"
+    ]
+  },
+  "uak4nam5": {
+    "lookup": "uak4nam5",
+    "result": [
+      "越南"
+    ]
+  },
+  "dong1gog4": {
+    "lookup": "dong1gog4",
+    "result": [
+      "中國"
+    ]
+  },
+  "mui2gog4": {
+    "lookup": "mui2gog4",
+    "result": [
+      "美國"
+    ]
+  },
+  "êng1bhung5": {
+    "lookup": "êng1bhung5",
+    "result": [
+      "英文"
+    ]
+  },
+  "gê1têng5": {
+    "lookup": "gê1têng5",
+    "result": [
+      "家庭"
+    ]
+  },
+  "gi1dig4": {
+    "lookup": "gi1dig4",
+    "result": [
+      "記得"
+    ]
+  },
+  "za1bhou2": {
+    "lookup": "za1bhou2",
+    "result": [
+      "查某"
+    ]
+  },
+  "dang1si1": {
+    "lookup": "dang1si1",
+    "result": [
+      "東司"
+    ]
+  },
+  "ho2bhuê7?": {
+    "lookup": "ho2bhuê7?",
+    "result": [
+      "好未"
+    ]
+  },
+  "le2nang2ho2bhuê7": {
+    "lookup": "le2nang2ho2bhuê7",
+    "result": [
+      "𠵆好呀未"
+    ]
+  },
+  "ko6leng5": {
+    "lookup": "ko6leng5",
+    "result": [
+      "可能"
+    ]
+  },
+  "chang1guang2": {
+    "lookup": "chang1guang2",
+    "result": [
+      "餐館"
+    ]
+  },
+  "ang1hê1": {
+    "lookup": "ang1hê1",
+    "result": [
+      "安呵"
+    ]
+  },
+  "song6kuai3": {
+    "lookup": "song6kuai3",
+    "result": [
+      "爽快"
+    ]
+  },
+  "dan2sik8": {
+    "lookup": "dan2sik8",
+    "result": [
+      "呾實"
+    ]
+  },
+  "gu1bi5": {
+    "lookup": "gu1bi5",
+    "result": [
+      "咖啡"
+    ]
+  },
+  "sia6ri7": {
+    "lookup": "sia6ri7",
+    "result": [
+      "寫字"
+    ]
+  },
+  "hi1mo7": {
+    "lookup": "hi1mo7",
+    "result": [
+      "希望"
     ]
   }
 }

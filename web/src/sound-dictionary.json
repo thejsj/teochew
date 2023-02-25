@@ -141,6 +141,16 @@
       "伊"
     ]
   },
+  "puan6": {
+    "lookup": "puan6",
+    "value": "/sound/syllabes/phua~6.mp3",
+    "result": [
+      "伴"
+    ],
+    "verified": [
+      "伴"
+    ]
+  },
   "dang6": {
     "lookup": "dang6",
     "value": "/sound/syllabes/tang6.mp3",
@@ -555,6 +565,16 @@
       "底"
     ]
   },
+  "kui1": {
+    "lookup": "kui1",
+    "value": "/sound/syllabes/khui1.mp3",
+    "result": [
+      "開"
+    ],
+    "verified": [
+      "開"
+    ]
+  },
   "di6": {
     "lookup": "di6",
     "value": "/sound/syllabes/ti6.mp3",
@@ -563,6 +583,16 @@
     ],
     "verified": [
       "弟"
+    ]
+  },
+  "kiang3": {
+    "lookup": "kiang3",
+    "value": "/sound/syllabes/khiang3.mp3",
+    "result": [
+      "強"
+    ],
+    "verified": [
+      "強"
     ]
   },
   "sên3": {
@@ -745,6 +775,16 @@
       "死"
     ]
   },
+  "ki3": {
+    "lookup": "ki3",
+    "value": "/sound/syllabes/khi3.mp3",
+    "result": [
+      "氣"
+    ],
+    "verified": [
+      "氣"
+    ]
+  },
   "zui2": {
     "lookup": "zui2",
     "value": "/sound/syllabes/tsui2.mp3",
@@ -855,6 +895,16 @@
       "牛"
     ]
   },
+  "muêh8": {
+    "lookup": "muêh8",
+    "value": "/sound/syllabes/mueh8.mp3",
+    "result": [
+      "物"
+    ],
+    "verified": [
+      "物"
+    ]
+  },
   "kang1": {
     "lookup": "kang1",
     "value": "/sound/syllabes/khang1.mp3",
@@ -883,6 +933,16 @@
     ],
     "verified": [
       "猪"
+    ]
+  },
+  "êng7": {
+    "lookup": "êng7",
+    "value": "/sound/syllabes/eng7.mp3",
+    "result": [
+      "用"
+    ],
+    "verified": [
+      "用"
     ]
   },
   "bêh8": {
@@ -1057,14 +1117,14 @@
       "耳"
     ]
   },
-  "nêg8": {
-    "lookup": "nêg8",
-    "value": "/sound/syllabes/nek8.mp3",
+  "bui5": {
+    "lookup": "bui5",
+    "value": "/sound/syllabes/pui5.mp3",
     "result": [
-      "肉"
+      "肥"
     ],
     "verified": [
-      "肉"
+      "肥"
     ]
   },
   "tui2": {
@@ -1105,6 +1165,16 @@
     ],
     "verified": [
       "茶"
+    ]
+  },
+  "cai3": {
+    "lookup": "cai3",
+    "value": "/sound/syllabes/tshai3.mp3",
+    "result": [
+      "菜"
+    ],
+    "verified": [
+      "菜"
     ]
   },
   "boh8": {
@@ -1157,6 +1227,16 @@
     ],
     "verified": [
       "路"
+    ]
+  },
+  "cia1": {
+    "lookup": "cia1",
+    "value": "/sound/syllabes/tshia1.mp3",
+    "result": [
+      "車"
+    ],
+    "verified": [
+      "車"
     ]
   },
   "heng6": {
@@ -1247,6 +1327,26 @@
     ],
     "verified": [
       "食"
+    ]
+  },
+  "ba2": {
+    "lookup": "ba2",
+    "value": "/sound/syllabes/pa2.mp3",
+    "result": [
+      "飽"
+    ],
+    "verified": [
+      "飽"
+    ]
+  },
+  "cang1": {
+    "lookup": "cang1",
+    "value": "/sound/syllabes/tshang1.mp3",
+    "result": [
+      "餐"
+    ],
+    "verified": [
+      "餐"
     ]
   },
   "gug4": {
