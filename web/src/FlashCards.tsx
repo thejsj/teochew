@@ -71,7 +71,7 @@ const FlashCard = (props: FlashCardsProps) => {
     {homophones.length > 0 &&
       <div className={'mt-2 text-md border-b-2'}>
       {homophones.length > 0 && homophones.map((homophone) => {
-       return (<div className={'border-2 border-b-0 w-full flex flex-row py-4 overflow-x-auto flex-1'}>
+       return (<div className={'border-2 border-b-0 w-full flex flex-row overflow-x-auto flex-1'}>
         <div className={'flex flex-row min-w-min'}>
           <span className={'border-r-2 p-4'}>{homophone[1].simplifiedChar}</span>
           <span className={'border-r-2 p-4'}>{homophone[0]}</span>
